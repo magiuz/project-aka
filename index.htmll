@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>New website is online - hosting by e-Padi.com</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />	
+    <meta name="description" content="this website is a client or member of e-padi.com hosting murah Indonesia">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://e-padi.com/welcome/css/style.css">
+	<link href="https://e-padi.com/welcome/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="Stylesheet" type="text/css" href="https://e-padi.com/welcome/css/main.css">
+	<script src="https://e-padi.com/welcome/js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="https://e-padi.com/welcome/js/jquery.shuffleLetters.js"></script>
+	<script language="Javascript" type="text/javascript" src="https://e-padi.com/welcome/js/jquery.lwtCountdown-1.0.js"></script>
+	<script language="Javascript" type="text/javascript" src="https://e-padi.com/welcome/js/misc.js"></script>
+	</link>
+</head>
+<body>
+	<div id="front">
+
+				<div class="wrap">
+					<nav id="top-nav" class="main-nav">
+						<ul>.j
+							<li class="about-nav"><a href="#about">ABOUT</a></li>
+						</ul>
+
+					</nav>
+					<div id="logo">
+						<a href="https://e-padi.com/" target="_blank" title="e-padi.com web hosting murah indonesia"><img src="https://e-padi.com/welcome/img/e-padi-125x125.png"/></a>
+					</div>
+					<div id="intro">
+						<h1><span class="shuffle">Congratulations! your new website is </span><span style="color: yellow;">online!</span></h1>
+					</div>
+					
+					<div id=update-sec>				
+					
+							<h3>ATTENTION!</h4>
+						<p><div id=update-sec><h4>
+						Owner this site, please read your e-Mail for Control Panel account information details (if you do not find it in the Inbox, check the Spam folder also). To remove this default page, please delete the file <strong>index.html</strong> which is located in the folder <strong>public_html</strong>.</h4>
+						<hr>
+						<h4>
+						Kepada pemilik website ini, silahkan periksa e-Mail Anda untuk mengetahui informasi akun Control Panel (jika tidak menemukannya dalam folder Inbox, periksa juga folder Spam). Untuk menghapus halaman ini, silahkan hapus file <strong>index.html</strong> dalam folder <strong>public_html</strong>.</h4>
+						</p>
+					</div>
+
+					<div id="social">
+						<a href="/cpanel">cPanel</a> | <a href="https://login.e-padi.com/" target="_blank">Member Area</a> | <a href="https://help.e-padi.com/" target="_blank">Tutorials</a>
+					</div>
+				</div>
+	</div>
+	<div class="pop-window">
+	 <div class="pop-wrap">
+	 <p class="close"><i class="fa fa-times"></i></p>
+		 <nav id="top-nav" class="pop-nav">
+			<ul>
+				<li class="about-nav"><a href="#about">ABOUT</a></li>
+			</ul>
+		</nav>
+		<div id="pop-res">
+		</div>
+	 </div>
+	</div>
+	<div id="about" class="pops">
+		<div class="pop-contents">
+			<div id="abt-img">
+				<img src="https://e-padi.com/welcome/img/abt-company.jpg"/>
+			</div>
+			<div id="abt-desc">
+			<h1 class="pop-heading">ABOUT PROVIDER</h1>
+				<p class="pop-text">
+					Website baru ini menggunakan server hosting di e-Padi.com. Informasi produk dan layanan lainnya silahkan kunjungi website kami <a href="https://e-padi.com" target="_blank" title="e-padi.com hosting murah indonesia">e-padi.com</a>
+				</p>
+				<hr>
+				<q>
+					This new website uses the hosting server at e-Padi.com. More information about products and services please visit <a href="https://e-padi.com" target="_blank" title="e-padi.com hosting murah indonesia">e-padi.com</a>
+				</q>
+			</div>
+		</div>
+	</div>
+		<script type="text/javascript" src="https://e-padi.com/welcome/js/main.js"></script>	
+		<script type="text/javascript" src="https://e-padi.com/welcome/js/form-validate/jquery.validate.min.js"></script>
+		<script type="text/javascript" src="https://e-padi.com/welcome/js/form-validate/additional-methods.min.js"></script>
+</body>
+</html>

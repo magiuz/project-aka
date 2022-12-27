@@ -73,13 +73,13 @@
                             <span class="icon-menu"></span>
                         </button>
 
-                        <a href="<?php echo site_url(''); ?>" class="navbar-brand nav-brand2"><img class="img img-responsive" width="200px;" src="theme/images/Logo Al-Kautsar.png"></a>
+                        <a href="<?php echo site_url(''); ?>" class="navbar-brand nav-brand2"><img class="img img-responsive" width="60px;" src="theme/images/welcome-img.jpg"></a>
 
                         <!-- copy ke semua menu-->
                         <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
 
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
+                            <ul class="navbar-nav ">
+                                <li class="nav-item ">
                                     <a class="nav-link" href="<?php echo site_url(''); ?>">Beranda</a>
                                 </li>
                                 <li class="nav-item">
@@ -97,45 +97,45 @@
                                 <!--    <li class="nav-item">-->
                                 <!--        <a class="nav-link" href="<?php echo site_url('contact'); ?>">Contact</a>-->
                                 <!--    </li>-->
+
+
+                                <!-- drop down-->
+                                <div class="dropdown ">
+                                    <a class="nav-item dropdown-toggle " href="about" role="button" data-toggle="dropdown" aria-expanded="false">
+                                        Tentang
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="<?php echo site_url('sejarah'); ?>">Sejarah</a>
+                                        <a class="dropdown-item" href="<?php echo site_url('visi_misi'); ?>">Visi dan Misi</a>
+                                        <a class="dropdown-item" href="<?php echo site_url('struktur'); ?>">Struktur</a>
+                                    </div>
+
+                                </div>
+
+                                <div class="dropdown ">
+                                    <a class="nav-item dropdown-toggle " href="akademik" role="button" data-toggle="dropdown" aria-expanded="false">
+                                        Akademik
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="<?php echo site_url('guru'); ?>">Guru</a>
+                                        <a class="dropdown-item" href="<?php echo site_url('siswa'); ?>">Siswa</a>
+                                        <a class="dropdown-item" href="<?php echo site_url('pengumuman'); ?>">Pengumuman</a>
+                                        <a class="dropdown-item" href="<?php echo site_url('agenda'); ?>">Agenda</a>
+                                    </div>
+                                </div>
+
+                                <div class="dropdown">
+                                    <a class="nav-item dropdown-toggle" href="akademik" role="button" data-toggle="dropdown" aria-expanded="false">
+                                        Menu
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="<?php echo site_url('download'); ?>">Download</a>
+                                        <a class="dropdown-item" href="<?php echo site_url('galeri'); ?>">Gallery</a>
+                                        <a class="dropdown-item" href="<?php echo site_url('contact'); ?>">Kontak</a>
+                                    </div>
+                                </div>
+                                <!-- end drop down-->
                             </ul>
-
-
-                            <!-- drop down-->
-                            <div class="dropdown">
-                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Tentang
-                                </button>
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                    <a class="dropdown-item" href="<?php echo site_url('sejarah'); ?>">Sejarah</a>
-                                    <a class="dropdown-item" href="<?php echo site_url('visi_misi'); ?>">Visi dan Misi</a>
-                                    <a class="dropdown-item" href="<?php echo site_url('struktur'); ?>">Struktur</a>
-                                </div>
-                            </div>
-
-                            <div class="dropdown">
-                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Akademik
-                                </button>
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                    <a class="dropdown-item" href="<?php echo site_url('guru'); ?>">Guru</a>
-                                    <a class="dropdown-item" href="<?php echo site_url('siswa'); ?>">Siswa</a>
-                                    <a class="dropdown-item" href="<?php echo site_url('pengumuman'); ?>">Pengumuman</a>
-                                    <a class="dropdown-item" href="<?php echo site_url('agenda'); ?>">Agenda</a>
-                                </div>
-                            </div>
-
-                            <div class="dropdown">
-                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Menu
-                                </button>
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                    <a class="dropdown-item" href="<?php echo site_url('download'); ?>">Download</a>
-                                    <a class="dropdown-item" href="galeri">Gallery</a>
-                                    <a class="dropdown-item" href="<?php echo site_url('contact'); ?>">Kontak</a>
-                                </div>
-                            </div>
-                            <!-- end drop down-->
-
                         </div>
                         <!-- end copy untuk kesemua menu-->
 
@@ -145,7 +145,7 @@
         </div>
     </div>
     <section>
-    <div class="slider_img layout_two">
+        <div class="slider_img layout_two">
             <div id="carousel" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carousel" data-slide-to="0" class="active"></li>
@@ -154,7 +154,7 @@
                 </ol>
                 <div class="carousel-inner" role="listbox">
                     <div class="carousel-item active">
-                        <img class="d-block" src="theme/images/apa.jpg" alt="First slide">
+                        <img class="d-block" src="theme/images/slider.jpg" alt="First slide">
                         <div class="carousel-caption d-md-block">
                             <div class="slider_title">
                                 <h1>Bepikir Kreaftif &amp; Inovatif</h1>
@@ -166,7 +166,7 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block" src="theme/images/api.jpg" alt="Second slide">
+                        <img class="d-block" src="theme/images/slider-2.jpg" alt="Second slide">
                         <div class="carousel-caption d-md-block">
                             <div class="slider_title">
                                 <h1>Guru Bekualitas Tinggi</h1>
@@ -178,7 +178,7 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block" src="theme/images/apo.jpg" alt="Third slide">
+                        <img class="d-block" src="theme/images/slider-3.jpg" alt="Third slide">
                         <div class="carousel-caption d-md-block">
                             <div class="slider_title">
                                 <h1>Proses Belajar Interatif</h1>

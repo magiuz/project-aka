@@ -132,9 +132,15 @@
                                   </button>
                                   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                     <a class="dropdown-item" href="<?php echo site_url('download'); ?>">Download</a>
+<<<<<<< Updated upstream
                                     <a class="dropdown-item" href="<?php echo site_url('galeri'); ?>">Gallery</a>
                                     <a class="dropdown-item" href="<?php echo site_url('contact'); ?>">Contact</a>
                                   </div>
+=======
+                                    <a class="dropdown-item" href="galeri">Gallery</a>
+                                    <a class="dropdown-item" href="<?php echo site_url('contact'); ?>">Kontak</a>
+                                </div>
+>>>>>>> Stashed changes
                             </div>
                             <!-- end drop down-->
                             

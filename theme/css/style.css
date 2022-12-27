@@ -64,21 +64,21 @@ Author:
 
 .btn-default {
   text-transform: uppercase;
-  color: #cbb58b;
-  background: none;
+  color: #ffff;
+  background: #cbb58b;
   border: 3px solid #cbb58b;
   font-size: 18px;
   padding: 16px 36px;
-  border-radius: 0; }
+  border-radius: 50px; }
 
 @media (min-width: 767px) {
   .btn + .btn {
     margin-left: 22px; } }
 
 .btn-default:hover {
-  color: #fff;
-  background: #cbb58b;
-  border: 3px solid #cbb58b; }
+  color: #000;
+  background: #ffff;
+  border: 3px solid #ffff; }
 
 .btn:focus {
   outline: none;
@@ -3121,8 +3121,8 @@ div.panel {
   border: 0 !important; }
 
 .btn-default:active .filter-button:active {
-  color: #cbb58b;
-  background: none !important;
+  color: #ffff;
+  background: #cbb58b;
   border: 0 !important; }
 
 .port-image {

@@ -352,7 +352,8 @@ a {
 
 .slider_title h1 {
   text-align: center;
-  color: #fff;
+  color: rgb(0, 70, 146);
+  font-weight: bold;
   margin-bottom: 40px;
   font-weight: 700; }
   @media (max-width: 576px) {

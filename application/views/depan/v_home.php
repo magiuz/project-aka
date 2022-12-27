@@ -160,10 +160,10 @@
                         <div class="carousel-caption d-md-block">
                             <div class="slider_title">
                                 <h1>
-                                    <font color="orange"> Bepikir Kreaftif &amp; Inovatif</font>
+                                    <font color="white"> Bepikir Kreaftif &amp; Inovatif</font>
                                 </h1>
                                 <h4>
-                                    <font color="orange">Bagi kami kreativitas merupakan gerbang masa depan.<br> kreativitas akan mendorong inovasi. <br> Itulah yang kami lakukan.</font>
+                                    <font color="white">Bagi kami kreativitas merupakan gerbang masa depan.<br> kreativitas akan mendorong inovasi. <br> Itulah yang kami lakukan.</font>
                                 </h4>
                                 <div class="slider-btn">
                                     <a href="<?php echo site_url('artikel'); ?>" class="btn btn-default">Learn more</a>

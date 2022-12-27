@@ -28,11 +28,11 @@
         return implode(" ", array_splice($words, 0, $word_limit));
     }
     ?>
-    
+
     <!-- Bootstrap 4 cdn  -->
-  <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">-->
-    
-    
+    <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">-->
+
+
 </head>
 
 <body>
@@ -67,80 +67,78 @@
     <div data-toggle="affix">
         <div class="container nav-menu2">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-9">
                     <nav class="navbar navbar2 navbar-toggleable-md navbar-light bg-faded">
                         <button class="navbar-toggler navbar-toggler2 navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
                             <span class="icon-menu"></span>
                         </button>
-                        
-                        <a href="<?php echo site_url(''); ?>" class="navbar-brand nav-brand2"><img class="img img-responsive" width="200px;" src="theme/images/logo-dark.png"></a>
-                        
+
+                        <a href="<?php echo site_url(''); ?>" class="navbar-brand nav-brand2"><img class="img img-responsive" width="60px;" src="theme/images/welcome-img.jpg"></a>
+
                         <!-- copy ke semua menu-->
                         <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-                            
+
                             <ul class="navbar-nav">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="<?php echo site_url(''); ?>">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="<?php echo site_url('about'); ?>">About</a>
+                                    <a class="nav-link" href="<?php echo site_url(''); ?>">Beranda</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" target="blank" href="http://sis.smas-alkautsar.sch.id/">SIS</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="<?php echo site_url('visi_misi'); ?>">Visi_Misi</a>
-                                </li>
-                                 <li class="nav-item">
-                                    <a class="nav-link" href="<?php echo site_url('sejarah'); ?>">Sejarah</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="<?php echo site_url('struktur'); ?>">Struktur</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="<?php echo site_url('guru'); ?>">Guru</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="<?php echo site_url('siswa'); ?>">Siswa</a>
-                                </li>
-                                <li class="nav-item">
                                     <a class="nav-link" href="<?php echo site_url('blog'); ?>">Blog</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="<?php echo site_url('pengumuman'); ?>">Pengumuman</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="<?php echo site_url('agenda'); ?>">Agenda</a>
-                                </li>
-                            <!--    <li class="nav-item">-->
-                            <!--        <a class="nav-link" href="<?php echo site_url('download'); ?>">Download</a>-->
-                            <!--    </li>-->
-                            <!--    <li class="nav-item">-->
-                            <!--        <a class="nav-link" href="<?php echo site_url('galeri'); ?>">Gallery</a>-->
-                            <!--    </li>-->
-                            <!--    <li class="nav-item">-->
-                            <!--        <a class="nav-link" href="<?php echo site_url('contact'); ?>">Contact</a>-->
-                            <!--    </li>-->
+                                <!--    <li class="nav-item">-->
+                                <!--        <a class="nav-link" href="<?php echo site_url('download'); ?>">Download</a>-->
+                                <!--    </li>-->
+                                <!--    <li class="nav-item">-->
+                                <!--        <a class="nav-link" href="<?php echo site_url('galeri'); ?>">Gallery</a>-->
+                                <!--    </li>-->
+                                <!--    <li class="nav-item">-->
+                                <!--        <a class="nav-link" href="<?php echo site_url('contact'); ?>">Contact</a>-->
+                                <!--    </li>-->
                             </ul>
-                            
-                            
+
+
                             <!-- drop down-->
-                            
                             <div class="dropdown">
-                                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Tentang
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="<?php echo site_url('sejarah'); ?>">Sejarah</a>
+                                    <a class="dropdown-item" href="<?php echo site_url('visi_misi'); ?>">Visi dan Misi</a>
+                                    <a class="dropdown-item" href="<?php echo site_url('struktur'); ?>">Struktur</a>
+                                </div>
+                            </div>
+
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Akademik
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="<?php echo site_url('guru'); ?>">Guru</a>
+                                    <a class="dropdown-item" href="<?php echo site_url('siswa'); ?>">Siswa</a>
+                                    <a class="dropdown-item" href="<?php echo site_url('pengumuman'); ?>">Pengumuman</a>
+                                    <a class="dropdown-item" href="<?php echo site_url('agenda'); ?>">Agenda</a>
+                                </div>
+                            </div>
+
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Menu
-                                  </button>
-                                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                     <a class="dropdown-item" href="<?php echo site_url('download'); ?>">Download</a>
                                     <a class="dropdown-item" href="<?php echo site_url('galeri'); ?>">Gallery</a>
-                                    <a class="dropdown-item" href="<?php echo site_url('contact'); ?>">Contact</a>
-                                  </div>
+                                    <a class="dropdown-item" href="<?php echo site_url('contact'); ?>">Kontak</a>
+                                </div>
                             </div>
                             <!-- end drop down-->
-                            
+
                         </div>
                         <!-- end copy untuk kesemua menu-->
-                        
+
                     </nav>
                 </div>
             </div>
@@ -159,12 +157,8 @@
                         <img class="d-block" src="theme/images/slider.jpg" alt="First slide">
                         <div class="carousel-caption d-md-block">
                             <div class="slider_title">
-                                <h1>
-                                    <font color="orange"> Bepikir Kreaftif &amp; Inovatif</font>
-                                </h1>
-                                <h4>
-                                    <font color="orange">Bagi kami kreativitas merupakan gerbang masa depan.<br> kreativitas akan mendorong inovasi. <br> Itulah yang kami lakukan.</font>
-                                </h4>
+                                <h1>Bepikir Kreaftif &amp; Inovatif</h1>
+                                <h4>Bagi kami kreativitas merupakan gerbang masa depan.<br> kreativitas akan mendorong inovasi. <br> Itulah yang kami lakukan.</h4>
                                 <div class="slider-btn">
                                     <a href="<?php echo site_url('artikel'); ?>" class="btn btn-default">Learn more</a>
                                 </div>
@@ -197,60 +191,13 @@
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
-                    <i class="icon-arrow-left fa-slider" aria-hidden="true"></i>
+                    <i class="carousel-control-prev-icon" aria-hidden="true"></i>
                     <span class="sr-only">Previous</span>
                 </a>
                 <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
-                    <i class="icon-arrow-right fa-slider" aria-hidden="true"></i>
+                    <i class="carousel-control-next-icon" aria-hidden="true"></i>
                     <span class="sr-only">Next</span>
                 </a>
-            </div>
-        </div>
-    </section>
-    <!--//END HEADER -->
-    <!--============================= ABOUT =============================-->
-    <section class="clearfix about about-style1">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8">
-                    <h2>Welcome</h2>
-                    <p>Kami Menyambut baik terbitnya Website SMAS AL KAUTSAR yang baru , dengan harapan dipublikasinya website ini sekolah berharap : Peningkatan layanan pendidikan kepada siswa, orangtua, dan masyarakat pada umumnya semakin meningkat. </p>
-
-                </div>
-                <div class="col-md-4">
-                    <img src="theme/images/welcome.png" class="img-fluid about-img" alt="#"> <!-- !-->
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--//END ABOUT -->
-    <!--============================= OUR COURSES =============================-->
-    <section class="our_courses">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h2>Artikel Terbaru</h2>
-                </div>
-            </div>
-            <div class="row">
-                <?php foreach ($berita->result() as $row) : ?>
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-                        <div class="courses_box mb-4">
-                            <div class="course-img-wrap">
-                                <img src="assets/images/' . $row->tulisan_gambar; ?>" class="img-fluid" alt="courses-img">
-                            </div>
-                            <!-- // end .course-img-wrap -->
-                            <a href="<?php echo site_url('artikel/' . $row->tulisan_slug); ?>" class="course-box-content">
-                                <h3 style="text-align:center;"><?php echo $row->tulisan_judul; ?></h3>
-                            </a>
-                        </div>
-                    </div>
-                <?php endforeach; ?>
-            </div> <br>
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <a href="<?php echo site_url('artikel'); ?>" class="btn btn-default btn-courses">View More</a>
-                </div>
             </div>
         </div>
     </section>
@@ -381,11 +328,11 @@
                     <div class="sitemap">
                         <h3>Menu Utama</h3>
                         <ul>
-                            <li><a href="<?php echo site_url(); ?>">Home</a></li>
-                            <li><a href="<?php echo site_url('about'); ?>">About</a></li>
-                            <li><a href="<?php echo site_url('artikel'); ?>">Blog </a></li>
-                            <li><a href="<?php echo site_url('galeri'); ?>">Gallery</a></li>
-                            <li><a href="<?php echo site_url('contact'); ?>">Contact</a></li>
+                            <li><a href="<?php echo site_url(); ?>">Beranda</a></li>
+
+                            <li><a href="<?php echo site_url('about'); ?>">Tentang</a></li>
+                            <li><a href="<?php echo site_url('artikel'); ?>">Blog</a></li>
+                            <li><a href="<?php echo site_url('akademik'); ?>">Akademik</a></li>
                         </ul>
                     </div>
                 </div>
@@ -397,7 +344,6 @@
                             <li><a href="<?php echo site_url('siswa'); ?>">Siswa </a></li>
                             <li><a href="<?php echo site_url('pengumuman'); ?>">Pengumuman</a></li>
                             <li><a href="<?php echo site_url('agenda'); ?>">Agenda</a></li>
-                            <li><a href="<?php echo site_url('download'); ?>">Download</a></li>
                         </ul>
                     </div>
                 </div>
@@ -437,7 +383,7 @@
     <script src="theme/js/script.js"></script>
     <!-- Script JS Bootstrap 5 gaes-->
     <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>-->
-    
+
     <!--<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>-->
     <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>-->
 </body>

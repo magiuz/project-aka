@@ -130,7 +130,7 @@
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                         <a class="dropdown-item" href="<?php echo site_url('download'); ?>">Download</a>
-                                        <a class="dropdown-item" href="<?php echo site_url('galeri'); ?>">Gallery</a>
+                                        <a class="dropdown-item" href="galeri">Gallery</a>
                                         <a class="dropdown-item" href="<?php echo site_url('contact'); ?>">Kontak</a>
                                     </div>
                                 </div>

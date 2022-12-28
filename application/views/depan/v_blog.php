@@ -6,19 +6,19 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Blog</title>
-    <link rel="shorcut icon" href="<?php echo base_url() . 'theme/images/icon.png' ?>">
+    <link rel="shorcut icon" href="theme/images/icon.png">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="<?php echo base_url() . 'theme/css/bootstrap.min.css' ?>">
+    <link rel="stylesheet" href="theme/css/bootstrap.min.css">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700" rel="stylesheet">
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="<?php echo base_url() . 'theme/css/font-awesome.min.css' ?>">
+    <link rel="stylesheet" href="theme/css/font-awesome.min.css">
     <!-- Simple Line Font -->
-    <link rel="stylesheet" href="<?php echo base_url() . 'theme/css/simple-line-icons.css' ?>">
+    <link rel="stylesheet" href="theme/css/simple-line-icons.css">
     <!-- Owl Carousel -->
-    <link rel="stylesheet" href="<?php echo base_url() . 'theme/css/owl.carousel.min.css' ?>">
+    <link rel="stylesheet" href="theme/css/owl.carousel.min.css">
     <!-- Main CSS -->
-    <link href="<?php echo base_url() . 'theme/css/style.css' ?>" rel="stylesheet">
+    <link href="theme/css/style.css" rel="stylesheet">
     <?php
     function limit_words($string, $word_limit)
     {
@@ -65,7 +65,7 @@
                         <button class="navbar-toggler navbar-toggler2 navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
                             <span class="icon-menu"></span>
                         </button>
-                        <a href="<?php echo site_url(''); ?>" class="navbar-brand nav-brand2"><img class="img img-responsive" width="200px;" src="<?php echo base_url() . 'theme/images/logo-dark.png' ?>"></a>
+                        <a href="<?php echo site_url(''); ?>" class="navbar-brand nav-brand2"><img class="img img-responsive" width="200px;" src="theme/images/logo-dark.png"></a>
                         
                         <!-- copy ke semua menu-->
                         <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
@@ -147,7 +147,7 @@
                     <?php foreach ($data->result() as $row) : ?>
                         <div class="blog-single-item">
                             <div class="blog-img_block">
-                                <img src="<?php echo base_url() . 'assets/images/' . $row->tulisan_gambar; ?>" class="img-fluid" alt="blog-img">
+                                <img src="assets/images/' . $row->tulisan_gambar; ?>" class="img-fluid" alt="blog-img">
                                 <div class="blog-date">
                                     <span><?php echo $row->tanggal; ?></span>
                                 </div>
@@ -186,7 +186,7 @@
                         <h3>Populer</h3>
                         <?php foreach ($populer->result() as $row) : ?>
                             <div class="blog-featured-img_block">
-                                <img width="35%" src="<?php echo base_url() . 'assets/images/' . $row->tulisan_gambar; ?>" class="img-fluid" alt="blog-featured-img">
+                                <img width="35%" src="assets/images/' . $row->tulisan_gambar; ?>" class="img-fluid" alt="blog-featured-img">
                                 <h5><a href="<?php echo site_url('artikel/' . $row->tulisan_slug); ?>"><?php echo limit_words($row->tulisan_judul, 3) . '...'; ?></a></h5>
                                 <p><?php echo limit_words($row->tulisan_isi, 5) . '...'; ?></p>
                             </div>
@@ -206,7 +206,7 @@
                 <div class="col-md-3">
                     <div class="foot-logo">
                         <a href="<?php echo site_url(); ?>">
-                            <img src="<?php echo base_url() . 'theme/images/logo-white.png' ?>" class="img-fluid" alt="footer_logo">
+                            <img src="theme/images/logo-white.png" class="img-fluid" alt="footer_logo">
                         </a>
                         <p><?php echo date('Y'); ?> © copyright by <a href="" target="_blank">M Fikri</a>. <br>All rights reserved.</p>
                     </div>
@@ -254,17 +254,17 @@
     </footer>
     <!--//END FOOTER -->
     <!-- jQuery, Bootstrap JS. -->
-    <script src="<?php echo base_url() . 'theme/js/jquery.min.js' ?>"></script>
-    <script src="<?php echo base_url() . 'theme/js/tether.min.js' ?>"></script>
-    <script src="<?php echo base_url() . 'theme/js/bootstrap.min.js' ?>"></script>
+    <script src="theme/js/jquery.min.js"></script>
+    <script src="theme/js/tether.min.js"></script>
+    <script src="theme/js/bootstrap.min.js"></script>
     <!-- Plugins -->
-    <script src="<?php echo base_url() . 'theme/js/owl.carousel.min.js' ?>"></script>
-    <script src="<?php echo base_url() . 'theme/js/validate.js' ?>"></script>
-    <script src="<?php echo base_url() . 'theme/js/tweetie.min.js' ?>"></script>
+    <script src="theme/js/owl.carousel.min.js"></script>
+    <script src="theme/js/validate.js"></script>
+    <script src="theme/js/tweetie.min.js"></script>
     <!-- Subscribe -->
-    <script src="<?php echo base_url() . 'theme/js/subscribe.js' ?>"></script>
+    <script src="theme/js/subscribe.js"></script>
     <!-- Script JS -->
-    <script src="<?php echo base_url() . 'theme/js/script.js' ?>"></script>
+    <script src="theme/js/script.js"></script>
 </body>
 
 </html>

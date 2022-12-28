@@ -8,6 +8,7 @@ class Home extends CI_Controller{
 		$this->load->model('m_agenda');
 		$this->load->model('m_files');
 		$this->load->model('m_pengunjung');
+		$this->load->view('templates/header');
 		$this->m_pengunjung->count_visitor();
 	}
 	function index(){
@@ -19,6 +20,7 @@ class Home extends CI_Controller{
 			$x['tot_files']=$this->db->get('tbl_files')->num_rows();
 			$x['tot_agenda']=$this->db->get('tbl_agenda')->num_rows();
 			$this->load->view('depan/v_home',$x);
+			$this->load->view('templates/footer');
 	}
 
 }

@@ -13,22 +13,22 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title><?php echo $title; ?></title>
-    <link rel="shorcut icon" href="<?php echo base_url() . 'theme/images/icon.png' ?>">
+    <link rel="shorcut icon" href="theme/images/icon.png">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="<?php echo base_url() . 'theme/css/bootstrap.min.css' ?>">
+    <link rel="stylesheet" href="theme/css/bootstrap.min.css">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700" rel="stylesheet">
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="<?php echo base_url() . 'theme/css/font-awesome.min.css' ?>">
+    <link rel="stylesheet" href="theme/css/font-awesome.min.css">
     <!-- Simple Line Font -->
-    <link rel="stylesheet" href="<?php echo base_url() . 'theme/css/simple-line-icons.css' ?>">
+    <link rel="stylesheet" href="theme/css/simple-line-icons.css">
     <!-- Owl Carousel -->
-    <link rel="stylesheet" href="<?php echo base_url() . 'theme/css/owl.carousel.min.css' ?>">
+    <link rel="stylesheet" href="theme/css/owl.carousel.min.css">
     <!-- Main CSS -->
-    <link href="<?php echo base_url() . 'theme/css/style.css' ?>" rel="stylesheet">
+    <link href="theme/css/style.css" rel="stylesheet">
     <!--Social Share-->
-    <link href="<?php echo base_url() . 'theme/css/jssocials.css' ?>" rel="stylesheet">
-    <link href="<?php echo base_url() . 'theme/css/jssocials-theme-flat.css' ?>" rel="stylesheet">
+    <link href="theme/css/jssocials.css" rel="stylesheet">
+    <link href="theme/css/jssocials-theme-flat.css" rel="stylesheet">
     <style>
         .sharePopup {
             font-size: 11px;
@@ -57,7 +57,7 @@
                             <span class="icon-envelope-open"></span>smaalkautsarlampung@gmail.com
                         </div>
                         <div class="header-top_list">
-                            <span class="icon-location-pin"></span>BANDAR LAMPUNG, LAMPUNG, INA. 35144
+                            <span class="icon-location-pin"></span>Bandar Lampung, Lampung, INA. 35144
                         </div>
                     </div>
                     <div class="header-top_login2">
@@ -72,76 +72,78 @@
             </div>
         </div>
     </div>
-    <div data-toggle="affix" style="border-bottom:solid 1px #f2f2f2;">
+    <div data-toggle="affix">
         <div class="container nav-menu2">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-9">
                     <nav class="navbar navbar2 navbar-toggleable-md navbar-light bg-faded">
                         <button class="navbar-toggler navbar-toggler2 navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
                             <span class="icon-menu"></span>
                         </button>
-                        <a href="<?php echo site_url(''); ?>" class="navbar-brand nav-brand2"><img class="img img-responsive" width="200px;" src="<?php echo base_url() . 'theme/images/logo-dark.png' ?>"></a>
-                        
+
+                        <a href="<?php echo site_url(''); ?>" class="navbar-brand nav-brand2"><img class="img img-responsive" width="200px;" src="theme/images/Logo Al-Kautsar.png"></a>
+
                         <!-- copy ke semua menu-->
                         <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-                            
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="<?php echo site_url(''); ?>">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="<?php echo site_url('about'); ?>">About</a>
+
+                            <ul class="navbar-nav ">
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="<?php echo site_url(''); ?>">Beranda</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" target="blank" href="http://sis.smas-alkautsar.sch.id/">SIS</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="<?php echo site_url('visi_misi'); ?>">Visi_Misi</a>
+                                    <a class="nav-link" href="blog">Blog</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="<?php echo site_url('struktur'); ?>">Struktur</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="<?php echo site_url('guru'); ?>">Guru</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="<?php echo site_url('siswa'); ?>">Siswa</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="<?php echo site_url('blog'); ?>">Blog</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="<?php echo site_url('pengumuman'); ?>">Pengumuman</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="<?php echo site_url('agenda'); ?>">Agenda</a>
-                                </li>
-                            <!--    <li class="nav-item">-->
-                            <!--        <a class="nav-link" href="<?php echo site_url('download'); ?>">Download</a>-->
-                            <!--    </li>-->
-                            <!--    <li class="nav-item">-->
-                            <!--        <a class="nav-link" href="<?php echo site_url('galeri'); ?>">Gallery</a>-->
-                            <!--    </li>-->
-                            <!--    <li class="nav-item">-->
-                            <!--        <a class="nav-link" href="<?php echo site_url('contact'); ?>">Contact</a>-->
-                            <!--    </li>-->
+                                <!--    <li class="nav-item">-->
+                                <!--        <a class="nav-link" href="<?php echo site_url('download'); ?>">Download</a>-->
+                                <!--    </li>-->
+                                <!--    <li class="nav-item">-->
+                                <!--        <a class="nav-link" href="<?php echo site_url('galeri'); ?>">Gallery</a>-->
+                                <!--    </li>-->
+                                <!--    <li class="nav-item">-->
+                                <!--        <a class="nav-link" href="<?php echo site_url('contact'); ?>">Contact</a>-->
+                                <!--    </li>-->
+
+
+                                <!-- drop down-->
+                                <div class="dropdown ">
+                                    <a class="nav-item dropdown-toggle " href="about" role="button" data-toggle="dropdown" aria-expanded="false">
+                                        Tentang
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="<?php echo site_url('sejarah'); ?>">Sejarah</a>
+                                        <a class="dropdown-item" href="<?php echo site_url('visi_misi'); ?>">Visi dan Misi</a>
+                                        <a class="dropdown-item" href="<?php echo site_url('struktur'); ?>">Struktur</a>
+                                    </div>
+
+                                </div>
+
+                                <div class="dropdown ">
+                                    <a class="nav-item dropdown-toggle " href="akademik" role="button" data-toggle="dropdown" aria-expanded="false">
+                                        Akademik
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="<?php echo site_url('guru'); ?>">Guru</a>
+                                        <a class="dropdown-item" href="<?php echo site_url('siswa'); ?>">Siswa</a>
+                                        <a class="dropdown-item" href="<?php echo site_url('pengumuman'); ?>">Pengumuman</a>
+                                        <a class="dropdown-item" href="<?php echo site_url('agenda'); ?>">Agenda</a>
+                                    </div>
+                                </div>
+
+                                <div class="dropdown">
+                                    <a class="nav-item dropdown-toggle" href="akademik" role="button" data-toggle="dropdown" aria-expanded="false">
+                                        Menu
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="<?php echo site_url('download'); ?>">Download</a>
+                                        <a class="dropdown-item" href="galeri">Gallery</a>
+                                        <a class="dropdown-item" href="<?php echo site_url('contact'); ?>">Kontak</a>
+                                    </div>
+                                </div>
+                                <!-- end drop down-->
                             </ul>
-                            
-                            
-                            <!-- drop down-->
-                            
-                            <div class="dropdown">
-                                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Menu
-                                  </button>
-                                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                    <a class="dropdown-item" href="<?php echo site_url('download'); ?>">Download</a>
-                                    <a class="dropdown-item" href="<?php echo site_url('galeri'); ?>">Gallery</a>
-                                    <a class="dropdown-item" href="<?php echo site_url('contact'); ?>">Contact</a>
-                                  </div>
-                            </div>
-                            <!-- end drop down-->
-                            
                         </div>
                         <!-- end copy untuk kesemua menu-->
                         
@@ -159,7 +161,7 @@
             <div class="row">
                 <div class="col-md-8">
                     <div class="blog-img_block">
-                        <img src="<?php echo base_url() . 'assets/images/' . $image ?>" class="img-fluid" alt="blog-img">
+                        <img src="assets/images/' . $image ?>" class="img-fluid" alt="blog-img">
                         <div class="blog-date">
                             <span><?php echo $tanggal; ?></span>
                         </div>
@@ -310,7 +312,7 @@
                         <h3>Populer</h3>
                         <?php foreach ($populer->result() as $row) : ?>
                             <div class="blog-featured-img_block">
-                                <img width="35%" src="<?php echo base_url() . 'assets/images/' . $row->tulisan_gambar; ?>" class="img-fluid" alt="blog-featured-img">
+                                <img width="35%" src="assets/images/' . $row->tulisan_gambar; ?>" class="img-fluid" alt="blog-featured-img">
                                 <h5><a href="<?php echo site_url('artikel/' . $row->tulisan_slug); ?>"><?php echo limit_words($row->tulisan_judul, 3) . '...'; ?></a></h5>
                                 <p><?php echo limit_words($row->tulisan_isi, 5) . '...'; ?></p>
                             </div>
@@ -330,7 +332,7 @@
                 <div class="col-md-3">
                     <div class="foot-logo">
                         <a href="<?php echo site_url(); ?>">
-                            <img src="<?php echo base_url() . 'theme/images/logo-white.png' ?>" class="img-fluid" alt="footer_logo">
+                            <img src="theme/images/logo-white.png" class="img-fluid" alt="footer_logo">
                         </a>
                         <p><?php echo date('Y'); ?> © copyright by <a href="" target="_blank">M Fikri</a>. <br>All rights reserved.</p>
                     </div>
@@ -377,18 +379,18 @@
     </footer>
     <!--//END FOOTER -->
     <!-- jQuery, Bootstrap JS. -->
-    <script src="<?php echo base_url() . 'theme/js/jquery.min.js' ?>"></script>
-    <script src="<?php echo base_url() . 'theme/js/tether.min.js' ?>"></script>
-    <script src="<?php echo base_url() . 'theme/js/bootstrap.min.js' ?>"></script>
+    <script src="theme/js/jquery.min.js"></script>
+    <script src="theme/js/tether.min.js"></script>
+    <script src="theme/js/bootstrap.min.js"></script>
     <!-- Plugins -->
-    <script src="<?php echo base_url() . 'theme/js/owl.carousel.min.js' ?>"></script>
-    <script src="<?php echo base_url() . 'theme/js/validate.js' ?>"></script>
-    <script src="<?php echo base_url() . 'theme/js/tweetie.min.js' ?>"></script>
+    <script src="theme/js/owl.carousel.min.js"></script>
+    <script src="theme/js/validate.js"></script>
+    <script src="theme/js/tweetie.min.js"></script>
     <!-- Subscribe -->
-    <script src="<?php echo base_url() . 'theme/js/subscribe.js' ?>"></script>
+    <script src="theme/js/subscribe.js"></script>
     <!-- Script JS -->
-    <script src="<?php echo base_url() . 'theme/js/script.js' ?>"></script>
-    <script src="<?php echo base_url() . 'theme/js/jssocials.js' ?>"></script>
+    <script src="theme/js/script.js"></script>
+    <script src="theme/js/jssocials.js"></script>
     <script>
         $(document).ready(function() {
             $(".sharePopup").jsSocials({

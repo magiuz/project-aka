@@ -64,21 +64,21 @@ Author:
   
   .btn-default {
     text-transform: uppercase;
-    color: #cbb58b;
-    background: none;
+    color: #fff;
+    background: #cbb58b;
     border: 3px solid #cbb58b;
     font-size: 18px;
     padding: 16px 36px;
-    border-radius: 0; }
+    border-radius: 50px; }
   
   @media (min-width: 767px) {
     .btn + .btn {
       margin-left: 22px; } }
   
   .btn-default:hover {
-    color: #fff;
-    background: #cbb58b;
-    border: 3px solid #cbb58b; }
+    color: #000;
+    background: #fff;
+    border: 3px solid #fff; }
   
   .btn:focus {
     outline: none;

@@ -41,8 +41,8 @@
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                         <a class="dropdown-item" href="about">Sambutan</a>
                                         <a class="dropdown-item" href="sejarah">Sejarah</a>
-                                        <a class="dropdown-item" href="<?php echo site_url('visi_misi'); ?>">Visi dan Misi</a>
-                                        <a class="dropdown-item" href="<?php echo site_url('struktur'); ?>">Struktur</a>
+                                        <a class="dropdown-item" href="visi_misi">Visi dan Misi</a>
+                                        <a class="dropdown-item" href="struktur">Struktur</a>
                                     </div>
 
                                 </div>

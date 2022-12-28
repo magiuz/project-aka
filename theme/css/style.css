@@ -2767,7 +2767,9 @@ Author:
       text-align: left;
       margin-top: 15px; }
     .fc .fc-view-container {
-      overflow: auto; } }
+      overflow: auto;
+      margin-left : 50px;
+      }
   
   /*
    * SHORTCODES

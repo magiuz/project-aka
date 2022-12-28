@@ -73,7 +73,7 @@
                             <span class="icon-menu"></span>
                         </button>
 
-                        <a href="<?php echo site_url(''); ?>" class="navbar-brand nav-brand2"><img class="img img-responsive" width="60px;" src="theme/images/welcome-img.jpg"></a>
+                        <a href="<?php echo site_url(''); ?>" class="navbar-brand nav-brand2"><img class="img img-responsive" width="200px;" src="theme/images/Logo Al-Kautsar.png"></a>
 
                         <!-- copy ke semua menu-->
                         <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
@@ -157,8 +157,8 @@
                         <img class="d-block" src="theme/images/apa.jpg" alt="First slide">
                         <div class="carousel-caption d-md-block">
                             <div class="slider_title">
-                                <h1>Bepikir Kreaftif &amp; Inovatif</h1>
-                                <h4>Bagi kami kreativitas merupakan gerbang masa depan.<br> kreativitas akan mendorong inovasi. <br> Itulah yang kami lakukan.</h4>
+                                <h1>Berpikir Kreatif &amp; Inovatif</h1>
+                                <h4>Bagi kami kreativitas merupakan gerbang masa depan.<br> Kreativitas akan mendorong inovasi. <br> Itulah yang kami lakukan.</h4>
                                 <div class="slider-btn">
                                     <a href="<?php echo site_url('artikel'); ?>" class="btn btn-default">Learn more</a>
                                 </div>
@@ -169,7 +169,7 @@
                         <img class="d-block" src="theme/images/api.jpg" alt="Second slide">
                         <div class="carousel-caption d-md-block">
                             <div class="slider_title">
-                                <h1>Guru Bekualitas Tinggi</h1>
+                                <h1>Guru Berkualitas Tinggi</h1>
                                 <h4>Guru merupakan faktor penting dalam proses belajar-mengajar.<br> Itulah kenapa kami mendatangkan guru-guru <br>terbaik dari berbagai penjuru.</h4>
                                 <div class="slider-btn">
                                     <a href="<?php echo site_url('guru'); ?>" class="btn btn-default">Learn more</a>
@@ -181,8 +181,8 @@
                         <img class="d-block" src="theme/images/apo.jpg" alt="Third slide">
                         <div class="carousel-caption d-md-block">
                             <div class="slider_title">
-                                <h1>Proses Belajar Interatif</h1>
-                                <h4>Kami membuat proses belajar mengajar menjadi lebih interaktif.<br> dengan demikian siswa lebih menyukai <br>proses belajar.</h4>
+                                <h1>Proses Belajar Interaktif</h1>
+                                <h4>Kami membuat proses belajar mengajar menjadi lebih interaktif.<br> Dengan demikian siswa lebih menyukai <br>proses belajar.</h4>
                                 <div class="slider-btn">
                                     <a href="<?php echo site_url('galeri'); ?>" class="btn btn-default">Learn more</a>
                                 </div>
@@ -250,7 +250,7 @@
     <div class="detailed_chart">
         <div class="container">
             <div class="row">
-                <div class="col-sm-3">
+                <div class="col-sm-2">
                     <div class="chart-img">
                         <img src="theme/images/chart-icon_1.png" class="img-fluid" alt="chart_icon">
                     </div>
@@ -268,7 +268,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-sm-2">
+                <div class="col-sm-3">
                     <div class="chart-img">
                         <img src="theme/images/chart-icon_3.png" class="img-fluid" alt="chart_icon">
                     </div>
@@ -277,7 +277,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-2">
                     <div class="chart-img">
                         <img src="theme/images/chart-icon_4.png" class="img-fluid" alt="chart_icon">
                     </div>
@@ -285,7 +285,7 @@
                         <p><span class="counter"><?php echo $tot_agenda; ?></span> Agenda</p>
                     </div>
                 </div>
-                <div class="col-sm-2">
+                <div class="col-sm-3">
                     <div class="chart-img">
                         <img src="theme/images/chart-icon_5.png" class="img-fluid" alt="chart_icon">
                     </div>
@@ -321,7 +321,7 @@
                         <a href="<?php echo site_url(); ?>">
                             <img src="theme/images/logo-white.png" class="img-fluid" alt="footer_logo">
                         </a>
-                        <p><?php echo date('Y'); ?> © copyright by <a href="" target="_blank">M Fikri</a>. <br>All rights reserved.</p>
+                        <p><?php echo date('Y'); ?> ©Copyright by <a href="" target="_blank">M Fikri</a>. <br>All rights reserved.</p>
                     </div>
                 </div>
                 <div class="col-md-3">
@@ -352,7 +352,6 @@
                         <h3>Hubungi Kami</h3>
                         <p><span>Alamat: </span> BANDAR LAMPUNG, LAMPUNG, INA. 35144</p>
                         <p>Email : smaalkautsarlampung@gmail.com</p>
-                        <br>
                         <p>Phone : 0721 781578</p>
 
                         <ul class="footer-social-icons">

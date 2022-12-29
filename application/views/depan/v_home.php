@@ -36,7 +36,6 @@
 </head>
 
 <body>
-
     <section>
         <div class="slider_img layout_two">
             <div id="carousel" class="carousel slide" data-ride="carousel">

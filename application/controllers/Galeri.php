@@ -2,10 +2,12 @@
 class Galeri extends CI_Controller{
 	function __construct(){
 		parent::__construct();
+		$this->load->view('templates/header');
 		$this->load->model('m_galeri');
 		$this->load->model('m_album');
 		$this->load->model('m_pengunjung');
 		$this->m_pengunjung->count_visitor();
+	
 	}
 	function index(){
 		$x['alb']=$this->m_album->get_all_album();
@@ -17,5 +19,6 @@ class Galeri extends CI_Controller{
 		$x['alb']=$this->m_album->get_all_album();
 		$x['data']=$this->m_galeri->get_galeri_by_album_id($idalbum);
 		$this->load->view('depan/v_galeri_per_album',$x);
+		$this->load->view('templates/footer');
 	}
 }

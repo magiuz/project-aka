@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -28,11 +27,8 @@
         return implode(" ", array_splice($words, 0, $word_limit));
     }
     ?>
-
     <!-- Bootstrap 4 cdn  -->
     <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">-->
-
-
 </head>
 
 <body>
@@ -107,7 +103,6 @@
                                     <h3><a href="<?php echo site_url('pengumuman'); ?>"><?php echo $row->pengumuman_judul; ?></a></h3>
                                     <span><?php echo $row->tanggal; ?></span>
                                     <p><?php echo limit_words($row->pengumuman_deskripsi, 10) . '...'; ?></p>
-
                                 </div><!-- // end .col-sm-7 -->
                             </div><!-- // end .row -->
                         <?php endforeach; ?>
@@ -129,10 +124,8 @@
                                     <hr class="event_line">
                                 </div>
                             <?php endforeach; ?>
-
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -195,16 +188,11 @@
                     </div>
                 </div>
             </div>
-
-
         </div>
-
-
     </div>
     </div>
     </div>
     <!--//END DETAILED CHART -->
-
     <!-- jQuery, Bootstrap JS. -->
     <script src="theme/js/jquery.min.js"></script>
     <script src="theme/js/tether.min.js"></script>
@@ -222,9 +210,7 @@
     <script src="theme/js/script.js"></script>
     <!-- Script JS Bootstrap 5 gaes-->
     <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>-->
-
     <!--<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>-->
     <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>-->
 </body>
-
 </html>

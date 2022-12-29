@@ -1,50 +1,71 @@
-<footer>
-    <div class="container">
+<!-- ======= Footer ======= -->
+<footer id="footer">
+    <div class="footer-top">
+      <div class="container">
         <div class="row">
-            <div class="col-md-3">
-                <div class="foot-logo">
-                    <a href="<?php echo site_url(); ?>">
-                        <img src="theme/images/logo-white.png" class="img-fluid" alt="footer_logo">
-                    </a>
-                    <p><?php echo date('Y'); ?> ©Copyright by <a href="" target="_blank">M Fikri</a>. <br>All rights reserved.</p>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="sitemap">
-                    <h3>Menu Utama</h3>
-                    <ul>
-                        <li><a href="<?php echo site_url(); ?>">Beranda</a></li>
-                        <li><a href="<?php echo site_url('about'); ?>">Tentang</a></li>
-                        <li><a href="<?php echo site_url('artikel'); ?>">Blog</a></li>
-                        <li><a href="<?php echo site_url('akademik'); ?>">Akademik</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="sitemap">
-                    <h3>Akademik</h3>
-                    <ul>
-                        <li><a href="<?php echo site_url('guru'); ?>">Guru</a></li>
-                        <li><a href="<?php echo site_url('siswa'); ?>">Siswa </a></li>
-                        <li><a href="<?php echo site_url('pengumuman'); ?>">Pengumuman</a></li>
-                        <li><a href="<?php echo site_url('agenda'); ?>">Agenda</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="address">
-                    <h3>Hubungi Kami</h3>
-                    <p><span>Alamat: </span> BANDAR LAMPUNG, LAMPUNG, INA. 35144</p>
-                    <p>Email : smaalkautsarlampung@gmail.com</p>
-                    <p>Phone : 0721 781578</p>
 
-                    <ul class="footer-social-icons">
-                        <li><a href="#"><i class="fa fa-facebook fa-fb" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin fa-in" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter fa-tw" aria-hidden="true"></i></a></li>
-                    </ul>
-                </div>
+          <div class="col-lg-3 col-md-6 footer-info">
+            <h3>Shuffle</h3>
+            <p>
+              A108 Adam Street <br>
+              NY 535022, USA<br><br>
+              <strong>Phone:</strong> +1 5589 55488 55<br>
+              <strong>Email:</strong> info@example.com<br>
+            </p>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
             </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Our Newsletter</h4>
+            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+
+          </div>
+
         </div>
+      </div>
     </div>
-</footer>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Shuffle</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/bootstrap-3-one-page-template-free-shuffle/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->

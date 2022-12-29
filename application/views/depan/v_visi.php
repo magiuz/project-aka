@@ -33,8 +33,9 @@
                     <h2 align="center">Visi SMA Al Kautsar</h2>
                     <p align="center">Al-Kautsar Unggul, Islami, dan Global</p><br><br>
 
-                    <ol>
-                    <h2 align="center">Misi SMA Al Kautsar</h2>                
+                    
+                    <h2 align="center">Misi SMA Al Kautsar</h2>   
+                    <ol>             
                     <li>Menjadikan sekolah berprestasi di bidang akademik dan nonakademik di tingkat nasional</li>
                     <li>Meningkatkan kompetensi pendidik dan tenaga kependidikan</li>
                     <li>Mewujudkan sarana dan prasarana sekolah yang lengkap, modern dan berwawasan lingkungan</li>
@@ -44,38 +45,40 @@
                     <li>Meningkatkan kemampuan literasi warga sekolah</li>
                     <li>Mewujudkan lulusan berwawasan global serta mampu melanjutkan pendidikan di dalam dan luar negeri</li>
                     <li>Menjalin kerja sama dengan orang tua, masyarakat, pemerintah dan stakeholder untuk peningkatan mutu pendidikan.</li><br>
-                    </ol><br>
-
-                    <h2 align="center">Tujuan SMA AL Kautsar</b></h4>
-                    <ol>
-                    <li><b>Tujuan Pendidikan Nasional</b></li>
-                        <p>Tujuan pendidikan nasional tercantum dalam Undang-Undang Nomor 20 Tahun 2003 tentang Sistem Pendidikan Nasional, pasal 3, “ mengembangkan potensi peserta didik agar menjadi manusia yang beriman dan bertagwa kepada Tuhan Yang Maha Esa, berakhlak mulia, sehat, berilmu, cakap, kreatif, mandiri, dan menjadi warga negara yang demokratis serta bertanggung jawab”.</p><br>
-                    <li><b>Tujuan Pendidikan Sekolah Menengah Atas</b></li>
-                        <p>Tujuan pendidikan menengah adalah meningkatkan kecerdasan, pengetahuan, kepribadian, akhlak mulia, serta keterampilan untuk hidup mandiri dan mengikuti pendidikan lebih lanjut.</p><br>
-                    <li><b>Tujuan SMA S Al Kautsar adalah sebagai berikut:</b></li>
-                        <dl align="justify">
-                        <dd>a. Diraihnya juara olimpiade sains, FLS2N, LDBI, prestasi akademik dan nonakademik lainnya di tingkat kota, provinsi, nasional, dan internasional.</p>
-                        <dd>b. Memiliki tenaga pendidik berkualifikasi S2 sebanyak 60 % tahun 2025.</p>
-                        <dd>c. Memiliki tenaga kependidikan berkualifikasi S1, pustakawan dan laboran yang tersertifikasi.</p>
-                        <dd>d. Membiasakan membaca Al Quran 1 juz dalam 10 hari semua warga sekolah.</p>
-                        <dd>e. Tersedia dan teroptimalkannya laboratorium dan perpustakaan elektronik (e-library) sebagai sumber belajar di sekolah.</p>
-                        <dd>f. Tersedianya sarana dan prasarana sekolah yang lengkap, modern dan berwawasan lingkungan tahun 2025.</p>
-                        <dd>g. Terintegrasikannya nilai-nilai Islam ke dalam proses pendidikan dan pembelajaran di lingkungan sekolah.</p>
-                        <dd>h. Terwujudnya lulusan yang mencintai Al Quran dan mampu membaca dengan baik dan benar serta hafal minimal 9 surat pilihan.</p>
-                        <dd>i. Terwujudnya SMA S Al Kautsar sebagai sekolah tujuan utama bagi orang tua untuk menyekolahkan putra-putrinya khususnya yang berdomisili di provinsi Lampung dan seluruh Indonesia umumnya.</p>
-                        <dd>j. Menghasilkan peserta didik berakhlakhul karimah serta memiliki kemampuan menyampaikan kultum.</p>
-                        <dd>k. Terselenggaranya kegiatan leadership di semua peserta didik.</p>
-                        <dd>l. Terselenggaranya pembelajaran yang berbasis penguasaan teknologi informasi (IT).</p>
-                        <dd>m. Terselenggaranya sistem penilaian berbasis IT, terciptanya Sistem Informasi Manajemen sekolah yang berbasis IT dan terwujudnya informasi sekolah berbasis WEB, IG dan Facebook .</p>
-                        <dd>n. Mewujudkan peserta didik untuk membaca buku fiksi nonfiksi setiap 15 menit sebelum pembelajaran dimulai.</p>
-                        <dd>o. Tersedianya buku-buku non pelajaran yang cukup bervariasi untuk kegiatan literasi.</p>
-                        <dd>p. Tersedianya pojok baca di dalam dan di luar kelas.</p>
-                        <dd>q. Tersedianya akses internet yang memadai untuk literasi digital.</p>
-                        <dd>r. Diterimanya lulusan di perguruan tinggi negeri dan kedinasan baik di Indonesia dan Perguruan Tinggi di Luar negeri setiap tahunnya lebih dari sama dengan 80%.</p>
-                        <dd>s. Terjalinnya kerjasama antara sekolah dengan Organisasi Ikatan Alumni SMA Al Kautsar dalam berbagai bentuk Kegiatan.</p>
-                        <dd>t. Terselenggaranya kegiatan parenting secara rutin setiap akhir tahun pelajaran.</p>
-                        </dl>
                     </ol>
+                    <br>
+
+                    
+                    <h2 align="center">Tujuan SMA AL Kautsar</b></h4>
+                    
+                    <b>Tujuan Pendidikan Nasional</b>
+                        <p>Tujuan pendidikan nasional tercantum dalam Undang-Undang Nomor 20 Tahun 2003 tentang Sistem Pendidikan Nasional, pasal 3, “ mengembangkan potensi peserta didik agar menjadi manusia yang beriman dan bertagwa kepada Tuhan Yang Maha Esa, berakhlak mulia, sehat, berilmu, cakap, kreatif, mandiri, dan menjadi warga negara yang demokratis serta bertanggung jawab”.</p><br>
+                    <b>Tujuan Pendidikan Sekolah Menengah Atas</b>
+                        <p>Tujuan pendidikan menengah adalah meningkatkan kecerdasan, pengetahuan, kepribadian, akhlak mulia, serta keterampilan untuk hidup mandiri dan mengikuti pendidikan lebih lanjut.</p><br>
+                    <b>Tujuan SMA S Al Kautsar adalah sebagai berikut:</b>
+                    <ol>
+                    <li>Diraihnya juara olimpiade sains, FLS2N, LDBI, prestasi akademik dan nonakademik lainnya di tingkat kota, provinsi, nasional, dan internasional.</li>
+                    <li>Memiliki tenaga pendidik berkualifikasi S2 sebanyak 60 % tahun 2025.</li>
+                    <li>Memiliki tenaga kependidikan berkualifikasi S1, pustakawan dan laboran yang tersertifikasi.</li>
+                    <li>Membiasakan membaca Al Quran 1 juz dalam 10 hari semua warga sekolah.</li>
+                    <li>Tersedia dan teroptimalkannya laboratorium dan perpustakaan elektronik (e-library) sebagai sumber belajar di sekolah.</li>
+                    <li>Tersedianya sarana dan prasarana sekolah yang lengkap, modern dan berwawasan lingkungan tahun 2025.</li>
+                    <li>Terintegrasikannya nilai-nilai Islam ke dalam proses pendidikan dan pembelajaran di lingkungan sekolah.</li>
+                    <li>Terwujudnya lulusan yang mencintai Al Quran dan mampu membaca dengan baik dan benar serta hafal minimal 9 surat pilihan.</li>
+                    <li>Terwujudnya SMA S Al Kautsar sebagai sekolah tujuan utama bagi orang tua untuk menyekolahkan putra-putrinya khususnya yang berdomisili di provinsi Lampung dan seluruh Indonesia umumnya.</li>
+                    <li>Menghasilkan peserta didik berakhlakhul karimah serta memiliki kemampuan menyampaikan kultum.</li>
+                    <li>Terselenggaranya kegiatan leadership di semua peserta didik.</li>
+                    <li>Terselenggaranya pembelajaran yang berbasis penguasaan teknologi informasi (IT).</li>
+                    <li>Terselenggaranya sistem penilaian berbasis IT, terciptanya Sistem Informasi Manajemen sekolah yang berbasis IT dan terwujudnya informasi sekolah berbasis WEB, IG dan Facebook .</li>
+                    <li>Mewujudkan peserta didik untuk membaca buku fiksi nonfiksi setiap 15 menit sebelum pembelajaran dimulai.</li>
+                    <li>Tersedianya buku-buku non pelajaran yang cukup bervariasi untuk kegiatan literasi.</li>
+                    <li>Tersedianya pojok baca di dalam dan di luar kelas.</li>
+                    <li>Tersedianya akses internet yang memadai untuk literasi digital.</li>
+                    <li>Diterimanya lulusan di perguruan tinggi negeri dan kedinasan baik di Indonesia dan Perguruan Tinggi di Luar negeri setiap tahunnya lebih dari sama dengan 80%.</li>
+                    <li>Terjalinnya kerjasama antara sekolah dengan Organisasi Ikatan Alumni SMA Al Kautsar dalam berbagai bentuk Kegiatan.</li>
+                    <li>Terselenggaranya kegiatan parenting secara rutin setiap akhir tahun pelajaran.</li>
+                    </ol>
+                    
 
 
 

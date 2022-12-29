@@ -24,10 +24,6 @@
 </head>
 
 <body>
-
-    <section>
-    </section>
-
     <!--//END ABOUT IMAGE -->
     <!--============================= WELCOME TITLE =============================-->
     <section class="welcome_about">

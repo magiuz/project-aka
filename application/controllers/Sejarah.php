@@ -7,7 +7,6 @@ class sejarah extends CI_Controller
 		$this->load->view('templates/header');
 		$this->load->model('m_pengunjung');
 		$this->m_pengunjung->count_visitor();
-		$this->load->view('templates/header');
 	}
 	function index()
 	{

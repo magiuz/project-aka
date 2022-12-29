@@ -4,7 +4,7 @@ class sejarah extends CI_Controller
 	function __construct()
 	{
 		parent::__construct();
-		$this->load->view('templates/header');
+		$this->load->view('templates/header_1');
 		$this->load->model('m_pengunjung');
 		$this->m_pengunjung->count_visitor();
 	}

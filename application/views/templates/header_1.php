@@ -4,7 +4,7 @@
   <div class="container d-flex align-items-center justify-content-between">
 
     <div class="logo">
-      <a href="<?php echo site_url(''); ?>" class="navbar-brand nav-brand2"><img class="img img-responsive" width="200px;" src="theme/images/Logo Al-Kautsar.png"></a>
+      <a href="home" class="navbar-brand nav-brand2"><img class="img img-responsive" width="160px;" src="theme/images/Logo Al-Kautsar.png"></a>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html"><img src="aset/img/logo.png" alt="" class="img-fluid"></a>-->
     </div>

@@ -66,7 +66,7 @@
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                         <a class="dropdown-item" href="<?php echo site_url('download'); ?>">Download</a>
                                         <a class="dropdown-item" href="galeri">Gallery</a>
-                                        <a class="dropdown-item" href="<?php echo site_url('contact'); ?>">Kontak</a>
+                                        <a class="dropdown-item" href="contact">Kontak</a>
                                     </div>
                                 </div>
                                 <!-- end drop down-->

@@ -1189,7 +1189,8 @@ Author:
       text-align: center;
       margin: 20px auto 60px; }
     .subscribe .form-group {
-      position: relative; }
+      position: relative; 
+    }
     .subscribe .help-block {
       position: absolute;
       text-align: center;
@@ -3075,12 +3076,14 @@ Author:
      CONTACT US
      ============================================================== */
   .contact {
-    padding: 98px 0 0; }
+    padding: 98px 0 0; 
+  }
   
   .contact-title h2 {
     font-weight: 700;
     text-align: center;
-    margin: 0 0 24px; }
+    margin: 0 0 24px;
+   }
 
   .shortcode-columns h5 {
     font-weight: 700;
@@ -3220,7 +3223,8 @@ Author:
   border-right: 1px solid #ad9566;
   padding: 45px 64px; }
   .contact-option .form-control {
-    border-color: transparent; }
+    border-color: transparent;
+   }
 
 .contact-address {
   padding: 45px 50px; }
@@ -3375,7 +3379,7 @@ Author:
   border: 0 !important; }
 
 .btn-default:active .filter-button:active {
-  color: #ffff;
+  color:#ffff;
   background: #cbb58b;
   border: 0 !important; }
 
@@ -3419,21 +3423,23 @@ Author:
   .contact-form {
     background: #cbb58b;
     position: relative;
-    z-index: 2; }
+    z-index: 2; 
+  }
     .contact-form h3 {
       font-weight: 700;
       color: #fff;
-      margin: 0 0 24px; }
+      margin: 0 0 24px; 
+    }
   
   .btn-submit {
-    border: 3px solid #fff;
+    border: 6px solid #fff;
     color: #fff;
     padding: 13px 44px;
     font-size: 15px;
     margin: 8px 0 0; }
   
   .btn-submit:hover {
-    border: 3px solid #fff;
+    border: 6px solid #fff;
     background: #fff;
     color: #cbb58b;
     -webkit-transition: 0.5s;

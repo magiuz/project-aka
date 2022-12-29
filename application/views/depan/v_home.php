@@ -5,6 +5,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>SELAMAT DATANG DI WEBSITE SMA AL KAUTSAR BANDAR LAMPUNG</title>
+
+    <link href="assets/aset/img/favicon.png" rel="icon">
+  <link href="assets/aset/img/apple-touch-icon.png" rel="apple-touch-icon">
+
     <link rel="shorcut icon" href="theme/images/icon.png">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="theme/css/bootstrap.min.css">
@@ -18,6 +22,20 @@
     <link rel="stylesheet" href="theme/css/slick.css">
     <link rel="stylesheet" href="theme/css/slick-theme.css">
     <link rel="stylesheet" href="theme/css/owl.carousel.min.css">
+
+     <!-- Google Fonts -->
+ <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+<!-- Vendor CSS Files -->
+<link href="assets/aset/vendor/animate.css/animate.min.css" rel="stylesheet">
+<link href="assets/aset/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="assets/aset/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+<link href="assets/aset/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+<link href="assets/aset/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+<link href="assets/aset/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+<!-- Template Main CSS File -->
+<link href="assets/aset/css/style.css" rel="stylesheet">
     <!-- Main CSS -->
     <link href="theme/css/style.css" rel="stylesheet">
     <?php

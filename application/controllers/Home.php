@@ -8,7 +8,7 @@ class Home extends CI_Controller{
 		$this->load->model('m_agenda');
 		$this->load->model('m_files');
 		$this->load->model('m_pengunjung');
-		$this->load->view('templates/header_1');
+		//$this->load->view('templates/header_1');
 		$this->m_pengunjung->count_visitor();
 	}
 	function index(){

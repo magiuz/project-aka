@@ -36,10 +36,6 @@
 </head>
 
 <body>
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
     <section>
         <div class="slider_img layout_two">
             <div id="carousel" class="carousel slide" data-ride="carousel">

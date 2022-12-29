@@ -54,6 +54,7 @@
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                         <a class="dropdown-item" href="<?php echo site_url('guru'); ?>">Guru</a>
                                         <a class="dropdown-item" href="<?php echo site_url('siswa'); ?>">Siswa</a>
+                                        <a class="dropdown-item" href="<?php echo site_url('alumni'); ?>">Alumni</a>
                                         <a class="dropdown-item" href="<?php echo site_url('pengumuman'); ?>">Pengumuman</a>
                                         <a class="dropdown-item" href="<?php echo site_url('agenda'); ?>">Agenda</a>
                                     </div>

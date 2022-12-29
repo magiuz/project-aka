@@ -1,44 +1,49 @@
+<!-- ======= Header ======= -->
 
- 
- <!-- ======= Header ======= -->
- 
- <header id="header" class="d-flex align-items-center">
-    <div class="container d-flex align-items-center justify-content-between">
+<header id="header" class="d-flex align-items-center">
+  <div class="container d-flex align-items-center justify-content-between">
 
-      <div class="logo">
-        <h1 class="text-light"><a href="index.html"><span>Shuffle</span></a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="aset/img/logo.png" alt="" class="img-fluid"></a>-->
-      </div>
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto " href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About Us</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
-          <li><a class="nav-link scrollto" href="#team">Team</a></li>
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
+    <div class="logo">
+      <a href="<?php echo site_url(''); ?>" class="navbar-brand nav-brand2"><img class="img img-responsive" width="200px;" src="theme/images/Logo Al-Kautsar.png"></a>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html"><img src="aset/img/logo.png" alt="" class="img-fluid"></a>-->
     </div>
-  </header><!-- End Header -->
+
+    <nav id="navbar" class="navbar">
+      <ul>
+        <li><a class="nav-link scrollto " href="home">Beranda</a></li>
+        <li><a class="nav-link scrollto" target="blank" href="http://sis.smas-alkautsar.sch.id/">SIS</a></li>
+        <li><a class="nav-link scrollto" href="blog">Blog</a></li>
+        <li class="dropdown"><a href="about"><span>Tentang</span> <i class="bi bi-chevron-down"></i></a>
+          <ul>
+            <li><a href="about">Sambutan</a></li>
+            <li><a href="sejarah">Sejarah</a></li>
+            <li><a href="visi_misi">Visi dan Misi</a></li>
+            <li><a href="struktur">Struktur</a></li>
+          </ul>
+        </li>
+
+        <li class="dropdown"><a href="akademik"><span>Akademik</span> <i class="bi bi-chevron-down"></i></a>
+          <ul>
+            <li><a href="guru">Guru</a></li>
+            <li><a href="siswa">Siswa</a></li>
+            <li><a href="alumni">Alumni</a></li>
+            <li><a href="pengumuman">Pengumuman</a></li>
+            <li><a href="agenda">Agenda</a></li>
+          </ul>
+        </li>
+
+        <li class="dropdown"><a href="menu"><span>Menu</span> <i class="bi bi-chevron-down"></i></a>
+          <ul>
+            <li><a href="download">Download</a></li>
+            <li><a href="galeri">Galeri</a></li>
+            <li><a href="contact">Kontak</a></li>
+          </ul>
+        </li>
+
+      </ul>
+      <i class="bi bi-list mobile-nav-toggle"></i>
+    </nav><!-- .navbar -->
+
+  </div>
+</header><!-- End Header -->

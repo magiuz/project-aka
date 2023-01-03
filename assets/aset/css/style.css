@@ -13,6 +13,11 @@ body {
   color: #334240;
 }
 
+.f_alumni{
+  width: 0px;
+  margin: 0 0px;
+  box-shadow: 0 0 20px 2 rgba(0, 0, 0, 0.1);
+}
 a {
   text-decoration: none;
   color: #1bbca3;

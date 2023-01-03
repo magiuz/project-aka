@@ -13,9 +13,9 @@
               <strong>Email:</strong> smaalkautsarlampung@gmail.com<br>
             </p>
             <div class="social-links mt-3">
-              <a href="https://www.facebook.com/SMAalkautsarbdl/" class="facebook"><i class="bx bxl-facebook"></i></a>
-              <a href="https://www.instagram.com/smaalkautsar/" class="instagram"><i class="bx bxl-instagram"></i></a>
-              <a href="https://www.youtube.com/@smaalkautsarlampung9585/videos" class="youtube"><i class="bx bxl-youtube"></i></a>
+              <a target="blank" href="https://www.facebook.com/SMAalkautsarbdl/" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a target="blank" href="https://www.instagram.com/smaalkautsar/" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a target="blank" href="https://www.youtube.com/@smaalkautsarlampung9585/videos" class="youtube"><i class="bx bxl-youtube"></i></a>
             </div>
           </div>
 

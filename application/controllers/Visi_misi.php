@@ -15,6 +15,7 @@ class visi_misi extends CI_Controller
 		$x['tot_files'] = $this->db->get('tbl_files')->num_rows();
 		$x['tot_agenda'] = $this->db->get('tbl_agenda')->num_rows();
 		$this->load->view('depan/v_visi', $x);
+		$this->load->view('templates/counter');
 		$this->load->view('templates/footer');
 	}
 }

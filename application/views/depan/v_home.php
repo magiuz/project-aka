@@ -339,7 +339,7 @@
             <div class="card">
               <img src="assets/aset/img/more-service-1.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title"><a href="">Autem sunt earum</a></h5>
+                <h5 class="card-title"><a href=""><?php echo $isi_tulisan; ?></a></h5>
                 <p class="card-text">Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore</p>
                 <a href="#" class="btn">Explore more</a>
               </div>

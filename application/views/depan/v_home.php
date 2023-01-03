@@ -63,12 +63,12 @@
         <div class="carousel-inner" role="listbox">
 
           <!-- Slide 1 -->
-          <div class="carousel-item active" style="background-image: url(theme/images/slider-3.jpg);">
+          <div class="carousel-item active" style="background-image: url(theme/images/slider.jpg);">
             <div class="carousel-container">
               <div class="carousel-content">
                 <h2 class="animate__animated animate__fadeInDown">Berpikir Kreatif & Inovatif</span></h2>
                 <p class="animate__animated animate__fadeInUp">Bagi kami kreativitas merupakan gerbang masa depan. Kreativitas akan mendorong motivasi. Itulah yang kami lakukan.</p>
-                <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Learn More</a>
+                <a href="blog" class="btn-get-started animate__animated animate__fadeInUp scrollto">Learn More</a>
               </div>
             </div>
           </div>
@@ -79,18 +79,18 @@
               <div class="carousel-content">
                 <h2 class="animate__animated animate__fadeInDown">Guru Berkualitas Tinggi</h2>
                 <p class="animate__animated animate__fadeInUp">Guru merupakan faktor penting dalam proses belajar-mengajar. Itulah kenapa kami mendatangkan guru-guru terbaik dari berbagai penjuru.</p>
-                <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Learn More</a>
+                <a href="guru" class="btn-get-started animate__animated animate__fadeInUp scrollto">Learn More</a>
               </div>
             </div>
           </div>
 
           <!-- Slide 3 -->
-          <div class="carousel-item" style="background-image: url(theme/images/slider.jpg);">
+          <div class="carousel-item" style="background-image: url(theme/images/slider-3.jpg);">
             <div class="carousel-container">
               <div class="carousel-content">
                 <h2 class="animate__animated animate__fadeInDown">Proses Belajar Interaktif</h2>
                 <p class="animate__animated animate__fadeInUp">Kami membuat proses belajar mengajar menjadi lebih interaktif. Dengan demikian siswa lebih menyukai proses belajar.</p>
-                <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Learn More</a>
+                <a href="galeri" class="btn-get-started animate__animated animate__fadeInUp scrollto">Learn More</a>
               </div>
             </div>
           </div>
@@ -109,7 +109,7 @@
     </div>
   </section><!-- End Hero -->
 
- <!-- ======= Header ======= -->
+  <!-- ======= Header ======= -->
 
 <header id="header" class="d-flex align-items-center">
   <div class="container d-flex align-items-center justify-content-between">

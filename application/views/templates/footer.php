@@ -7,51 +7,59 @@
           <div class="col-lg-3 col-md-6 footer-info">
             <h3>SMA S AL KAUTSAR</h3>
             <p>
-              A108 Adam Street <br>
-              NY 535022, USA<br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+              Bandar Lampung, 35144<br>
+              Lampung, Indonesia<br><br>
+              <strong>Phone:</strong> 0721 781578<br>
+              <strong>Email:</strong> smaalkautsarlampung@gmail.com<br>
             </p>
             <div class="social-links mt-3">
-              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              <a href="https://www.facebook.com/SMAalkautsarbdl/" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="https://www.instagram.com/smaalkautsar/" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="https://www.youtube.com/@smaalkautsarlampung9585/videos" class="youtube"><i class="bx bxl-youtube"></i></a>
             </div>
           </div>
 
           <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
+            <h4>Menu Utama</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="home">Beranda</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="http://sis.smas-alkautsar.sch.id/">SIS</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="blog">Blog</a></li>
             </ul>
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Tentang</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="about">Sambutan</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="sejarah">Sejarah</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="visi_misi">Visi dan Misi</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="struktur">Struktur</a></li>
+            </ul>
+          </li>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Akademik</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="guru">Guru</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="siswa">Siswa</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="alumni">Alumni</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="pengumuman">Pengumuman</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="agenda">Agenda</a></li>
+            </ul>
+          </li>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Menu</h4>
+            <ul>          
+            <li><i class="bx bx-chevron-right"></i> <a href="download">Download</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="galeri">Galeri</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="contact">Kontak</a></li>
             </ul>
           </div>
-
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
-
-          </div>
-
+          
         </div>
       </div>
     </div>

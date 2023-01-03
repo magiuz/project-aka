@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Sejarah</title>
     <link href="assets/aset/img/favicon.png" rel="icon">
-  <link href="assets/aset/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="assets/aset/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <link rel="shorcut icon" href="theme/images/icon.png">
     <!-- Bootstrap CSS -->
@@ -23,19 +23,19 @@
     <link rel="stylesheet" href="theme/css/slick-theme.css">
     <link rel="stylesheet" href="theme/css/owl.carousel.min.css">
 
-     <!-- Google Fonts -->
- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-<!-- Vendor CSS Files -->
-<link href="assets/aset/vendor/animate.css/animate.min.css" rel="stylesheet">
-<link href="assets/aset/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<link href="assets/aset/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-<link href="assets/aset/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-<link href="assets/aset/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-<link href="assets/aset/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link href="assets/aset/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="assets/aset/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/aset/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/aset/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/aset/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/aset/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-<!-- Template Main CSS File -->
-<link href="assets/aset/css/style.css" rel="stylesheet">
+    <!-- Template Main CSS File -->
+    <link href="assets/aset/css/style.css" rel="stylesheet">
     <!-- Main CSS -->
     <link href="theme/css/style.css" rel="stylesheet">
     <?php
@@ -56,137 +56,156 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-9">
-                    <h2>Sejarah Singkat SMA Al Kautsar</h2>
+                    <h2>Sejarah SMA S Al-Kautsar Bandar Lampung</h2>
                 </div>
                 <div class="row pt-8">
                     <div class="col-md-3 align-items-stretch">
                         <img src="theme/images/welcome-img.jpg" class="img-fluid" alt="#">
                     </div>
                     <div class="col-md-9">
-                        <h4><b>Latar Belakang SMA Al Kautsar</b></h2>
-                            <p align="justify" class="lh-base">SMA Al-Kautsar sebagai salah satu sekolah di bawah Naungan Yayasan Al-Kautsar sejak didirikannya bercita-cita menjadi salah satu sekolah terbaik di Lampung bahkan di Indonesia. Semangat itu terus menyala sejak dibangun dan diresmikan oleh Menteri Pendidikan dan Kebudayaan RI Bapak Prof. Dr. Ing. Wardiman Djojonegoro. Akhirnya dalam kurun waktu 5 tahun SMA Al-Kautsar telah menjadi sekolah dambaan dan idaman masyarakat, hal itu terbukti dengan besarnya animo masyarakat untuk menyekolahkan anak-anaknya di SMA Al-Kautsar. Secara mutu juga SMA Al-Kautsar pernah menduduki peringkat 5 jurusan IPS dan peringkat 6 untuk IPA di Propinsi Lampung.
-                                <br>Untuk menjaga semangat dan arah kebijakan sekolah serta dalam rangka menjaga kualitas sekolah sehingga tetap eksis dan survive dalam setiap situasi dan kondisi perubahan, maka sekolah harus memperhatikan beberapa kondisi nyata yaitu:
-                                pertama, Kompetitif artinya adalah bahwa seiring dengan perubahan arah kebijakan pemerintah seperti diberlakukannya otonomi daerah yang berakibat pada berdirinya sekolah-sekolah unggulan di setiap kota/kabupaten maupun propinsi, kebijakan pemerintah dalam bidang pendidikan yang semakin cepat dan berubah-ubah menuntut sekolah untuk memiliki imunitas dan daya saing yang tinggi. Hanya sekolah yang memiliki imunitas dan daya sainglah yang dapat tetap menjadi sekolah yang berkualitas dan menjadi dambaan umat.
-                                Kedua, jaminan mutu artinya adalah bahwa sekolah harus berani memberikan jaminan mutu kepada masyarakat dan seluruh stakeholder bahwa sekolah ini memang benar-benar berkualitas dan layak menjadi pilihan mereka. Setiap prestasi yang diraih sekolah sebisa mungkin diketahui oleh masyarakat melalui media baik media internal maupun eksternal. Perubahan nilai/skor atau biasa disebut gain score dilaporkan kepada orang tua/masyarakat sehingga mereka bisa menilai apakah tujuan mereka menyekolahkan anaknya di SMA Al-Kautsar dapat tercapai atau tidak. Untuk menjaga dan mengawal mutu sekolah, sekolah/perguruan mengupayakan adanya organ penjamin mutu.
-                                Ketiga, otonomi dan efisiensi. Paradigma pendidikan dalam manajemen pendidikan menggunakan pendekatan MBS (Manajemen Berbasis Sekolah) artinya adalah pemerintah memberikan kewenangan lebih luas kepada sekolah untuk merencanakan dan mengelola pendidikan di sekolah, tidak seperti era orde baru yang semua kebijakan pendidikan selalu tergantung kepada pemerintah pusat. Kondisi ini harus bisa dimanfaatkan sebaik mungkin, karena memberikan peluang lebih besar kepada sekolah untuk bisa maju dan berkembang secara lebih cepat. Tetapi otonomi harus dibarengi dengan efisiensi baik keuangan maupun sumber daya manusia, sehingga sekolah memeliki cadangan energi lebih untuk dipergunakan pada situsai dan kondisi yang tepat.
-                                Keempat, transparansi dan akuntabilitas publik. Tuntutan masyarakat sekarang terhadap semua lembaga publik adalah adanya transparansi dan akuntabilitas, artinya adalah lembaga publik harus transparan dalam pengelolaan keuangan dan manajemen lainnya dan dapat dipertanggungjawabkan secara publik.
-                                Perkembangan dan persaingan dalam pendidikan semakin terasa seiring dengan arah kebijakan pemerintah pusat seperti diberlakukannya otonomi daerah, demokratisasi pendidikan yang menyebabkan di setiap kota/kabupaten maupun propinsi berkompetisi untuk mendirikan sekolah unggulan baik negeri maupun swasta. Kondisi ini harus disikapi secara arif dan bijaksana.
+                        <h4><b>Latar Belakang</b></h2>
+                            <p align="justify" class="lh-base">Pada suatu pengajian bulan Januari 1991, di kediaman Bapak Drs. Syamsuddin Thahir, Kakanwil Depag. Propinsi Lampung pada waktu itu, dibahas suatu isu penting bidang pendidikan yaitu : </p>
+                            <ul type="disc">
+                                <li>Relatif rendahnya kualitas sekolah umum dan agama di Propinsi Lampung;</li>
+                                <li>Semakin meningkatnya kecenderungan masyarakat Lampung yang menyekolahkan anak-anaknya ke sekolah unggul di Jakarta, Yogyakarta, dan Bandung;</li>
+                                <li>Relatif tidak tersedianya sekolah umum (plus) bernafaskan Islam yang berkualitas; dan</li>
+                                <li>Semakin beratnya persaingan untuk memasuki sekolah unggulan di Lampung.</li>
+                            </ul>
+
+                            <p align="justify" class="lh-base">Pengajian bulan Februari 1991, di kediaman Bapak Mufti (Kepala BI Cabang Lampung), diputuskan untuk membentuk Tim penyusunan proposal dengan menunjuk Bapak Harris Hasyim (Bappeda), Bapak Abdurachman Yunani (Sekretaris Kelompok Pengajian Al Amal), Bapak Mawardi A.S. (Kanwil Agama), Bapak Muswardi Thaher (Tokoh Agama, anggota DPRD Kotamadya Bandar Lampung), untuk mempersiapkan proposal pendirian sekolah unggulan yang bernafaskan Islam di Lampung.</p>
+                            </p>
+                            <p align="justify" class="lh-base">
+                                Bulan Maret 1991, pada pengajian di rumah Bapak Mukti (Kepala Kejaksaan Tinggi Lampung), draft proposal diajukan dengan perbaikan sebagaimana mestinya. Hal yang penting disepakati adalah, bahwa <i>suatu lembaga pendidikan dasar dan menengah yang bernafaskan Islam dan bermutu di Propinsi Lampung mendesak untuk segera dibangun, dan menunjuk Bapak Syamsuddin Tohir dan Harris Hasyim untuk menghadap Gubernur Bapak Poedjono Pranyoto dan Ny. Sri Mulyati Poedjono Pranyoto, untuk meminta kesediaannya menjadi Dewan Penyantun dan Ketua Yayasan yang akan dibentuk.</i>
+                            </p>
+                            <p align="justify" class="lh-base">
+                                Rencana kerja disusun sebagai langkah persiapan. Langkah pertama yang dilakukan adalah membahas pembukaan sekolah SMP dan SMA yang direncanakan mulai menerima siswa baru pada tahun pelajaran 1991/1992.
+                            </p>
+                            <p align="justify" class="lh-base">
+                                Kemudian pada tahun pelajaran 1991/1992 telah menerima 26 siswa SMA yang dititipkan pada SMAN II Tanjungkarang, dengan nama sekolah <i> <b>Perguruan Nurul Ulum (cahaya utama) </b> </i>. Nama ini dicetuskan oleh Bapak Syamsuddin Tohir (Kakanwil Agama Propinsi Lampung), orang yang paling bersemangat dalam perintisan pembangunan sekolah umum (plus).
+                            </p>
+                            <p align="justify" class="lh-base">
+                                Pada bulan Agustus 1991, ketika Bapak Syamsuddin Tohir dan Bapak Harris Hasyim berkonsultasi dengan Ibu Sri Mulyati Poedjono di kediaman Gubernur, Ibu Sri Mulyati Poedjono meminta disebutkan beberapa alternatif nama, yang akhirnya dipilih nama <b>Al Kautsar</b>. Alasannya karena mencerminkan visi perjuangan ummat dan populer serta layak jual (<i>marketable</i>). Akhirnya nama Nurul Ulum diganti dengan Al Kautsar.
+                            </p>
+                            <p align="justify" class="lh-base">
+                                Pada bulan Agustus 1991, dalam suatu pengajian di rumah kediaman Gubernur Lampung, dilontarkan beberapa calon lokasi kampus yaitu di Way Halim, Eks SKKPI Jl. Jend. Sudirman, tanah milik Pemda di Langkapura, serta di Islamic Centre dan Eks IFAD (Indonesian Food and Agriculture Development). Berdasarkan pertimbangan dalam diskusi tersebut, pilihan utama jatuh pada lokasi tanah milik Pemda eks IFAD. Pilihan ini didukung oleh lokasi yang berdekatan dengan <i>Islamic Centre dan Kampus Unila</i> dan sejalan dengan misi daerah untuk mengembangkan wilayah itu menjadi wilayah pusat keislaman dan pendidikan di Lampung.
+                            </p>
+                            <p align="justify" class="lh-base">
+                                Atas inisiatif Gubernur Poedjono Pranyoto, dalam suatu pengajian rutin, pembangunan Kampus Al Kautsar perlu segera dimulai. Kesepakatan yang ditetapkan adalah:
+                            </p>
+                            <ul type="disc">
+                                <li>Kelompok pengajian Al Amal membuat mandat kepada Ibu Sri Mulyati Poedjono Pranyoto, untuk membentuk dan memimpin Yayasan AL Kautsar</li>
+                                <li>Meminta kesediaan seluruh unsur dan tokoh agama Islam untuk mulai mempromosikan berdirinya Perguruan Al Kautsar dalam berbagai kegiatan dakwah dan mimbar Jumat.</li>
+                                <li>Meminta dukungan seluruh aparatur pemerintah yang beragama Islam unrtuk bergortong royong mendukung pembangunannya.</li>
+                                <li>Meminta dukungan Pemda Kabupaten dan Kotamadya untuk membantu mempercepat pendidirian kampus.</li>
+                                <li>Mengusulkan kepada Pemerintah Daerah Tingkat I Lampung untuk mendukung pembangunan kampus secara bertahap melalui dukungan APBD.</li>
+                                <li>Menugaskan kepada Ibu Sri Mulyati Poedjono untuk menghimpun dana masyarakat dan swasta bagi pembangunan kampus.</li>
+
+                            </ul>
+                            <br>
+
+                            <h4><b>Berdirinya Yayasan Al Kautsar</b></h4>
+                            <p align="justify" class="lh-base">Pada tanggal 16 November 1991, berdasarkan keputusan pengajian Al Amal di rumah Bapak A. Mukti, Kajati Propinsi Lampung pada waktu itu, ditetapkan pendirian Yayasan Al Kautsar dengan surat <b>Pernyataan Kesepakatan/Mandat Nomor: Khusus/Al Amal/I/1991 tanggal 16 Nopember 1991 </b> susunan sebagai berikut :
+                            <ul type="disc">
+                                <li>Poedjono Pranyoto, Gubernur Prop. Lampung sebagai Pelindung;</li>
+                                <li>Ibu Sri Mulyati Poedjono Pranyoto, Isteri Gubernur sebagai Ketua;</li>
+                                <li>Man Hasan, Wakil Gubernur Prop. Lampung sebagai Anggota;</li>
+                                <li>Fauzi Saleh, Sekwilda Prop. Lampung sebagai Anggota;</li>
+                                <li>Alhusniduki Hamim, SE., M.Sc., Rektor UNILA sebagai Anggota;</li>
+                                <li>Harris Hasyim, M.A., Bappeda Prop. Lampung sebagai Sekretaris.</li>
+                            </ul>
+                            </p>
+                            <p align="justify" class="lh-base">
+                                Kemudian Pengurus Perguruan Al Kautsar dibentuk dengan SK Ketua Yayasan Al Kautsar <b>No: 001/I/SK/YPD/1991 tanggal 16 Januari 1992</b>. Tanggal 16 Januari 1992 ditetapkan sebagai hari jadi Yayasan Al Kautsar.
                             </p>
                             <br>
 
-                            <h4><b>Perkembangan Sekolah</b></h4>
-                            <p align="justify" class="lh-base">SMA Al-Kautsar pertama kali menerima murid pada tahun 1993/1994. Sebagai sekolah yang baru berdiri dan belum dikenal oleh masyarakat menyebabkan adanya kekhawatiran dari pengurus Yayasan tentang ada tidaknya minat masyarakat menyekolahkan anaknya di SMA Al-Kautsar, sehingga pada tahun itu kebijakannya adalah 10 calon murid pendaftar pertama langsung diterima. Berkat penyebaran informasi secara langsung ke sekolah-sekolah seperti Kalianda, Metro/lampung Tengah, Kotabumi dan Pringsewu maka pada tahun pertama mendapatkan siswa sebanyak kurang lebih 210 orang, yang pada waktu itu masih menyatu dengan SMP Al-Kautsar baik gedung maupun guru dan karyawannya. Yang unik pada tahun itu adalah hingga penataran P4 selesai sekolah belum memiliki Kepala Sekolah.
-                                Tahun 1994-1996 sekolah sering mendapat kunjungan para menteri seperti Menteri Pendidikan dan Kebudayaan RI, Menteri Riset dan Teknologi RI, Menteri Agama RI dan pejabat-pejabat pusat lainnya. Prestasi demi prestasi diraih oleh SMA Al-Kautsar baik pada bidang akademis maupun non akademis di Bandar Lampung maupun Lampung bahkan pada event nasional.
-                                Memasuki tahun 2002/2003 SMA Al-Kautsar memasuki babak baru dengan dibukanya kelas unggul akademis. Dari kelas unggul inilah akhirnya perkembangan sekolah mengalami kemajuan yang cukup pesat, bahkan bisa dikatakan sejajar dengan sekolah-sekolah favorit di Lampung seperti SMAN 2 dan SMA Xaverius pada beberapa bidang. Dilihat dari presentase kelulusan dan siswa yang diterima di PTN atau PTS favorit pun dari tahun ke tahun mengalami perkembangan yang sangat tajam. Sukses dalam pengelolaan kelas unggul, maka pada tahun pelajaran 2004/2005 SMA Al-Kautsar membuka kelas Plus. Target dari kelas ini adalah mampu menyamai prestasi dari kelas unggul dengan dukungan sarana dan prasarana, yang saat ini bernama kelas Bilingual yang sedang berupaya menuju tingkat kelas Internasional dengan manajement dan kurikulum serta pengelolaannya mengacu pada program sekolah internasional, oleh karena itu perlu adanya dukungan dari semua pihak khususnya Yayasan Al-Kautsar terkait dengan pendanaannya.
+                            <h4><b>Pembangunan Kampus Al Kautsar</b></h4>
+                            <ul type="disc">
+                                <li>Peletakan batu pertama pembangunan Kampus Perguruan Al Kautsar dilakukan oleh Gubernur Propinsi Lampung, Poedjono Pranyoto dengan suatu upacara sederhana yang hidmat pada tanggal 20 Agustus 1992. Ibu Sri Mulyati Poedjono dibawah siraman hujan menanam beringin putih (depan gedung SMP)</li>
+                                <li>Program pembangunan fisik yang pertama ditetapkan dengan dana Pemda dengan dukungan DPRD Propinsi Tingkat I Lampung yang dipimpin oleh Bp. Sundoro Brotoatmodjo dan dilanjutkan kemudian dengan dukungan penuh dari DPRD Propinsi Tk.I Lampung yang dipimpin oleh Bp. Kariyotomo.</li>
+                                <li>Proses pembangunan lantai II dan III dan selanjutnya sangat unik dan heroik. Pada suatu pengajian Al Amal bulan Januari dan Februari 1993, Bapak. Drs. Syamsuddin Tohir menghimbau agar semua unsur pengajian memberikan perhatian dan menyumbangkan pemikiran tenaga dan dana untuk membangun kampus ini. Beliau sendiri mengusulkan agar 3 bulan tunjangan struktural seluruh pegawai Kanwil Agama menginfakkannya untuk pembangunan Kampus Al Kautsar.</li>
+                                <li>Hampir seluruh Kepala Dinas dan Instansi Propinsi menyumbang rata-rata Rp.15-25 juta dan para Bupati menyumbangkan dananya melalui APBD sebesar Rp.25-30 juta.</li>
+                                <li>Walikota Kotamadya Bandar Lampung, Bapak Drs. Suharto (pada periode waktu itu, Drs. Muswardi Thaher duduk sebagai anggota DPRD Kotamadya Bandar Lampung periode 1988-1999), menyumbangkan pembangunan jembatan penyeberangan dari Kampus Al Kautsar ke kompleks Islamic Centre senilai Rp.295 juta melalui APBD Kotamadya.</li>
+                            </ul>
+                            <br>
+
+                            <h4><b>Dukungan Swasta dan Masyarakat</b></h4>
+                            <p align="justify" class="lh-base">Berkat promosi yang dilakukan oleh Gubernur Bapak Poedjono Pranyoto kepada kalangan swasta di Lampung dan Jakarta, sumbangan yang cukup besar diterima oleh Yayasan Al Kautsar dari PT. Salim Grup Jakarta, PT. Dipasena Citra Darmaja (DCD), PT. Great Giant Pine Apple (GGPC) , PT. Citra Pertiwi Bratasena (CPB), dan oleh Ibu Sri Mulyati Poedjono sendiri yang membangun TK Al Kautsar atas nama pribadinya, serta PT.Tiga Satu (31) yang dipimpin oleh Bp. Faisol Djausal menyumbangkan dana pembangunan melengkapi pembangunan gedung SD.</p>
                             </p>
                             <br>
 
-                            <h4><b>Visi, Misi dan Faktor Penentu Keberhasilan</b></h4>
+                            <h4><b>SMA S Al Kautsar</b></h4>
+                            <p align="justify" class="lh-base">
+                                SMA S Al Kautsar sebagai salah satu sekolah di bawah Naungan Yayasan Al Kautsar sejak didirikannya bercita-cita menjadi salah satu sekolah terbaik di Lampung bahkan di Indonesia. Semangat itu terus menyala sejak dibangun dan diresmikan oleh Menteri Pendidikan dan Kebudayaan RI Bapak Prof. Dr. Ing. Wardiman Djojonegoro. Akhirnya dalam kurun waktu 5 tahun SMA Al Kautsar telah menjadi sekolah dambaan dan idaman masyarakat, hal itu terbukti dengan besarnya animo masyarakat untuk menyekolahkan anak-anaknya di SMA S Al Kautsar. Secara mutu juga SMA S Al Kautsar pernah menduduki peringkat 5 jurusan IPS dan peringkat 6 untuk IPA di Propinsi Lampung.
+                            </p>
+                            <p align="justify" class="lh-base"> SMA S Al Kautsar pertama kali menerima murid pada tahun 1993/1994. Sebagai sekolah yang baru berdiri dan belum dikenal oleh masyarakat menyebabkan adanya kekhawatiran dari pengurus Yayasan tentang ada tidaknya minat masyarakat menyekolahkan anaknya di SMA Al kautsar, sehingga pada tahun itu kebijakannya adalah 10 calon murid pendaftar pertama langsung diterima. Berkat penyebaran informasi secara langsung ke sekolah-sekolah seperti Kalianda, Metro/lampung Tengah, Kotabumi dan Pringsewu maka pada tahun pertama mendapatkan siswa sebanyak kurang lebih 210 orang, yang pada waktu itu masih menyatu dengan SMP Al Kautsar baik gedung maupun guru dan karyawannya, yang unik pada tahun itu adalah hingga penataran P4 selesai sekolah belum memiliki Kepala Sekolah
+                            </p>
+                            <p align="justify" class="lh-base">Tahun 1994-1996 sekolah sering mendapat kunjungan para menteri seperti Menteri Pendidikan dan Kebudayaan RI, Menteri Riset dan Teknologi RI, Menteri Agama RI dan pejabat-pejabat pusat lainnya. Prestasi demi prestasi diraih oleh SMA S Al Kautsar baik pada bidang akademis maupun non akademis di Bandar Lampung maupun Lampung bahkan pada event nasional.
+                            </p>
+                            <p align="justify" class="lh-base">
+                                Memasuki tahun 2002/2003 SMA S Al Kautsar memasuki babak baru dengan dibukanya kelas unggul akademis. Dari kelas unggul inilah akhirnya perkembangan sekolah mengalami kemajuan yang cukup pesat, bahkan bisa dikatakan sejajar dengan sekolah-sekolah vafourit di Lampung seperti SMAN 2 dan SMA Xaverius pada beberapa bidang. Dilihat dari prosentase kelulusan dan siswa yang diterima di PTN atau PTS vafouritpun dari tahun ke tahun mengalami perkembangan yang sangat tajam. Sukses dalam pengelolaan kelas unggul, maka pada tahun pelajaran 2004/2005 SMA Al-Kautsar membuka kelas Plus.
+                                <br>
+                                Saat ini SMA S Al Kautsar telah meluluskan siswa kurang lebih 8000 siswa dam kepala SMA S Al Kautsar dari periode ke periode sebagai berikut:
+                            <ul type="disc">
+                                <li>Drs. Zainal (periode 1993 - 1995)</li>
+                                <li>Drs. Abdul Sani Djuned (periode 1995 -1996)</li>
+                                <li>Drs. Ali Imron, M.Sc. (periode 1996 – 2004 )</li>
+                                <li>Drs. H. Sunardi (periode 2005 - 2012)</li>
+                                <li>Drs. H. Joko Santoso (periode 2012 -2015)</li>
+                                <li>Drs. H. Sukijo, M.Pd. (periode 2015 - 2015) </li>
+                                <li>H. Eko Anzair, M.Si. (periode 2015 s.d Sekarang)</li>
+                            </ul>
+                            </p>
+                            <p align="justify" class="lh-base">
+                                Di bawah ini profil SMA S Al Kautsar Bandarlampung saat ini sebagai dasar penyusunan program kerja tahunan sebagai berikut:
+                            </p>
 
-                            <p><b>3.1. Visi</b></p>
-                            <p align="justify" class="lh-base">Dalam mewujudkan visi perguruan yaitu ”Al-Kautsar perguruan unggul islami berwawasan global” maka disusunlah Visi SMA Al-Kautsar yaitu Mewujudkan sekolah yang Unggul, Islami dan berwawasan Global</p>
+                            <p><b>a. Nama dan Alamat Sekolah</b></p>
+                            <ol>
+                                <li>Nama Sekolah &emsp; &emsp; &emsp; &emsp; &ensp;: SMA S Al Kautsar</li>
+                                <li>Nomor Statistik Sekolah &emsp;: 302126010040</li>
+                                <li>Tahun Berdiri &emsp; &emsp; &emsp; &emsp;&ensp;&ensp;: 1992</li>
+                                <li>Status &emsp; &emsp; &emsp; &emsp; &emsp;&emsp;&emsp;&emsp;&nbsp;: Swasta</li>
+                                <li>Alamat Sekolah &emsp; &emsp; &emsp;&ensp;&ensp;&nbsp;&nbsp;:
+                                    <ul type="square">
+                                        <li>Jalan &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp;: Soekarno-Hatta</li>
+                                        <li>Kelurahan &emsp; &emsp; &emsp; &ensp; &nbsp; &nbsp;: Rajabasa</li>
+                                        <li>Kecamatan &emsp; &emsp; &ensp; &ensp; &nbsp; &nbsp;: Rajabasa</li>
+                                        <li>Kabupaten/Kota &emsp; &nbsp; &nbsp;: Kota Bandar Lampung</li>
+                                        <li>Propinsi &emsp; &emsp; &emsp; &emsp; &ensp; &nbsp;: Lampung</li>
+                                        <li>Kode Pos &emsp; &emsp; &ensp; &ensp; &ensp; &nbsp; &nbsp;: 35144</li>
+                                        <li>Telepon &emsp; &emsp; &emsp; &ensp; &ensp; &ensp; : (0721) 781578</li>
+                                    </ul>
+                                </li>
+                            </ol>
 
-                            <p><b>3.2. Misi</b></p>
-                            <p>Untuk mencapai visi tersebut maka misi sekolah adalah : </p>
-                            <p>a. Meningkatkan pengetahuan , pemahaman dan pengamalan keislaman kepada seluruh warga sekolah dalam kehidupan sehari-hari </p>
-                            <p>b. Meningkatkan kompetensi guru dan karyawan dengan pengetahuan dan ketrampilan yang dibutuhkan dalam pelaksanaan tugas dan kewajiban</p>
-                            <p>c. Mewujudkan sekolah sebagai tempat yang kondusif bagi berlangsungnya kegiatan belajar mengajar </p>
-                            <p>d. Melengkapi sarana dan prasarana yang dibutuhkan untuk tumbuh dan berkembangnya bakat dan potensi anak didik</p>
-
-                            <p><b>3.3. Nilai</b></p>
-                            <p align="justify" class="lh-base">Nilai (value) adalah norma-norma atau prinsip-prinsip agung yang menjadi acuan semua elemen dalam lembaga atau organisasi untuk membangun sikap dalam mencapai visi atau misi yang telah dirumuskan. Nilai-nilai yang terus dipertahankan dan ditingkatkan khususnya di lingkungan SMA Al-Kautsar adalah : </p>
-
-                            <p>a. <i>Credibility </i> yaitu selalu jujur kepada diri sendiri, orang lain dan kepada Allah Swt </p>
-                            <p>b. <i>Togetherness </i> yaitu semangat kebersamaan dalam setiap situasi dan kondisi</p>
-                            <p>c. <i>Emphaty </i> yaitu merasakan masalah yang dihadapi orang lain </p>
-                            <p>d. <i>Assit </i> yaitu kesediaan untuk ikhlas membantu orang lain</p>
-                            <p>e. <i>Maturity </i> yaitu kematangan dalam dalam menghadapi permasalahan</p>
-                            <p>f. <i>Respect </i> yaitu saling hormat menghormati antar sesama</p>
-                            <p>g. <i>Kindness </i> yaitu prilaku sopan, santun, rendah hati dan menciptakan suasana kesejukan</p>
-                            <p>h. <i>Integrity </i> yaitu tidak mudah terpengaruh untk melaksanakan prilaku menyimpang</p>
-                            <p>i. <i>Inovative </i> yaitu selalu berupaya menciptakan sesuatu yang baru dan bermanfaat bagi lembaga dan organisasi</p>
-                            <p>j. <i>Advantage </i> yaitu memiliki keyakinan untuk menjadi yang terbaik</p>
-                            <p>k. <i>Flexibility </i> yaitu tidak kaku dalam menyikapi suatu permasalahan</p>
-                            <p>l. <i>Wisdom </i> yaitu memiliki kearifan dalam bertindak dan berprilaku</p>
+                            <p><b>b. Personalia SMA S Al Kautsar Bandar Lampung</b></p>
+                            <ul type="none">
+                                <li>Nama Kepala Sekolah &emsp; &nbsp; &nbsp;: H. Eko Anzair, M.Si</li>
+                                <li>NIP/ NUPTK &emsp; &emsp; &emsp; &emsp; &nbsp; &nbsp;: 4634750651200012</li>
+                                <li>Pangkat/Golongan &emsp; &emsp; &ensp;: Pembina Tk. I/ IV b</li>
+                                <li>Pendidikan &emsp; &emsp; &emsp; &ensp; &ensp; &nbsp; &nbsp; &nbsp;: S-2/ Fisika</li>
+                                <li>Tempat/Tgl Lahir &emsp; &ensp; &ensp; &nbsp; &nbsp;: Tangsi Lontar, 02 Maret 1972</li>
+                                <li>Alamat Rumah &emsp; &emsp; &emsp; &ensp; &nbsp; &nbsp;: Perum Wismamas Kemiling Blok G1 No. 15
+                                    <ul type="square">
+                                        <li>Jalan &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp;: Tengku Cik Ditiro</li>
+                                        <li>Kelurahan &emsp; &emsp; &emsp; &emsp; &nbsp;: Beringin Raya</li>
+                                        <li>Kecamatan &emsp; &emsp; &emsp; &ensp; &nbsp;: Kemiling</li>
+                                        <li>Kabupaten/ Kota &ensp; &ensp; &nbsp;: Kota Bandar Lampung</li>
+                                        <li>Propinsi &emsp; &emsp; &emsp; &emsp; &ensp; &nbsp;: Lampung</li>
+                                        <li>Kode Pos &emsp; &emsp; &emsp; &ensp; &ensp; &nbsp;: 35158</li>
+                                        <li>Handphone &emsp; &emsp; &emsp; &nbsp; &nbsp;: 08127905304</li>
+                                    </ul>
+                                </li>
+                            </ul>
 
                     </div>
                 </div>
-
-
-
-
-                <!--<li>1. Menjadikan sekolah berprestasi di bidang akademik dan nonakademik di tingkat nasional</li>-->
-                <!--<li>2. Meningkatkan kompetensi pendidik dan tenaga kependidikan</li>-->
-                <!--<li>3. Mewujudkan sarana dan prasarana sekolah yang lengkap, modern dan berwawasan lingkungan</li>-->
-                <!--<li>4. Mewujudkan pendidikan yang berkarakter dengan mengintegrasikan nilai keislaman ke dalam proses pembelajaran.</li>-->
-                <!--<li>5. Membentuk peserta didik yang berkarakter dan berjiwa kepemimpinan islami</li>-->
-                <!--<li>6. Mewujudkan sistem pengelolaan sekolah dengan berbasis teknologi, informasi dan komunikasi</li>-->
-                <!--<li>7. Meningkatkan kemampuan literasi warga sekolah</li>-->
-                <!--<li>8. Mewujudkan lulusan berwawasan global serta mampu melanjutkan pendidikan di dalam dan luar negeri</li>-->
-                <!--<li>9. Menjalin kerja sama dengan orang tua, masyarakat, pemerintah dan stakeholder untuk peningkatan mutu pendidikan.</li><br>-->
-
-
-
-
-
-
-                <!-- <div>
-                        <img src="?php echo base_url() . 'document/Visi Misi SMA S Al Kautsar_001.png' ?>" alt="#">
-                        <img src="?php echo base_url() . 'document/Visi Misi SMA S Al Kautsar_002.png' ?>" alt="#">
-                        <img src="?php echo base_url() . 'document/Visi Misi SMA S Al Kautsar_003.png' ?>" alt="#">
-                    </div> -->
-
 
             </div>
         </div>
     </section>
-    <!--//END WELCOME TITLE -->
-    <!--============================= TESTIMONIAL =============================-->
 
-    <!--//END TESTIMONIAL -->
-    <!--============================= DETAILED CHART =============================-->
-    <div class="detailed_chart">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-3 chart_bottom">
-                    <div class="chart-img">
-                        <img src="theme/images/chart-icon_1.png" class="img-fluid" alt="chart_icon">
-                    </div>
-                    <div class="chart-text">
-                        <p><span class="counter"><?php echo $tot_guru; ?></span> Guru
-                        </p>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-3 chart_bottom chart_top">
-                    <div class="chart-img">
-                        <img src="theme/images/chart-icon_2.png" class="img-fluid" alt="chart_icon">
-                    </div>
-                    <div class="chart-text">
-                        <p><span class="counter"><?php echo $tot_siswa; ?></span> Siswa
-                        </p>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-3 chart_top">
-                    <div class="chart-img">
-                        <img src="theme/images/chart-icon_3.png" class="img-fluid" alt="chart_icon">
-                    </div>
-                    <div class="chart-text">
-                        <p><span class="counter"><?php echo $tot_files; ?></span> Download
-                        </p>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-3">
-                    <div class="chart-img">
-                        <img src="theme/images/chart-icon_4.png" class="img-fluid" alt="chart_icon">
-                    </div>
-                    <div class="chart-text">
-                        <p><span class="counter"><?php echo $tot_agenda; ?></span> Agenda</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--//END DETAILED CHART -->
 
     <!-- jQuery, Bootstrap JS. -->
     <script src="theme/js/jquery.min.js"></script>

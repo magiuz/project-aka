@@ -6,7 +6,7 @@ class Contact extends CI_Controller
     parent::__construct();
     $this->load->model('m_kontak');
     $this->load->model('m_pengunjung');
-    $this->load->view('templates/header');
+    $this->load->view('templates/header_1');
     $this->m_pengunjung->count_visitor();
   }
   function index()

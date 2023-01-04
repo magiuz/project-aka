@@ -52,7 +52,9 @@ class Blog extends CI_Controller
 	function detail($slugs)
 	{
 		$slug = htmlspecialchars($slugs, ENT_QUOTES);
+		$gambar = [];
 		$query = $this->db->get_where('tbl_tulisan', array('tulisan_slug' => $slug));
+
 		if ($query->num_rows() > 0) {
 			$b = $query->row_array();
 			$kode = $b['tulisan_id'];

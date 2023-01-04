@@ -24,7 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 /*$config['base_url'] = 'https://smas-alkautsar.sch.id'; */
-$config['base_url'] = 'http://localhost/alkautsar-project';
+$config['base_url'] = 'http://localhost/project-aka';
 
 /*
 |--------------------------------------------------------------------------

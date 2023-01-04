@@ -434,7 +434,7 @@
                     <div class="row portfolio-container">
 
                         <?php $i = 0;
-        foreach ($isi_berita->result() as $row){
+        foreach ($isi_gambar->result() as $row){
           $i++;
           if ($i > 3){
             break;
@@ -442,13 +442,13 @@
 
                         <div class="col-lg-4 col-md-4 portfolio-item filter-app">
                             <div class="portfolio-wrap">
-                                <img src="assets/images/<?= $row->tulisan_gambar; ?>" class="img-fluid" alt="">
+                                <img src="assets/images/<?= $row->galeri_gambar; ?>" class="img-fluid" alt="">
                                 <div class="portfolio-info">
-                                    <h4><?= $row->tulisan_judul; ?></h4>
+                                    <h4><?= $row->galeri_judul; ?></h4>
                                 </div>
                                 <div class="portfolio-links">
-                                    <a href="assets/images/<?= $row->tulisan_gambar; ?>" data-gallery="portfolioGallery"
-                                        class="portfolio-lightbox" title="<?= $row->tulisan_judul; ?>"><i
+                                    <a href="assets/images/<?= $row->galeri_gambar; ?>" data-gallery="portfolioGallery"
+                                        class="portfolio-lightbox" title="<?= $row->galeri_judul; ?>"><i
                                             class="bx bx-info-circle"></i></a>
 
                                     <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app">

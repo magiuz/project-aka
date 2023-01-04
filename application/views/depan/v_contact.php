@@ -87,7 +87,7 @@
                         <div class="col-lg-6 info d-flex flex-column align-items-stretch">
                             <i class="bx bx-time-five"></i>
                             <h4>Jam Kerja</h4>
-                            <p>Senin - Jumat: 07.00 - 16.00</p>
+                            <p>Senin - Jumat: 07.00 - 16.00 WIB</p>
                         </div>
 
                     </div>
@@ -131,12 +131,6 @@
                 </div>
 
             </div>
-
-
-
-
-
-
 
         </div>
 

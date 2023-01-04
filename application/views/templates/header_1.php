@@ -14,7 +14,7 @@
         <li><a class="nav-link scrollto " href="home">Beranda</a></li>
         <li><a class="nav-link scrollto" target="blank" href="http://sis.smas-alkautsar.sch.id/">SIS</a></li>
         <li><a class="nav-link scrollto" href="blog">Blog</a></li>
-        <li class="dropdown"><a href="about"><span>Tentang</span> <i class="bi bi-chevron-down"></i></a>
+        <li class="dropdown"><a href="#"><span>Tentang</span> <i class="bi bi-chevron-down"></i></a>
           <ul>
             <li><a href="about">Sambutan</a></li>
             <li><a href="sejarah">Sejarah</a></li>
@@ -23,7 +23,7 @@
           </ul>
         </li>
 
-        <li class="dropdown"><a href="akademik"><span>Akademik</span> <i class="bi bi-chevron-down"></i></a>
+        <li class="dropdown"><a href="#"><span>Akademik</span> <i class="bi bi-chevron-down"></i></a>
           <ul>
             <li><a href="guru">Guru</a></li>
             <li><a href="siswa">Siswa</a></li>
@@ -33,7 +33,7 @@
           </ul>
         </li>
 
-        <li class="dropdown"><a href="menu"><span>Menu</span> <i class="bi bi-chevron-down"></i></a>
+        <li class="dropdown"><a href="#"><span>Menu</span> <i class="bi bi-chevron-down"></i></a>
           <ul>
             <li><a href="download">Download</a></li>
             <li><a href="galeri">Galeri</a></li>

@@ -55,7 +55,8 @@
 
         <div class="section-title">
           <h2>Alumni</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>SMA S Al Kautsar melahirkan banyak siswa berprestasi membanggakan yang tersebar di seluruh Indonesia.</p>
+          <p>Apa kata mereka tentang SMA S Al Kautsar?</p>
         </div><br>
 
         <div class="row">
@@ -64,14 +65,14 @@
           </div>
           <div class="col-lg-10 col-md-6 content">
             <h3>Kemas Rayhan Muhammad</h3>
-            <p><strong>Universitas Gajah Mada</strong></p>
+            <p><strong>Universitas Gadjah Mada</strong></p>
             <p align="justify">
             Salah satu diferensiasi utama yang dimiliki oleh SMA S Al Kautsar adalah budaya Islaminya yang benar-benar terasa di lingkungan sekolah, seperti budaya salam, seluruh siswa yang diwajibkan menutup aurat, dan muatan lokal yang  mendukung penerapan nilai-nilai Islami di sekolah. 
             Budaya yang diterapkan oleh SMA S Al-Kautsar juga mendukung prestasi akademik siswa. Hal ini telah terbukti dengan banyaknya kejuaraan yang telah dimenangkan oleh siswa SMA S Al-Kautsar dibidang akademik maupun non akademik.
             </p>
           </div>
         </div><br><br><br>
-
+        
         <div class="row">
           <div class="col-lg-2 col-md-6">
             <img src="theme/images/alumni.jpg" class="img-fluid" alt="#">
@@ -100,7 +101,33 @@
           </div>
         </div><br><br><br>
 
+        <div class="row">
+          <div class="col-lg-2 col-md-6">
+            <img src="theme/images/alumni-4.jpg" class="img-fluid" alt="#">
+          </div>
+          <div class="col-lg-10 col-md-6 content">
+            <h3>Jerlina Wardani</h3>
+            <p><strong>Poltekbang Surabaya</strong></p>
+            <p align="justify">
+            Kualitas pendidikan dapat dilihat dari bagaimana guru mampu mengarahkan siswa dalam menggali potensi diri SMA S Al Kautsar membuktikannya. Lingkungan belajar yang mendukung membuat saya semangat dalam menggapai mimpi saya ditunjang dengan fasilitas juga program dari SMA S Al Kautsar mengenai motivasi, dengan nuansa islami, alkautsar mampu membuat saya ingin kembali.
+            Gak nyesel deh sekolah di SMA S Al Kautsar
+            </p>
+          </div>
+        </div><br><br><br>
 
+        <div class="row">
+          <div class="col-lg-2 col-md-6">
+            <img src="theme/images/alumni-5.jpg" class="img-fluid" alt="#">
+          </div>
+          <div class="col-lg-10 col-md-6 content">
+            <h3>Aisyah Syahrini</h3>
+            <p><strong>Universitas Negeri Jakarta</strong></p>
+            <p align="justify">
+            SMA S Al Kautsar mampu memberikan lingkungan sekolah dan belajar mengajar yang tertib berdasarkan ajaran Islam bersamaan dengan memberikan setiap pihak yang terlibat, dari guru, karyawan, hingga siswa siswinya kebebasan untuk eksplor dan mengekspresikan dirinya. 
+            Hal tersebut memberikan kesan baik untuk mengenali diri dari segi manusiawi tanpa meninggalkan kewajiban kita sebagai hamba Allah SWT. 
+            </p>
+          </div>
+        </div>
         
 
         

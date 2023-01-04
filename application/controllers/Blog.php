@@ -48,6 +48,7 @@ class Blog extends CI_Controller
 		$x['category'] = $this->db->get('tbl_kategori');
 		$x['populer'] = $this->db->query("SELECT * FROM tbl_tulisan ORDER BY tulisan_views DESC LIMIT 5");
 		$this->load->view('depan/v_blog', $x);
+		$this->load->view('templates/footer');
 	}
 	function detail($slugs)
 	{

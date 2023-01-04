@@ -182,49 +182,48 @@
             </div>
         </section><!-- End About Us Section -->
 
-        <!-- ======= Our Services Section ======= -->
+        <!-- ======= Alumni ======= -->
         <section id="services" class="services">
             <div class="container">
 
                 <div class="section-title">
                     <h2>Alumni</h2>
-                    <p>Apa kata mereka tentang SMA S Al-Kautsar ?</p>
+                    <p>Apa kata mereka tentang SMA S Al-Kautsar?</p>
                 </div>
 
                 <div class="row">
                     <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
                         <div class="icon-box">
-                            <div class="icon"><i class="bx bxl-dribbble"></i></div>
-                            <h4 class="title"><a href="">Kemas</a></h4>
-                            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias
-                                excepturi</p>
+                            <div class="icon"><i class="bx bx-user"></i></div>
+                            <h4 class="title"><a href="alumni">Kemas</a></h4>
+                            <p class="description">Salah satu diferensiasi utama yang dimiliki oleh SMA S Al Kautsar 
+                                adalah budaya Islaminya yang benar-benar terasa di lingkungan sekolah</p>
                         </div>
                     </div>
 
                     <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
                         <div class="icon-box">
-                            <div class="icon"><i class="bx bx-file"></i></div>
-                            <h4 class="title"><a href="">Kemas</a></h4>
-                            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                                dolore</p>
+                            <div class="icon"><i class="bx bx-user"></i></div>
+                            <h4 class="title"><a href="alumni">Meutia</a></h4>
+                            <p class="description">SMA S Al-Kautsar punya lingkungan belajar yang seru dan menarik baik dari guru, teman, 
+                                maupun staf sekolah lainnya</p>
                         </div>
                     </div>
 
                     <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
                         <div class="icon-box">
-                            <div class="icon"><i class="bx bx-tachometer"></i></div>
-                            <h4 class="title"><a href="">Kemas</a></h4>
-                            <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                                officia</p>
+                            <div class="icon"><i class="bx bx-user"></i></div>
+                            <h4 class="title"><a href="alumni">Salma</a></h4>
+                            <p class="description">Masuk ke SMA S Al Kautsar adalah salah satu pilihan terbaik yang pernah aku buat 
+                                selama hidup aku</p>
                         </div>
                     </div>
 
                     <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
                         <div class="icon-box">
-                            <div class="icon"><i class="bx bx-world"></i></div>
-                            <h4 class="title"><a href="">Kemas</a></h4>
-                            <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                                blanditiis</p>
+                            <div class="icon"><i class="bx bx-user"></i></div>
+                            <h4 class="title"><a href="alumni">Jerlina</a></h4>
+                            <p class="description">Gak nyesel deh sekolah di SMA S Al Kautsar</p>
                         </div>
                     </div>
 
@@ -312,7 +311,7 @@
                                     <h5 class="card-title"><a href=""><?= $row->tulisan_judul; ?></a></h5>
                                     <p class="card-text" style="text-align: justify">
                                         <?= substr($row->tulisan_isi, 3, 180); ?> ...</p>
-                                    <a href="#" class="btn">Explore more</a>
+                                    <a href="blog" class="btn">Explore more</a>
                                 </div>
                             </div>
                         </div>
@@ -445,9 +444,6 @@
                                 </div>
                             </div>
                         <?php } ?>
-
-
-
                     </div>
                 </div>
         </section><!-- End Galeri Section -->

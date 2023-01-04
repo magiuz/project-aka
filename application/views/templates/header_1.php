@@ -20,6 +20,7 @@
             <li><a href="sejarah">Sejarah</a></li>
             <li><a href="visi_misi">Visi dan Misi</a></li>
             <li><a href="struktur">Struktur</a></li>
+            <li><a href="saranaprasarana">Sarana Prasarana</a></li>
           </ul>
         </li>
 

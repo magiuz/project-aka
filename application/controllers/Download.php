@@ -20,7 +20,7 @@ class Download extends CI_Controller{
 		$q=$get_db->row_array();
 		$file=$q['file_data'];
 		$path='./assets/files/'.$file;
-		$data = file_get_contents($path);
+		$data = file_get_contents($path); 
 		$name = $file;
 		force_download($name, $data);
 	}

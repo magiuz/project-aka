@@ -25,9 +25,7 @@
     <link rel="stylesheet" href="theme/css/owl.carousel.min.css">
 
     <!-- Google Fonts -->
-    <link
-        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
     <!-- Vendor CSS Files -->
     <link href="assets/aset/vendor/animate.css/animate.min.css" rel="stylesheet">
@@ -73,8 +71,7 @@
                                 </h2>
                                 <p class="animate__animated animate__fadeInUp">Bagi kami kreativitas merupakan gerbang
                                     masa depan. Kreativitas akan mendorong motivasi. Itulah yang kami lakukan.</p>
-                                <a href="blog"
-                                    class="btn-get-started animate__animated animate__fadeInUp scrollto">Learn More</a>
+                                <a href="blog" class="btn-get-started animate__animated animate__fadeInUp scrollto">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -87,8 +84,7 @@
                                 <p class="animate__animated animate__fadeInUp">Guru merupakan faktor penting dalam
                                     proses belajar-mengajar. Itulah kenapa kami mendatangkan guru-guru terbaik dari
                                     berbagai penjuru.</p>
-                                <a href="guru"
-                                    class="btn-get-started animate__animated animate__fadeInUp scrollto">Learn More</a>
+                                <a href="guru" class="btn-get-started animate__animated animate__fadeInUp scrollto">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -100,8 +96,7 @@
                                 <h2 class="animate__animated animate__fadeInDown">Proses Belajar Interaktif</h2>
                                 <p class="animate__animated animate__fadeInUp">Kami membuat proses belajar mengajar
                                     menjadi lebih interaktif. Dengan demikian siswa lebih menyukai proses belajar.</p>
-                                <a href="galeri"
-                                    class="btn-get-started animate__animated animate__fadeInUp scrollto">Learn More</a>
+                                <a href="galeri" class="btn-get-started animate__animated animate__fadeInUp scrollto">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -126,8 +121,7 @@
         <div class="container d-flex align-items-center justify-content-between">
 
             <div class="logo">
-                <a href="home" class="navbar-brand nav-brand2"><img class="img img-responsive" width="160px;"
-                        src="theme/images/Logo Al-Kautsar.png"></a>
+                <a href="home" class="navbar-brand nav-brand2"><img class="img img-responsive" width="160px;" src="theme/images/Logo Al-Kautsar.png"></a>
                 <!-- Uncomment below if you prefer to use an image logo -->
                 <!-- <a href="index.html"><img src="aset/img/logo.png" alt="" class="img-fluid"></a>-->
             </div>
@@ -306,22 +300,22 @@
 
                 <div class="row">
                     <?php $i = 0;
-        foreach ($isi_berita->result() as $row){
-          $i++;
-          if ($i > 3){
-            break;
-          } ?>
-                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0">
-                        <div class="card">
-                            <img src="assets/images/<?= $row->tulisan_gambar; ?>" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title"><a href=""><?= $row->tulisan_judul; ?></a></h5>
-                                <p class="card-text" style="text-align: justify">
-                                    <?= substr($row->tulisan_isi, 3, 180); ?> ...</p>
-                                <a href="#" class="btn">Explore more</a>
+                    foreach ($isi_berita->result() as $row) {
+                        $i++;
+                        if ($i > 3) {
+                            break;
+                        } ?>
+                        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0">
+                            <div class="card">
+                                <img src="assets/images/<?= $row->tulisan_gambar; ?>" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title"><a href=""><?= $row->tulisan_judul; ?></a></h5>
+                                    <p class="card-text" style="text-align: justify">
+                                        <?= substr($row->tulisan_isi, 3, 180); ?> ...</p>
+                                    <a href="#" class="btn">Explore more</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
                     <?php } ?>
                     <!-- <div class="col-lg-4 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="card">
@@ -354,8 +348,7 @@
 
                 <div class="row">
 
-                    <div
-                        class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
+                    <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
 
                         <div class="content">
                             <h3>Eum ipsam laborum deleniti <strong>velit pariatur architecto aut nihil</strong></h3>
@@ -368,10 +361,8 @@
                         <div class="accordion-list">
                             <ul>
                                 <li>
-                                    <a data-bs-toggle="collapse" class="collapse"
-                                        data-bs-target="#accordion-list-1"><span>01</span> Non consectetur a erat nam at
-                                        lectus urna duis? <i class="bx bx-chevron-down icon-show"></i><i
-                                            class="bx bx-chevron-up icon-close"></i></a>
+                                    <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"><span>01</span> Non consectetur a erat nam at
+                                        lectus urna duis? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                                     <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
                                         <p>
                                             Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus
@@ -382,10 +373,7 @@
                                 </li>
 
                                 <li>
-                                    <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2"
-                                        class="collapsed"><span>02</span> Feugiat scelerisque varius morbi enim nunc? <i
-                                            class="bx bx-chevron-down icon-show"></i><i
-                                            class="bx bx-chevron-up icon-close"></i></a>
+                                    <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed"><span>02</span> Feugiat scelerisque varius morbi enim nunc? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                                     <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
                                         <p>
                                             Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id
@@ -397,10 +385,7 @@
                                 </li>
 
                                 <li>
-                                    <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3"
-                                        class="collapsed"><span>03</span> Dolor sit amet consectetur adipiscing elit? <i
-                                            class="bx bx-chevron-down icon-show"></i><i
-                                            class="bx bx-chevron-up icon-close"></i></a>
+                                    <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed"><span>03</span> Dolor sit amet consectetur adipiscing elit? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                                     <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
                                         <p>
                                             Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci.
@@ -417,8 +402,7 @@
 
                     </div>
 
-                    <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img"
-                        style="background-image: url(assets/aset/img/info-box.jpg);">&nbsp;</div>
+                    <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" style="background-image: url(assets/aset/img/info-box.jpg);">&nbsp;</div>
                 </div>
 
             </div>
@@ -434,24 +418,22 @@
                     <div class="row portfolio-container">
 
                         <?php $i = 0;
-        foreach ($isi_gambar->result() as $row){
-          $i++;
-          if ($i > 3){
-            break;
-          } ?>
+                        foreach ($isi_gambar->result() as $row) {
+                            $i++;
+                            if ($i > 3) {
+                                break;
+                            } ?>
 
-                        <div class="col-lg-4 col-md-4 portfolio-item filter-app">
-                            <div class="portfolio-wrap">
-                                <img src="assets/images/<?= $row->galeri_gambar; ?>" class="img-fluid" alt="">
-                                <div class="portfolio-info">
-                                    <h4><?= $row->galeri_judul; ?></h4>
-                                </div>
-                                <div class="portfolio-links">
-                                    <a href="assets/images/<?= $row->galeri_gambar; ?>" data-gallery="portfolioGallery"
-                                        class="portfolio-lightbox" title="<?= $row->galeri_judul; ?>"><i
-                                            class="bx bx-info-circle"></i></a>
+                            <div class="col-lg-4 col-md-4 portfolio-item filter-app">
+                                <div class="portfolio-wrap">
+                                    <img src="assets/images/<?= $row->galeri_gambar; ?>" class="img-fluid" alt="">
+                                    <div class="portfolio-info">
+                                        <h4><?= $row->galeri_judul; ?></h4>
+                                    </div>
+                                    <div class="portfolio-links">
+                                        <a href="assets/images/<?= $row->galeri_gambar; ?>" data-gallery="portfolioGallery" class="portfolio-lightbox" title="<?= $row->galeri_judul; ?>"><i class="bx bx-info-circle"></i></a>
 
-                                    <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                                        <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
               <img src="assets/aset/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
@@ -459,9 +441,9 @@
               </div>
               <div class="portfolio-links">
                 <a href="assets/aset/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Penghargaan Guru Terbaik"><i class="bx bx-info-circle"></i></a> -->
+                                    </div>
                                 </div>
                             </div>
-                        </div>
                         <?php } ?>
 
 
@@ -491,61 +473,39 @@
 
                             <div class="col-lg-6 info d-flex flex-column align-items-stretch">
                                 <i class="bx bx-map"></i>
-                                <h4>Address</h4>
+                                <h4>Alamat</h4>
                                 <p>Jl. Soekarno Hatta<br>Rajabasa, By Pass<br>Bandar Lampung, 35144</p>
                             </div>
                             <div class="col-lg-6 info info-bg d-flex flex-column align-items-stretch">
                                 <i class="bx bx-phone"></i>
-                                <h4>Call Us</h4>
+                                <h4>Telepon</h4>
                                 <p>0721 781578</p>
                             </div>
                             <div class="col-lg-6 info info-bg d-flex flex-column align-items-stretch">
                                 <i class="bx bx-envelope"></i>
-                                <h4>Email Us</h4>
+                                <h4>Email</h4>
                                 <p>smaalkautsarlampung@gmail.com</p>
                             </div>
                             <div class="col-lg-6 info d-flex flex-column align-items-stretch">
                                 <i class="bx bx-time-five"></i>
-                                <h4>Working Hours</h4>
-                                <p>Mon - Fri: 9AM to 5PM<br>Sunday: 9AM to 1PM</p>
+                                <h4>Jam Kerja</h4>
+                                <p>Senin - Jumat: 07.00 - 16.00 WIB</p>
                             </div>
+
                         </div>
 
                     </div>
 
+
                     <div class="col-lg-6 d-flex align-items-stretch contact-form-wrap">
-                        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-                            <div class="row">
-                                <div class="col-md-6 form-group">
-                                    <label for="name">Your Name</label>
-                                    <input type="text" name="name" class="form-control" id="name"
-                                        placeholder="Your Name" required>
-                                </div>
-                                <div class="col-md-6 form-group mt-3 mt-md-0">
-                                    <label for="email">Your Email</label>
-                                    <input type="email" class="form-control" name="email" id="email"
-                                        placeholder="Your Email" required>
-                                </div>
-                            </div>
-                            <div class="form-group mt-3">
-                                <label for="subject">Subject</label>
-                                <input type="text" class="form-control" name="subject" id="subject"
-                                    placeholder="Subject" required>
-                            </div>
-                            <div class="form-group mt-3">
-                                <label for="message">Message</label>
-                                <textarea class="form-control" name="message" rows="8" required></textarea>
-                            </div>
-                            <div class="my-3">
-                                <div class="loading">Loading</div>
-                                <div class="error-message"></div>
-                                <div class="sent-message">Your message has been sent. Thank you!</div>
-                            </div>
-                            <div class="text-center"><button type="submit">Send Message</button></div>
-                        </form>
+
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3972.357597269861!2d105.23396317373543!3d-5.36229489461647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e40cff9c110dbff%3A0xb0bbb3e360027e10!2sSMA%20Al%20Kautsar!5e0!3m2!1sid!2sid!4v1672730154303!5m2!1sid!2sid" width="1300" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
                     </div>
 
                 </div>
+
+            </div>
 
             </div>
         </section><!-- End Contact Us Section -->
@@ -553,8 +513,7 @@
     </main><!-- End #main -->
 
 
-    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-            class="bi bi-arrow-up-short"></i></a>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
     <!-- Vendor JS Files -->
     <script src="assets/aset/vendor/purecounter/purecounter_vanilla.js"></script>

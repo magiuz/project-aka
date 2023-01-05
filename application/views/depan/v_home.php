@@ -369,7 +369,7 @@
                         <div class="accordion-list">
                             <ul>
                                 <li>
-                                    <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"><span>01</span> Non consectetur a erat nam at
+                                    <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"><span style="color:goldenrod;">01</span> Non consectetur a erat nam at
                                         lectus urna duis? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                                     <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
                                         <p>

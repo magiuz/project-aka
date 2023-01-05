@@ -2,6 +2,7 @@
 class Download extends CI_Controller{
 	function __construct(){
 		parent::__construct();
+		$this->load->view('templates/header_1');
 		$this->load->model('m_files');
 		$this->load->helper('download');
 		$this->load->model('m_pengunjung');
@@ -9,7 +10,8 @@ class Download extends CI_Controller{
 	}
 	function index(){
 		$x['data']=$this->m_files->get_all_files();
-		$this->load->view('depan/v_download',$x);
+		$this->load->view('depan/v_download',$x); 
+		$this->load->view('templates/footer');
 	}
 
 	function get_file(){
@@ -18,7 +20,7 @@ class Download extends CI_Controller{
 		$q=$get_db->row_array();
 		$file=$q['file_data'];
 		$path='./assets/files/'.$file;
-		$data = file_get_contents($path);
+		$data = file_get_contents($path); 
 		$name = $file;
 		force_download($name, $data);
 	}

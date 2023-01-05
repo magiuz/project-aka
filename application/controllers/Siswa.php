@@ -2,6 +2,7 @@
 class Siswa extends CI_Controller{
 	function __construct(){
 		parent::__construct();
+		$this->load->view('templates/header_1');
 		$this->load->model('m_siswa');
 		$this->load->model('m_pengunjung');
 		$this->m_pengunjung->count_visitor();
@@ -42,6 +43,7 @@ class Siswa extends CI_Controller{
             $x['page'] =$this->pagination->create_links();
 						$x['data']=$this->m_siswa->siswa_perpage($offset,$limit);
 						$this->load->view('depan/v_siswa',$x);
+						$this->load->view('templates/footer');
 	}
 
 

@@ -7,15 +7,15 @@
   <title>SMA S AL KAUTSAR | LOG IN</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-  <link rel="shorcut icon" type="text/css" href="<?php echo base_url() . 'assets/images/favicon.png' ?>">
+  <link rel="shorcut icon" type="text/css" href="assets/images/favicon.png">
   <!-- Bootstrap 3.3.6 -->
-  <link rel="stylesheet" href="<?php echo base_url() . 'assets/bootstrap/css/bootstrap.min.css' ?>">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="<?php echo base_url() . 'assets/font-awesome/css/font-awesome.min.css' ?>">
+  <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
   <!-- Theme style -->
-  <link rel="stylesheet" href="<?php echo base_url() . 'assets/dist/css/AdminLTE.min.css' ?>">
+  <link rel="stylesheet" href="assets/dist/css/AdminLTE.min.css">
   <!-- iCheck -->
-  <link rel="stylesheet" href="<?php echo base_url() . 'assets/plugins/iCheck/square/blue.css' ?>">
+  <link rel="stylesheet" href="assets/plugins/iCheck/square/blue.css">
 
 
 </head>
@@ -27,10 +27,10 @@
     </div>
     <!-- /.login-logo -->
     <div class="login-box-body">
-      <p class="login-box-msg"> <img width="320px;" src="<?php echo base_url() . 'assets/images/mylogo.png' ?>"></p>
+      <p class="login-box-msg"> <img width="320px;" src="assets/images/mylogo.png' ?>"></p>
       <hr />
 
-      <form action="<?php echo site_url() . 'admin/login/auth' ?>" method="post">
+      <form action="admin/login/auth" method="post">
         <div class="form-group has-feedback">
           <input type="text" name="username" class="form-control" placeholder="Username" required>
           <span class="glyphicon glyphicon-user form-control-feedback"></span>
@@ -67,11 +67,11 @@
   <!-- /.login-box -->
 
   <!-- jQuery 2.2.3 -->
-  <script src="<?php echo base_url() . 'assets/plugins/jQuery/jquery-2.2.3.min.js' ?>"></script>
+  <script src="assets/plugins/jQuery/jquery-2.2.3.min.js' ?>"></script>
   <!-- Bootstrap 3.3.6 -->
-  <script src="<?php echo base_url() . 'assets/bootstrap/js/bootstrap.min.js' ?>"></script>
+  <script src="assets/bootstrap/js/bootstrap.min.js' ?>"></script>
   <!-- iCheck -->
-  <script src="<?php echo base_url() . 'assets/plugins/iCheck/icheck.min.js' ?>"></script>
+  <script src="assets/plugins/iCheck/icheck.min.js' ?>"></script>
   <script>
     $(function() {
       $('input').iCheck({

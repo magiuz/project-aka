@@ -2,6 +2,7 @@
 class Pengumuman extends CI_Controller{
 	function __construct(){
 		parent::__construct();
+		$this->load->view('templates/header_1');
 		$this->load->model('m_pengumuman');
 		$this->load->model('m_pengunjung');
 		$this->m_pengunjung->count_visitor();
@@ -42,6 +43,7 @@ class Pengumuman extends CI_Controller{
             $x['page'] =$this->pagination->create_links();
 						$x['data']=$this->m_pengumuman->pengumuman_perpage($offset,$limit);
 						$this->load->view('depan/v_pengumuman',$x);
+						$this->load->view('templates/footer');
 	}
 
 }

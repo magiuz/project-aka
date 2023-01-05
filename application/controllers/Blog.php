@@ -6,7 +6,7 @@ class Blog extends CI_Controller
 		parent::__construct();
 		$this->load->model('m_tulisan');
 		$this->load->model('m_pengunjung');
-		$this->load->view('templates/header');
+		$this->load->view('templates/header_1');
 		$this->m_pengunjung->count_visitor();
 	}
 	function index()
@@ -48,11 +48,14 @@ class Blog extends CI_Controller
 		$x['category'] = $this->db->get('tbl_kategori');
 		$x['populer'] = $this->db->query("SELECT * FROM tbl_tulisan ORDER BY tulisan_views DESC LIMIT 5");
 		$this->load->view('depan/v_blog', $x);
+		$this->load->view('templates/footer');
 	}
 	function detail($slugs)
 	{
 		$slug = htmlspecialchars($slugs, ENT_QUOTES);
+		$gambar = [];
 		$query = $this->db->get_where('tbl_tulisan', array('tulisan_slug' => $slug));
+
 		if ($query->num_rows() > 0) {
 			$b = $query->row_array();
 			$kode = $b['tulisan_id'];

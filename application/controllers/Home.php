@@ -8,7 +8,7 @@ class Home extends CI_Controller{
 		$this->load->model('m_agenda');
 		$this->load->model('m_files');
 		$this->load->model('m_pengunjung');
-		$this->load->view('templates/header_1');
+		//$this->load->view('templates/header_1');
 		$this->m_pengunjung->count_visitor();
 	}
 	function index(){
@@ -19,6 +19,16 @@ class Home extends CI_Controller{
 			$x['tot_siswa']=$this->db->get('tbl_siswa')->num_rows();
 			$x['tot_files']=$this->db->get('tbl_files')->num_rows();
 			$x['tot_agenda']=$this->db->get('tbl_agenda')->num_rows();
+			$x['isi_tulisan']=$this->db->get('tbl_tulisan')->num_rows();
+			//$x['isi_gambar']=$this->db->get('tbl_galeri');
+			 //$x['isi_berita']=$this->db->get('tbl_tulisan');
+			 $x['isi_berita'] = $this->db->query('SELECT * FROM tbl_tulisan ORDER BY tulisan_tanggal DESC'); 
+			 $x['isi_gambar'] = $this->db->query('SELECT * FROM tbl_galeri ORDER BY galeri_tanggal DESC'); 
+			//$query_gambar = $this->db->get_where('tbl_tulisan', array('tulisan_gambar' => $gambar));
+			/*foreach ($x['isi_berita']->result() as $row)
+{
+        echo $row->tulisan_gambar;
+} */
 			$this->load->view('depan/v_home',$x);
 			$this->load->view('templates/footer');
 	}

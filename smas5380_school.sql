@@ -7206,6 +7206,21 @@ CREATE TABLE `tbl_siswa` (
   PRIMARY KEY (`siswa_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=latin1;
 
+/*Table structure for table `tbl_siswa` */
+
+DROP TABLE IF EXISTS `tbl_alumni`;
+
+CREATE TABLE `tbl_alumni` (
+  `alumni_id` int(11) NOT NULL AUTO_INCREMENT,
+  `alumni_nis` varchar(20) DEFAULT NULL,
+  `alumni_nama` varchar(70) DEFAULT NULL,
+  `alumni_jenkel` varchar(2) DEFAULT NULL,
+  `alumni_kesan` varchar(240) DEFAULT NULL,
+  `alumni_kelas_id` int(11) DEFAULT NULL,
+  `alumni_photo` varchar(40) DEFAULT NULL,
+  PRIMARY KEY (`alumni_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=latin1;
+
 /*Data for the table `tbl_siswa` */
 
 /*Table structure for table `tbl_testimoni` */

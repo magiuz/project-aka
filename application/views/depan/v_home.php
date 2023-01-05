@@ -293,9 +293,16 @@
             </div>
         </section><!-- End Counts Section -->
 
+        
+
         <!-- ======= Berita Section ======= -->
         <section class="more-services section-bg">
             <div class="container">
+
+            <div class="section-title">
+                    <h2>Artikel Terbaru</h2>
+                    <p>Berita terkini tentang SMA S Al Kautsar</p>
+                </div>
 
                 <div class="row">
                     <?php $i = 0;
@@ -343,24 +350,26 @@
 
         <!-- ======= Info Box Section ======= -->
         <section class="info-box py-0">
+            
             <div class="container-fluid">
 
+            
                 <div class="row">
+
 
                     <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
 
                         <div class="content">
-                            <h3>Eum ipsam laborum deleniti <strong>velit pariatur architecto aut nihil</strong></h3>
+                            <h3>Prestasi siswa <strong>SMA S Al-Kautsar</strong></h3>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
+                               Siswa SMA S Al Kautsar menoreh banyak prestasi baik akademik maupun non-akademik
                             </p>
                         </div>
 
                         <div class="accordion-list">
                             <ul>
                                 <li>
-                                    <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"><span>01</span> Non consectetur a erat nam at
+                                    <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"><span style="color:goldenrod;">01</span> Non consectetur a erat nam at
                                         lectus urna duis? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                                     <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
                                         <p>

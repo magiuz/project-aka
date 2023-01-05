@@ -293,9 +293,16 @@
             </div>
         </section><!-- End Counts Section -->
 
+        
+
         <!-- ======= Berita Section ======= -->
         <section class="more-services section-bg">
             <div class="container">
+
+            <div class="section-title">
+                    <h2>Artikel Terbaru</h2>
+                    <p>Berita terkini tentang SMA S Al Kautsar</p>
+                </div>
 
                 <div class="row">
                     <?php $i = 0;
@@ -343,17 +350,19 @@
 
         <!-- ======= Info Box Section ======= -->
         <section class="info-box py-0">
+            
             <div class="container-fluid">
 
+            
                 <div class="row">
+
 
                     <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
 
                         <div class="content">
-                            <h3>Eum ipsam laborum deleniti <strong>velit pariatur architecto aut nihil</strong></h3>
+                            <h3>Prestasi siswa <strong>SMA S Al-Kautsar</strong></h3>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
+                               Siswa SMA S Al Kautsar menoreh banyak prestasi baik akademik maupun non-akademik
                             </p>
                         </div>
 

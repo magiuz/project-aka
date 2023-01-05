@@ -38,7 +38,7 @@
     <!-- Template Main CSS File -->
     <link href="assets/aset/css/style.css" rel="stylesheet">
     <!-- Main CSS -->
-    <link href="theme/css/style.css" rel="stylesheet">
+    
     <?php
     function limit_words($string, $word_limit)
     {
@@ -60,7 +60,7 @@
             <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
 
                 <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
-
+                
                 <div class="carousel-inner" role="listbox">
 
                     <!-- Slide 1 -->
@@ -293,7 +293,7 @@
             </div>
         </section><!-- End Counts Section -->
 
-        <!-- ======= More Services Section ======= -->
+        <!-- ======= Berita Section ======= -->
         <section class="more-services section-bg">
             <div class="container">
 
@@ -308,7 +308,7 @@
                             <div class="card">
                                 <img src="assets/images/<?= $row->tulisan_gambar; ?>" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <h5 class="card-title"><a href=""><?= $row->tulisan_judul; ?></a></h5>
+                                    <h5 class="card-title"style="text-align: justify"><a href=""><?= $row->tulisan_judul; ?></a></h5>
                                     <p class="card-text" style="text-align: justify">
                                         <?= substr($row->tulisan_isi, 3, 180); ?> ...</p>
                                     <a href="blog" class="btn">Explore more</a>

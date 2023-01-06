@@ -127,9 +127,21 @@
             Hal tersebut memberikan kesan baik untuk mengenali diri dari segi manusiawi tanpa meninggalkan kewajiban kita sebagai hamba Allah SWT. 
             </p>
           </div>
-        </div>
-        
+        </div><br><br><br>
 
+        <div class="row">
+          <div class="col-lg-2 col-md-6">
+            <img src="theme/images/alumni-6.jpg" class="img-fluid" alt="#">
+          </div>
+          <div class="col-lg-10 col-md-6 content">
+            <h3>Imam Al Farizi Kautsar</h3>
+            <p><strong>Politeknik Statistika STIS</strong></p>
+            <p align="justify">
+            Bersekolah di SMA Al Kautsar adalah salah satu keputusan paling tepat yang pernah saya ambil. Dengan lingkungan, pengajar, dan juga fasilitas yang mendukung, sekolah ini mampu mengubah saya menjadi insan yang lebih baik.
+            Semoga SMA Al Kautsar semakin baik ke depannya dan bisa bersaing lebih banyak di kancah internasional
+            </p>
+          </div>
+        </div>
         
     </section>
 

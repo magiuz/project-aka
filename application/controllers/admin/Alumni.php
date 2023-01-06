@@ -3,7 +3,7 @@ class alumni extends CI_Controller{
 	function __construct(){
 		parent::__construct();
 		if($this->session->userdata('masuk') !=TRUE){
-            $url=base_url('administrator');
+            $url=base_url('admilulustrator');
             redirect($url);
         };
 		$this->load->model('m_alumni');
@@ -43,12 +43,12 @@ class alumni extends CI_Controller{
 	                        $this->image_lib->resize();
 
 	                        $photo=$gbr['file_name'];
-							$nis=strip_tags($this->input->post('xnis'));
+							$lulus=strip_tags($this->input->post('xlulus'));
 							$nama=strip_tags($this->input->post('xnama'));
 							$jenkel=strip_tags($this->input->post('xjenkel'));
 							$kelas=strip_tags($this->input->post('xkelas'));
 
-							$this->m_alumni->simpan_alumni($nis,$nama,$jenkel,$kelas,$photo);
+							$this->m_alumni->simpan_alumni($lulus,$nama,$jenkel,$kelas,$photo);
 							echo $this->session->set_flashdata('msg','success');
 							redirect('admin/alumni');
 					}else{
@@ -57,12 +57,12 @@ class alumni extends CI_Controller{
 	                }
 	                 
 	            }else{
-	            	$nis=strip_tags($this->input->post('xnis'));
+	            	$lulus=strip_tags($this->input->post('xlulus'));
 					$nama=strip_tags($this->input->post('xnama'));
 					$jenkel=strip_tags($this->input->post('xjenkel'));
 					$kelas=strip_tags($this->input->post('xkelas'));
 
-					$this->m_alumni->simpan_alumni_tanpa_img($nis,$nama,$jenkel,$kelas);
+					$this->m_alumni->simpan_alumni_tanpa_img($lulus,$nama,$jenkel,$kelas);
 					echo $this->session->set_flashdata('msg','success');
 					redirect('admin/alumni');
 				}
@@ -98,12 +98,12 @@ class alumni extends CI_Controller{
 
 	                        $photo=$gbr['file_name'];
 	                        $kode=$this->input->post('kode');
-							$nis=strip_tags($this->input->post('xnis'));
+							$lulus=strip_tags($this->input->post('xlulus'));
 							$nama=strip_tags($this->input->post('xnama'));
 							$jenkel=strip_tags($this->input->post('xjenkel'));
 							$kelas=strip_tags($this->input->post('xkelas'));
 
-							$this->m_alumni->update_alumni($kode,$nis,$nama,$jenkel,$kelas,$photo);
+							$this->m_alumni->update_alumni($kode,$lulus,$nama,$jenkel,$kelas,$photo);
 							echo $this->session->set_flashdata('msg','info');
 							redirect('admin/alumni');
 	                    
@@ -114,12 +114,12 @@ class alumni extends CI_Controller{
 	                
 	            }else{
 							$kode=$this->input->post('kode');
-							$nis=strip_tags($this->input->post('xnis'));
+							$lulus=strip_tags($this->input->post('xlulus'));
 							$nama=strip_tags($this->input->post('xnama'));
 							$jenkel=strip_tags($this->input->post('xjenkel'));
 							$kelas=strip_tags($this->input->post('xkelas'));
 
-							$this->m_alumni->update_alumni_tanpa_img($kode,$nis,$nama,$jenkel,$kelas);
+							$this->m_alumni->update_alumni_tanpa_img($kode,$lulus,$nama,$jenkel,$kelas);
 							echo $this->session->set_flashdata('msg','info');
 							redirect('admin/alumni');
 	            } 

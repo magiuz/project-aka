@@ -132,7 +132,7 @@
                     <li><a class="nav-link scrollto" target="blank" href="http://sis.smas-alkautsar.sch.id/">SIS</a>
                     </li>
                     <li><a class="nav-link scrollto" href="blog">Blog</a></li>
-                    <li class="dropdown"><a href="about"><span>Tentang</span> <i class="bi bi-chevron-down"></i></a>
+                    <li class="dropdown"><a href="#"><span>Tentang</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="about">Sambutan</a></li>
                             <li><a href="sejarah">Sejarah</a></li>
@@ -141,7 +141,7 @@
                         </ul>
                     </li>
 
-                    <li class="dropdown"><a href="akademik"><span>Akademik</span> <i class="bi bi-chevron-down"></i></a>
+                    <li class="dropdown"><a href="#"><span>Akademik</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="guru">Guru</a></li>
                             <li><a href="siswa">Siswa</a></li>
@@ -151,7 +151,7 @@
                         </ul>
                     </li>
 
-                    <li class="dropdown"><a href="menu"><span>Menu</span> <i class="bi bi-chevron-down"></i></a>
+                    <li class="dropdown"><a href="#"><span>Menu</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="download">Download</a></li>
                             <li><a href="galeri">Galeri</a></li>
@@ -369,7 +369,7 @@
                         <div class="accordion-list">
                             <ul>
                                 <li>
-                                    <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"><span style="color:goldenrod;">01</span> Non consectetur a erat nam at
+                                    <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"><span style="color:#96d2d9;">01</span> Non consectetur a erat nam at
                                         lectus urna duis? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                                     <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
                                         <p>
@@ -381,7 +381,7 @@
                                 </li>
 
                                 <li>
-                                    <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed"><span style="color: silver;">02</span> Feugiat scelerisque varius morbi enim nunc? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                                    <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed"><span style="color: #63A5BF;">02</span> Feugiat scelerisque varius morbi enim nunc? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                                     <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
                                         <p>
                                             Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id
@@ -393,7 +393,7 @@
                                 </li>
 
                                 <li>
-                                    <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed"><span style="color: chocolate;">03</span> Dolor sit amet consectetur adipiscing elit? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                                    <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed"><span style="color: #3C6AA6;">03</span> Dolor sit amet consectetur adipiscing elit? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                                     <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
                                         <p>
                                             Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci.
@@ -464,7 +464,7 @@
 
             <div class="container">
                 <div class="section-title">
-                    <h2>Hubungi Kami</h2>
+                    <h2>Tentang Kami</h2>
                 </div>
             </div>
 

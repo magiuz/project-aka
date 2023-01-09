@@ -2,31 +2,31 @@
   <head>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
-      google.charts.load('current', {'packages':['corechart']});
+      google.charts.load('current', {'packages':['bar']});
       google.charts.setOnLoadCallback(drawChart);
 
       function drawChart() {
         var data = google.visualization.arrayToDataTable([
-          ['Year', 'SBMPTN', 'SNMPTN', 'Kedinasan'],
-          ['2019',  1000,      400,       321],
-          ['2020',  1170,      460,       432],
-          ['2021',  660,       1120,      123],
-          ['2022',  1030,      540,       654]
+          ['Tahun', 'SNMPTN', 'UTBK', 'POLTEKES', 'SPAN/PTKIN', 'POLINELA', 'SIMAK UI', 'AKPOL/KEDINASAN', 'MANDIRI/LAINNYA'],
+          ['2020', 73, 131, 11, 11, 2, 5, 2, 15],
+          ['2021', 71, 121, 15, 19, 12, 6, 3, 17],
+          ['2022', 81, 151, 18, 12, 5, 3, 5, 10]
         ]);
 
         var options = {
-          title: 'Jalur Masuk Perguruan Tinggi',
-          curveType: 'function',
-          legend: { position: 'bottom' }
+          chart: {
+            title: 'Penerimaan Mahasiswa Baru di Perguruan Tinggi',
+            subtitle: 'Berdasarkan Jenis Seleksi',
+          }
         };
 
-        var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+        var chart = new google.charts.Bar(document.getElementById('columnchart_material'));
 
-        chart.draw(data, options);
+        chart.draw(data, google.charts.Bar.convertOptions(options));
       }
     </script>
   </head>
   <body>
-    <div id="curve_chart" style="margin:0 auto; width: 1100px; height: 700px"></div>
+    <div id="columnchart_material" style=" margin: 0 auto; width: 1200px; height: 500px;"></div>
   </body>
 </html>

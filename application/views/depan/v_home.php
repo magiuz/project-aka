@@ -434,7 +434,7 @@
 
                             <div class="col-lg-4 col-md-4 portfolio-item filter-app">
                                 <div class="portfolio-wrap">
-                                    <img src="assets/images/<?= $row->galeri_gambar; ?>" class="img-fluid" alt="">
+                                    <img src="assets/images/<?= $row->galeri_gambar; ?>" value="<?= $row->galeri_album_id; ?>" class="img-fluid" alt="">
                                     <div class="portfolio-info">
                                         <h4><?= $row->galeri_judul; ?></h4>
                                     </div>

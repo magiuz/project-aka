@@ -138,7 +138,7 @@
           </ul>
         </li>
 
-        <li>
+        <li> 
           <a href="<?php echo base_url().'admin/inbox'?>">
             <i class="fa fa-envelope"></i> <span>Inbox</span>
             <span class="pull-right-container">

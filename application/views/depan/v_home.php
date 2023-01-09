@@ -120,6 +120,62 @@
     <header id="header" class="d-flex align-items-center">
         <div class="container d-flex align-items-center justify-content-between">
 
+        <style>
+            /* Mengganti ukuran tombol */
+            button#playPauseButton {
+            width: 50px;
+            height: 50px;
+            border: none; /* Menghilangkan batas */
+            outline: none; /* Menghilangkan garis tepi */
+            background: transparent; /* Menghilangkan latar belakang */
+            }
+
+            /* Menambahkan gambar sebagai latar belakang tombol */
+            button#playPauseButton::before {
+            content: "";
+            background: url("assets/aset/music/play.png") no-repeat;
+            background-size: cover;
+            width: 100%;
+            height: 100%;
+            display: block;
+            }
+
+            /* Menambahkan efek hover */
+            button#playPauseButton:hover::before {
+            background-image: url("assets/aset/music/pause.png");
+            }
+
+          
+
+            /* Memindahkan logo ke kiri sejauh 20px */
+            a.navbar-brand {
+            margin-right: 500px;
+            }
+        </style>
+        <!-- !-- HTML -->
+<audio id="myAudio" src="assets/aset/music/burno.mp3"></audio>
+<button id="playPauseButton" onclick="playPauseAudio()" type="button"></button>
+
+<!-- JavaScript -->
+<script>
+  // Mendapatkan element audio dan tombol
+  var audio = document.getElementById("myAudio");
+  var playPauseButton = document.getElementById("playPauseButton");
+
+  // Fungsi untuk memutar atau menghentikan audio
+  function playPauseAudio() {
+    if (audio.paused) {
+      // Memutar audio jika audio sedang dihentikan
+      audio.play();
+      playPauseButton.innerHTML = "";
+    } else {
+      // Menghentikan audio jika audio sedang diputar
+      audio.pause();
+      playPauseButton.innerHTML = "";
+    }
+  }
+</script>
+
             <div class="logo">
                 <a href="home" class="navbar-brand nav-brand2"><img class="img img-responsive" width="160px;" src="theme/images/Logo Al-Kautsar.png"></a>
                 <!-- Uncomment below if you prefer to use an image logo -->

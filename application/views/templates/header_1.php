@@ -3,6 +3,8 @@
 <header id="header" class="d-flex align-items-center">
         <div class="container d-flex align-items-center justify-content-between">
 
+        
+
             <div class="logo">
                 <a href="home" class="navbar-brand nav-brand2"><img class="img img-responsive" width="160px;" src="theme/images/Logo Al-Kautsar.png"></a>
                 <!-- Uncomment below if you prefer to use an image logo -->

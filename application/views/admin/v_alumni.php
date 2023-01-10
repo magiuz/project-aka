@@ -131,9 +131,9 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li class="active"><a href="<?php echo base_url().'admin/siswa'?>"><i class="fa fa-users"></i> Data Siswa</a></li>
-            <li><a href="<?php echo base_url().'admin/alumni'?>"><i class="fa fa-users"></i> Data Alumni</a></li>
-            <li><a href="#"><i class="fa fa-star-o"></i> Prestasi Siswa</a></li>
+            <li><a href="<?php echo base_url().'admin/siswa'?>"><i class="fa fa-users"></i> Data Siswa</a></li>
+             <li><a href="#"><i class="fa fa-star-o"></i> Prestasi Siswa</a></li>
+             <li class="active"><a href="<?php echo base_url().'admin/alumni'?>"><i class="fa fa-users"></i> Data Alumni</a></li>
 
           </ul>
         </li>
@@ -192,7 +192,7 @@
           <div class="box">
 
           <div class="box">
-            <div class="box-header">
+          <div class="box-header">
               <a class="btn btn-success btn-flat" data-toggle="modal" data-target="#myModal"><span class="fa fa-plus"></span> Add Alumni</a>
             </div>
             <!-- /.box-header -->
@@ -216,6 +216,7 @@
           					$no=0;
           					foreach ($data->result_array() as $i) :
           					   $no++;
+                       
           					   $id=$i['alumni_id'];
           					   $nama=$i['alumni_nama'];
           					   $jenkel=$i['alumni_jenkel'];
@@ -224,8 +225,9 @@
                        $jalur=$i['jalur_masuk'];
                        $kampus=$i['alumni_kampus'];
                        $kesan=$i['alumni_kesan']; 
+                       $kelas_nama=$i['kelas_nama'];
+                       $jalur_nama=$i['jalur_nama'];
                        $photo=$i['alumni_photo'];
-
                     ?>
                 <tr>
                   <?php if(empty($photo)):?>
@@ -241,7 +243,7 @@
                   <?php endif;?>
                   <td><?php echo $kelas_nama;?></td>
                   <td><?php echo $lulus;?></td>
-                  <td><?php echo $jalur;?></td>
+                  <td><?php echo $jalur_nama;?></td>
                   <td><?php echo $kampus;?></td>
                   <td><?php echo $kesan;?></td>                  
                   <td style="text-align:right;">
@@ -468,14 +470,14 @@
 <!-- ./wrapper -->
 
     <!--Modal Add Pengguna-->
-        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><span class="fa fa-close"></span></span></button>
                         <h4 class="modal-title" id="myModalLabel">Add Alumni</h4>
                     </div>
-                    <form class="form-horizontal" action="<?php echo base_url().'admin/siswa/simpan_siswa'?>" method="post" enctype="multipart/form-data">
+                    <form class="form-horizontal" action="<?php echo base_url().'admin/alumni/simpan_alumni'?>" method="post" enctype="multipart/form-data">
                     <div class="modal-body">
 
                                     <div class="form-group">

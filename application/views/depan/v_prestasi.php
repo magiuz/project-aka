@@ -57,10 +57,83 @@
 
         }
 
-        .card {
+        .container1 {
+            position: relative;
+            width: 1100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 30px;
+        }
+
+        .container1 .card {
+            position: relative;
+            max-width: 300px;
+            height: 215px;
+            background: #fff;
+            margin: 30px 10px;
+            padding: 20px 15px;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+            transition: 0.3s ease-in-out;
+        }
+
+        .container1 .card:hover {
+            height: 420px;
+        }
+
+        .container1 .card .imgBx {
+            position: relative;
+            width: 260px;
+            height: 260px;
+            top: -60px;
+            left: 5px;
+            z-index: 1;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+
+        }
+
+        .container1 .card .imgBx img {
+            max-width: 100%;
+            border-radius: 4px;
+        }
+
+        .container1 .card .content {
+            position: relative;
+            margin-top: -140px;
+            padding: 10px 15px;
+            text-align: center;
+            color: #111;
+            visibility: hidden;
+            opacity: 0;
+            transition: 0.3s ease-in-out;
+        }
+
+        .container1 .card:hover .content {
+            visibility: visible;
+            opacity: 1;
+            margin-top: -40px;
+            transition-delay: 0.3s;
+        }
+
+        .content h3 {
+            color: #1bbca3;
+            font-family: "poppins";
+        }
+
+        .content p {
+            font-size: 16px;
+            color: #666;
+            font-family: "poppins";
+        }
+
+        /* .card {
             border: 1px solid #ccc;
             border-radius: 5px;
             overflow: hidden;
+
         }
 
         .card img {
@@ -69,6 +142,7 @@
 
         .card-body {
             padding: 15px;
+
         }
 
         .card-title {
@@ -84,7 +158,7 @@
         .card-grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-        }
+        } */
     </style>
 
     <section class="blog-wrap">
@@ -96,59 +170,55 @@
             </div>
 
             <section class="more-services section-bg">
-                <div class="container">
-                    <div class="row ">
-                        <div class="col-md-4">
-                            <div class="card">
-                                <img src="theme/images/alumni-1.jpg" class="img-fluid" alt="#">
-                                <div class="card-body">
-                                    <h5 class="card-title" style="text-align: justify">M. NABHAN DZAKI AUFAR</h5>
-                                    <p class="card-text" style="text-align: justify">MEDALI PERUNGGU
-                                        <br>BIDANG KEBUMIAN
-                                        <br>OLIMPIADE SAINS NASIONAL (OSN)
-                                        <br>TINGKAT NASIONAL 2022
-                                    </p>
-
-                                </div>
-                            </div>
-
+                <div class="container1">
+                    <div class="card">
+                        <div class="imgBx">
+                            <img src="theme/images/alumni-1.jpg">
                         </div>
-
-                        <div class="col-md-4">
-                            <div class="card">
-                                <img src="theme/images/alumni-1.jpg" class="img-fluid" alt="#">
-                                <div class="card-body">
-                                    <h5 class="card-title" style="text-align: justify">MUHAMMAD AB'DU AL HAFIZH</h5>
-                                    <p class="card-text" style="text-align: justify">MEDALI PERUNGGU
-                                        <br>BIDANG GEOGRAFI
-                                        <br>OLIMPIADE SAINS NASIONAL (OSN)
-                                        <br>TINGKAT NASIONAL 2022
-                                    </p>
-
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-4">
-                            <div class="card">
-                                <img src="theme/images/alumni-1.jpg" class="img-fluid" alt="#">
-                                <div class="card-body">
-                                    <h5 class="card-title" style="text-align: justify">M. NABHAN DZAKI AUFAR</h5>
-                                    <p class="card-text" style="text-align: justify">MEDALI PERUNGGU
-                                        <br>BIDANG KEBUMIAN
-                                        <br>OLIMPIADE SAINS NASIONAL (OSN)
-                                        <br>TINGKAT NASIONAL 2022
-                                    </p>
-
-                                </div>
-                            </div>
-
+                        <div class="content">
+                            <h3>M. NABHAN DZAKI AUFAR</h3>
+                            <p>MEDALI PERUNGGU
+                                <br>BIDANG KEBUMIAN
+                                <br>OLIMPIADE SAINS NASIONAL
+                                <br>TINGKAT NASIONAL 2022
+                            </p>
                         </div>
                     </div>
+
+                    <div class="card">
+                        <div class="imgBx">
+                            <img src="theme/images/alumni-1.jpg">
+                        </div>
+                        <div class="content">
+                            <h3>M. NABHAN DZAKI AUFAR</h3>
+                            <p>MEDALI PERUNGGU
+                                <br>BIDANG KEBUMIAN
+                                <br>OLIMPIADE SAINS NASIONAL
+                                <br>TINGKAT NASIONAL 2022
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="imgBx">
+                            <img src="theme/images/alumni-1.jpg">
+                        </div>
+                        <div class="content">
+                            <h3>M. NABHAN DZAKI AUFAR</h3>
+                            <p>MEDALI PERUNGGU
+                                <br>BIDANG KEBUMIAN
+                                <br>OLIMPIADE SAINS NASIONAL
+                                <br>TINGKAT NASIONAL 2022
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </section>
+            <br>
+            <br>
 
             <!-- TABLE PRESTASI -->
-            <div class="row">
+            <div class="row ">
                 <div class="col-md-12">
                     <div class="contact-title">
                         <h2 style="text-align:center;">PRESTASI</h2>
@@ -171,10 +241,7 @@
                         </table>
                     </div>
                 </div>
-
-
-
-
+            </div>
     </section>
 
     <!-- <div class=" jumbotron">

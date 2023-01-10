@@ -176,12 +176,12 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Data Siswa
+        Data Alumni
         <small></small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li class="active">Siswa</li>
+        <li class="active">Alumni</li>
       </ol>
     </section>
 
@@ -193,7 +193,7 @@
 
           <div class="box">
             <div class="box-header">
-              <a class="btn btn-success btn-flat" data-toggle="modal" data-target="#myModal"><span class="fa fa-plus"></span> Add Siswa</a>
+              <a class="btn btn-success btn-flat" data-toggle="modal" data-target="#myModal"><span class="fa fa-plus"></span> Add Alumni</a>
             </div>
             <!-- /.box-header -->
             <div class="box-body">
@@ -201,10 +201,13 @@
                 <thead>
                 <tr>
           					<th>Photo</th>
-          					<th>NIS</th>
           					<th>Nama</th>
           					<th>Jenis Kelamin</th>
                     <th>Kelas</th>
+                    <th>Tahun Lulus</th>
+                    <th>Jalur Masuk</th>
+                    <th>Kampus Alumni</th>
+                    <th>Kesan Alumni</th>
                     <th style="text-align:right;">Aksi</th>
                 </tr>
                 </thead>
@@ -213,13 +216,15 @@
           					$no=0;
           					foreach ($data->result_array() as $i) :
           					   $no++;
-          					   $id=$i['siswa_id'];
-          					   $nis=$i['siswa_nis'];
-          					   $nama=$i['siswa_nama'];
-          					   $jenkel=$i['siswa_jenkel'];
-          					   $kelas_id=$i['siswa_kelas_id'];
-                       $kelas_nama=$i['kelas_nama'];
-                       $photo=$i['siswa_photo'];
+          					   $id=$i['alumni_id'];
+          					   $nama=$i['alumni_nama'];
+          					   $jenkel=$i['alumni_jenkel'];
+          					   $kelas_id=$i['alumni_kelas_id'];
+                       $lulus=$i['tahun_lulus'];
+                       $jalur=$i['jalur_masuk'];
+                       $kampus=$i['alumni_kampus'];
+                       $kesan=$i['alumni_kesan']; 
+                       $photo=$i['alumni_photo'];
 
                     ?>
                 <tr>
@@ -228,7 +233,6 @@
                   <?php else:?>
                   <td><img width="40" height="40" class="img-circle" src="<?php echo base_url().'assets/images/'.$photo;?>"></td>
                   <?php endif;?>
-                  <td><?php echo $nis;?></td>
         				  <td><?php echo $nama;?></td>
                   <?php if($jenkel=='L'):?>
                   <td>Laki-Laki</td>
@@ -236,6 +240,10 @@
                   <td>Perempuan</td>
                   <?php endif;?>
                   <td><?php echo $kelas_nama;?></td>
+                  <td><?php echo $lulus;?></td>
+                  <td><?php echo $jalur;?></td>
+                  <td><?php echo $kampus;?></td>
+                  <td><?php echo $kesan;?></td>                  
                   <td style="text-align:right;">
                         <a class="btn" data-toggle="modal" data-target="#ModalEdit<?php echo $id;?>"><span class="fa fa-pencil"></span></a>
                         <a class="btn" data-toggle="modal" data-target="#ModalHapus<?php echo $id;?>"><span class="fa fa-trash"></span></a>
@@ -465,17 +473,10 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><span class="fa fa-close"></span></span></button>
-                        <h4 class="modal-title" id="myModalLabel">Add Siswa</h4>
+                        <h4 class="modal-title" id="myModalLabel">Add Alumni</h4>
                     </div>
                     <form class="form-horizontal" action="<?php echo base_url().'admin/siswa/simpan_siswa'?>" method="post" enctype="multipart/form-data">
                     <div class="modal-body">
-
-                                    <div class="form-group">
-                                        <label for="inputUserName" class="col-sm-4 control-label">NIS</label>
-                                        <div class="col-sm-7">
-                                            <input type="text" name="xnis" class="form-control" id="inputUserName" placeholder="NIS" required>
-                                        </div>
-                                    </div>
 
                                     <div class="form-group">
                                         <label for="inputUserName" class="col-sm-4 control-label">Nama</label>
@@ -513,6 +514,44 @@
                                             <?php } ?>
                                           </select>
                                         </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="inputUserName" class="col-sm-4 control-label">Tahun Lulus</label>
+                                        <div class="col-sm-7">
+                                            <input type="text" name="xnama" class="form-control" id="inputUserName" placeholder="Tahun Lulus" required>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="inputUserName" class="col-sm-4 control-label">Jalur Masuk</label>
+                                        <div class="col-sm-7">
+                                          <select name="xkelas" class="form-control" required>
+                                            <option value="">-Pilih-</option>
+                                              <option>SNMPTN</option>
+                                              <option>SBMPTN</option>
+                                              <option>POLTEKES</option>
+                                              <option>SPAN / PTKIN</option>
+                                              <option>POLINELA</option>
+                                              <option>SIMAK UI</option>
+                                              <option>AKPOL / KEDINASAN</option>
+                                              <option>MANDIRI / LAINNYA</option>
+                                          </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="inputUserName" class="col-sm-4 control-label">Universitas</label>
+                                        <div class="col-sm-7">
+                                            <input type="text" name="xnama" class="form-control" id="inputUserName" placeholder="Universitas" required>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                      <label for="exampleFormControlTextarea1" class="col-sm-4 control-label">Kesan Alumni</label>
+                                      <div class="col-sm-7">
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Kesan dan Pesan" rows="3"></textarea>
+                                      </div>
                                     </div>
 
                                     <div class="form-group">

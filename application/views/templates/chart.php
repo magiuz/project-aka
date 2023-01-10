@@ -7,7 +7,7 @@
 
       function drawChart() {
         var data = google.visualization.arrayToDataTable([
-          ['Tahun', 'SNMPTN', 'UTBK', 'POLTEKES', 'SPAN/PTKIN', 'POLINELA', 'SIMAK UI', 'AKPOL/KEDINASAN', 'MANDIRI/LAINNYA'],
+          ['Tahun', 'SNMPTN', 'SBMPTN', 'POLTEKES', 'SPAN/PTKIN', 'POLINELA', 'SIMAK UI', 'AKPOL/KEDINASAN', 'MANDIRI/LAINNYA'],
           ['2020', 73, 131, 11, 11, 2, 5, 2, 15],
           ['2021', 71, 121, 15, 19, 12, 6, 3, 17],
           ['2022', 81, 151, 18, 12, 5, 3, 5, 10]

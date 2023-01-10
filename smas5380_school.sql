@@ -90,6 +90,11 @@ CREATE TABLE `tbl_album` (
   `album_cover` varchar(40) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+CREATE TABLE `tbl_jalur` (
+  `jalur_id` int(11) NOT NULL,
+  `jalur_nama` varchar(50) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
 --
 -- Dumping data for table `tbl_album`
 --
@@ -100,6 +105,17 @@ INSERT INTO `tbl_album` (`album_id`, `album_nama`, `album_tanggal`, `album_pengg
 (4, 'Kegiatan Belajar Siswa', '2017-01-24 01:31:13', 1, 'Lukman Adi Candra', 0, '203bc0411a07ed0430d39bcc38ec2c56.jpg');
 
 -- --------------------------------------------------------
+
+INSERT INTO `tbl_jalur` (`jalur_id`, `jalur_nama`) VALUES
+(1, 'SNMPTN'),
+(3, 'SBMPTN'),
+(4, 'POLTEKES'),
+(5, 'SPAN / PTKIN'),
+(6, 'POLINELA'),
+(7, 'SIMAK UI'),
+(8, 'AKPOL / KEDINASAN'),
+(9, 'MANDIRI / LAINNYA');
+
 
 --
 -- Table structure for table `tbl_alumni`
@@ -3398,6 +3414,9 @@ ALTER TABLE `tbl_album`
   ADD PRIMARY KEY (`album_id`),
   ADD KEY `album_pengguna_id` (`album_pengguna_id`);
 
+
+ALTER TABLE `tbl_jalur`
+  ADD PRIMARY KEY (`jalur_id`);
 --
 -- Indexes for table `tbl_alumni`
 --
@@ -3511,6 +3530,8 @@ ALTER TABLE `tbl_album`
   MODIFY `album_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
+ALTER TABLE `tbl_jalur`
+  MODIFY `jalur_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 -- AUTO_INCREMENT for table `tbl_alumni`
 --
 ALTER TABLE `tbl_alumni`

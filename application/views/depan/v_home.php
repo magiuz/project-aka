@@ -38,7 +38,7 @@
     <!-- Template Main CSS File -->
     <link href="assets/aset/css/style.css" rel="stylesheet">
     <!-- Main CSS -->
-    
+
     <?php
     function limit_words($string, $word_limit)
     {
@@ -60,7 +60,7 @@
             <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
 
                 <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
-                
+
                 <div class="carousel-inner" role="listbox">
 
                     <!-- Slide 1 -->
@@ -146,6 +146,7 @@
                             <li><a href="guru">Guru</a></li>
                             <li><a href="siswa">Siswa</a></li>
                             <li><a href="alumni">Alumni</a></li>
+                            <li><a href="prestasi">Prestasi</a></li>
                             <li><a href="pengumuman">Pengumuman</a></li>
                             <li><a href="agenda">Agenda</a></li>
                         </ul>
@@ -196,7 +197,7 @@
                         <div class="icon-box">
                             <div class="icon"><i class="bx bx-user"></i></div>
                             <h4 class="title"><a href="alumni">Kemas</a></h4>
-                            <p class="description">Salah satu diferensiasi utama yang dimiliki oleh SMA S Al Kautsar 
+                            <p class="description">Salah satu diferensiasi utama yang dimiliki oleh SMA S Al Kautsar
                                 adalah budaya Islaminya yang benar-benar terasa di lingkungan sekolah</p>
                         </div>
                     </div>
@@ -205,7 +206,7 @@
                         <div class="icon-box">
                             <div class="icon"><i class="bx bx-user"></i></div>
                             <h4 class="title"><a href="alumni">Meutia</a></h4>
-                            <p class="description">SMA S Al-Kautsar punya lingkungan belajar yang seru dan menarik baik dari guru, teman, 
+                            <p class="description">SMA S Al-Kautsar punya lingkungan belajar yang seru dan menarik baik dari guru, teman,
                                 maupun staf sekolah lainnya</p>
                         </div>
                     </div>
@@ -214,7 +215,7 @@
                         <div class="icon-box">
                             <div class="icon"><i class="bx bx-user"></i></div>
                             <h4 class="title"><a href="alumni">Salma</a></h4>
-                            <p class="description">Masuk ke SMA S Al Kautsar adalah salah satu pilihan terbaik yang pernah aku buat 
+                            <p class="description">Masuk ke SMA S Al Kautsar adalah salah satu pilihan terbaik yang pernah aku buat
                                 selama hidup aku</p>
                         </div>
                     </div>
@@ -293,13 +294,13 @@
             </div>
         </section><!-- End Counts Section -->
 
-        
+
 
         <!-- ======= Berita Section ======= -->
         <section class="more-services section-bg">
             <div class="container">
 
-            <div class="section-title">
+                <div class="section-title">
                     <h2>Artikel Terbaru</h2>
                     <p>Berita terkini tentang SMA S Al Kautsar</p>
                 </div>
@@ -315,7 +316,7 @@
                             <div class="card">
                                 <img src="assets/images/<?= $row->tulisan_gambar; ?>" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <h5 class="card-title"style="text-align: justify"><a href=""><?= $row->tulisan_judul; ?></a></h5>
+                                    <h5 class="card-title" style="text-align: justify"><a href=""><?= $row->tulisan_judul; ?></a></h5>
                                     <p class="card-text" style="text-align: justify">
                                         <?= substr($row->tulisan_isi, 3, 180); ?> ...</p>
                                     <a href="blog" class="btn">Explore more</a>
@@ -350,10 +351,10 @@
 
         <!-- ======= Info Box Section ======= -->
         <section class="info-box py-0">
-            
+
             <div class="container-fluid">
 
-            
+
                 <div class="row">
 
 
@@ -362,7 +363,7 @@
                         <div class="content">
                             <h3>Prestasi siswa <strong>SMA S Al-Kautsar</strong></h3>
                             <p>
-                               Siswa SMA S Al Kautsar menoreh banyak prestasi baik akademik maupun non-akademik
+                                Siswa SMA S Al Kautsar menoreh banyak prestasi baik akademik maupun non-akademik
                             </p>
                         </div>
 
@@ -462,7 +463,7 @@
         <!-- ======= Contact Us Section ======= -->
         <section id="contact" class="contact section-bg">
 
-            
+
 
             <div class="container-fluid">
 

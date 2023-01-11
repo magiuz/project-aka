@@ -738,7 +738,7 @@
                     <div class="modal-body">
 							       <input type="hidden" name="kode" value="<?php echo $id;?>"/>
                      <input type="hidden" value="<?php echo $photo;?>" name="gambar">
-                            <p>Apakah Anda yakin mau menghapus Siswa <b><?php echo $nama;?></b> ?</p>
+                            <p>Apakah Anda yakin mau menghapus Alumni <b><?php echo $nama;?></b> ?</p>
 
                     </div>
                     <div class="modal-footer">
@@ -801,7 +801,7 @@
         <script type="text/javascript">
                 $.toast({
                     heading: 'Success',
-                    text: "Siswa Berhasil disimpan ke database.",
+                    text: "Alumni Berhasil disimpan ke database.",
                     showHideTransition: 'slide',
                     icon: 'success',
                     hideAfter: false,
@@ -813,7 +813,7 @@
         <script type="text/javascript">
                 $.toast({
                     heading: 'Info',
-                    text: "Siswa berhasil di update",
+                    text: "Alumni berhasil di update",
                     showHideTransition: 'slide',
                     icon: 'info',
                     hideAfter: false,
@@ -825,7 +825,7 @@
         <script type="text/javascript">
                 $.toast({
                     heading: 'Success',
-                    text: "Siswa Berhasil dihapus.",
+                    text: "Alumni Berhasil dihapus.",
                     showHideTransition: 'slide',
                     icon: 'success',
                     hideAfter: false,

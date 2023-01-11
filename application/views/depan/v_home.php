@@ -38,7 +38,7 @@
     <!-- Template Main CSS File -->
     <link href="assets/aset/css/style.css" rel="stylesheet">
     <!-- Main CSS -->
-    <link href="theme/css/style.css" rel="stylesheet">
+
     <?php
     function limit_words($string, $word_limit)
     {
@@ -132,7 +132,7 @@
                     <li><a class="nav-link scrollto" target="blank" href="http://sis.smas-alkautsar.sch.id/">SIS</a>
                     </li>
                     <li><a class="nav-link scrollto" href="blog">Blog</a></li>
-                    <li class="dropdown"><a href="about"><span>Tentang</span> <i class="bi bi-chevron-down"></i></a>
+                    <li class="dropdown"><a href="#"><span>Tentang</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="about">Sambutan</a></li>
                             <li><a href="sejarah">Sejarah</a></li>
@@ -141,17 +141,18 @@
                         </ul>
                     </li>
 
-                    <li class="dropdown"><a href="akademik"><span>Akademik</span> <i class="bi bi-chevron-down"></i></a>
+                    <li class="dropdown"><a href="#"><span>Akademik</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="guru">Guru</a></li>
                             <li><a href="siswa">Siswa</a></li>
                             <li><a href="alumni">Alumni</a></li>
+                            <li><a href="prestasi">Prestasi</a></li>
                             <li><a href="pengumuman">Pengumuman</a></li>
                             <li><a href="agenda">Agenda</a></li>
                         </ul>
                     </li>
 
-                    <li class="dropdown"><a href="menu"><span>Menu</span> <i class="bi bi-chevron-down"></i></a>
+                    <li class="dropdown"><a href="#"><span>Menu</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="download">Download</a></li>
                             <li><a href="galeri">Galeri</a></li>
@@ -196,7 +197,7 @@
                         <div class="icon-box">
                             <div class="icon"><i class="bx bx-user"></i></div>
                             <h4 class="title"><a href="alumni">Kemas</a></h4>
-                            <p class="description">Salah satu diferensiasi utama yang dimiliki oleh SMA S Al Kautsar 
+                            <p class="description">Salah satu diferensiasi utama yang dimiliki oleh SMA S Al Kautsar
                                 adalah budaya Islaminya yang benar-benar terasa di lingkungan sekolah</p>
                         </div>
                     </div>
@@ -205,7 +206,7 @@
                         <div class="icon-box">
                             <div class="icon"><i class="bx bx-user"></i></div>
                             <h4 class="title"><a href="alumni">Meutia</a></h4>
-                            <p class="description">SMA S Al-Kautsar punya lingkungan belajar yang seru dan menarik baik dari guru, teman, 
+                            <p class="description">SMA S Al-Kautsar punya lingkungan belajar yang seru dan menarik baik dari guru, teman,
                                 maupun staf sekolah lainnya</p>
                         </div>
                     </div>
@@ -214,7 +215,7 @@
                         <div class="icon-box">
                             <div class="icon"><i class="bx bx-user"></i></div>
                             <h4 class="title"><a href="alumni">Salma</a></h4>
-                            <p class="description">Masuk ke SMA S Al Kautsar adalah salah satu pilihan terbaik yang pernah aku buat 
+                            <p class="description">Masuk ke SMA S Al Kautsar adalah salah satu pilihan terbaik yang pernah aku buat
                                 selama hidup aku</p>
                         </div>
                     </div>
@@ -293,9 +294,16 @@
             </div>
         </section><!-- End Counts Section -->
 
-        <!-- ======= More Services Section ======= -->
+
+
+        <!-- ======= Berita Section ======= -->
         <section class="more-services section-bg">
             <div class="container">
+
+                <div class="section-title">
+                    <h2>Artikel Terbaru</h2>
+                    <p>Berita terkini tentang SMA S Al Kautsar</p>
+                </div>
 
                 <div class="row">
                     <?php $i = 0;
@@ -308,7 +316,7 @@
                             <div class="card">
                                 <img src="assets/images/<?= $row->tulisan_gambar; ?>" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <h5 class="card-title"><a href=""><?= $row->tulisan_judul; ?></a></h5>
+                                    <h5 class="card-title" style="text-align: justify"><a href=""><?= $row->tulisan_judul; ?></a></h5>
                                     <p class="card-text" style="text-align: justify">
                                         <?= substr($row->tulisan_isi, 3, 180); ?> ...</p>
                                     <a href="blog" class="btn">Explore more</a>
@@ -343,24 +351,26 @@
 
         <!-- ======= Info Box Section ======= -->
         <section class="info-box py-0">
+
             <div class="container-fluid">
 
+
                 <div class="row">
+
 
                     <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
 
                         <div class="content">
-                            <h3>Eum ipsam laborum deleniti <strong>velit pariatur architecto aut nihil</strong></h3>
+                            <h3>Prestasi siswa <strong>SMA S Al-Kautsar</strong></h3>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
+                                Siswa SMA S Al Kautsar menoreh banyak prestasi baik akademik maupun non-akademik
                             </p>
                         </div>
 
                         <div class="accordion-list">
                             <ul>
                                 <li>
-                                    <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"><span>01</span> Non consectetur a erat nam at
+                                    <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"><span style="color:#96d2d9;">01</span> Non consectetur a erat nam at
                                         lectus urna duis? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                                     <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
                                         <p>
@@ -372,7 +382,7 @@
                                 </li>
 
                                 <li>
-                                    <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed"><span>02</span> Feugiat scelerisque varius morbi enim nunc? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                                    <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed"><span style="color: #63A5BF;">02</span> Feugiat scelerisque varius morbi enim nunc? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                                     <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
                                         <p>
                                             Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id
@@ -384,7 +394,7 @@
                                 </li>
 
                                 <li>
-                                    <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed"><span>03</span> Dolor sit amet consectetur adipiscing elit? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                                    <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed"><span style="color: #3C6AA6;">03</span> Dolor sit amet consectetur adipiscing elit? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                                     <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
                                         <p>
                                             Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci.
@@ -425,7 +435,7 @@
 
                             <div class="col-lg-4 col-md-4 portfolio-item filter-app">
                                 <div class="portfolio-wrap">
-                                    <img src="assets/images/<?= $row->galeri_gambar; ?>" class="img-fluid" alt="">
+                                    <img src="assets/images/<?= $row->galeri_gambar; ?>" value="<?= $row->galeri_album_id; ?>" class="img-fluid" alt="">
                                     <div class="portfolio-info">
                                         <h4><?= $row->galeri_judul; ?></h4>
                                     </div>
@@ -453,11 +463,7 @@
         <!-- ======= Contact Us Section ======= -->
         <section id="contact" class="contact section-bg">
 
-            <div class="container">
-                <div class="section-title">
-                    <h2>Hubungi Kami</h2>
-                </div>
-            </div>
+
 
             <div class="container-fluid">
 

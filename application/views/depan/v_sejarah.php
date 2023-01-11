@@ -161,49 +161,146 @@
                             </p>
 
                             <p><b>a. Nama dan Alamat Sekolah</b></p>
+                            <table>
+                                <tr>
+                                    <td>Nama Sekolah</td>
+                                    <td>:</td>
+                                    <td>SMA S Al Kautsar</td>
+                                </tr>
+                                <tr>
+                                    <td>Nomor Statistik Sekolah</td>
+                                    <td>:</td>
+                                    <td>302126010040</td>
+                                </tr>
+                                <tr>
+                                    <td>Tahun Berdiri</td>
+                                    <td>:</td>
+                                    <td>1992</td>
+                                </tr>
+                                <tr>
+                                    <td>Status</td>
+                                    <td>:</td>
+                                    <td>Swasta</td>
+                                </tr>
+                                <tr>
+                                    <td>Alamat Sekolah</td>
+                                    <td>:</td>
+                                    <td></td>
+                                </tr>
+
+                            </table>
                             <ol>
-                                <li>Nama Sekolah &emsp; &emsp; &emsp; &emsp; &ensp;: SMA S Al Kautsar</li>
-                                <li>Nomor Statistik Sekolah &emsp;: 302126010040</li>
-                                <li>Tahun Berdiri &emsp; &emsp; &emsp; &emsp;&ensp;&ensp;: 1992</li>
-                                <li>Status &emsp; &emsp; &emsp; &emsp; &emsp;&emsp;&emsp;&emsp;&nbsp;: Swasta</li>
-                                <li>Alamat Sekolah &emsp; &emsp; &emsp;&ensp;&ensp;&nbsp;&nbsp;:
-                                    <ul type="square">
-                                        <li>Jalan &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp;: Soekarno-Hatta</li>
-                                        <li>Kelurahan &emsp; &emsp; &emsp; &ensp; &nbsp; &nbsp;: Rajabasa</li>
-                                        <li>Kecamatan &emsp; &emsp; &ensp; &ensp; &nbsp; &nbsp;: Rajabasa</li>
-                                        <li>Kabupaten/Kota &emsp; &nbsp; &nbsp;: Kota Bandar Lampung</li>
-                                        <li>Propinsi &emsp; &emsp; &emsp; &emsp; &ensp; &nbsp;: Lampung</li>
-                                        <li>Kode Pos &emsp; &emsp; &ensp; &ensp; &ensp; &nbsp; &nbsp;: 35144</li>
-                                        <li>Telepon &emsp; &emsp; &emsp; &ensp; &ensp; &ensp; : (0721) 781578</li>
-                                    </ul>
-                                </li>
+                                <table>
+                                    <tr>
+                                        <td>- Jalan</td>
+                                        <td>:</td>
+                                        <td>Soekarno-Hatta</td>
+                                    </tr>
+                                    <tr>
+                                        <td>- Kelurahan</td>
+                                        <td>:</td>
+                                        <td>Rajabasa</td>
+                                    </tr>
+                                    <tr>
+                                        <td>- Kecamatan</td>
+                                        <td>:</td>
+                                        <td>Rajabasa</td>
+                                    </tr>
+                                    <tr>
+                                        <td>- Kabupaten/Kota</td>
+                                        <td>:</td>
+                                        <td>Kota Bandar Lampung</td>
+                                    </tr>
+                                    <tr>
+                                        <td>- Propinsi</td>
+                                        <td>:</td>
+                                        <td>Lampung</td>
+                                    </tr>
+                                    <tr>
+                                        <td>- Kode Pos</td>
+                                        <td>:</td>
+                                        <td>35144</td>
+                                    </tr>
+                                    <tr>
+                                        <td>- Telepon</td>
+                                        <td>:</td>
+                                        <td>(0721) 781578</td>
+                                    </tr>
+                                </table>
                             </ol>
 
                             <p><b>b. Personalia SMA S Al Kautsar Bandar Lampung</b></p>
-                            <ul type="none">
-                                <li>Nama Kepala Sekolah &emsp; &nbsp; &nbsp;: H. Eko Anzair, M.Si</li>
-                                <li>NIP/ NUPTK &emsp; &emsp; &emsp; &emsp; &nbsp; &nbsp;: 4634750651200012</li>
-                                <li>Pangkat/Golongan &emsp; &emsp; &ensp;: Pembina Tk. I/ IV b</li>
-                                <li>Pendidikan &emsp; &emsp; &emsp; &ensp; &ensp; &nbsp; &nbsp; &nbsp;: S-2/ Fisika</li>
-                                <li>Tempat/Tgl Lahir &emsp; &ensp; &ensp; &nbsp; &nbsp;: Tangsi Lontar, 02 Maret 1972</li>
-                                <li>Alamat Rumah &emsp; &emsp; &emsp; &ensp; &nbsp; &nbsp;: Perum Wismamas Kemiling Blok G1 No. 15
-                                    <ul type="square">
-                                        <li>Jalan &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp;: Tengku Cik Ditiro</li>
-                                        <li>Kelurahan &emsp; &emsp; &emsp; &emsp; &nbsp;: Beringin Raya</li>
-                                        <li>Kecamatan &emsp; &emsp; &emsp; &ensp; &nbsp;: Kemiling</li>
-                                        <li>Kabupaten/ Kota &ensp; &ensp; &nbsp;: Kota Bandar Lampung</li>
-                                        <li>Propinsi &emsp; &emsp; &emsp; &emsp; &ensp; &nbsp;: Lampung</li>
-                                        <li>Kode Pos &emsp; &emsp; &emsp; &ensp; &ensp; &nbsp;: 35158</li>
-                                        <li>Handphone &emsp; &emsp; &emsp; &nbsp; &nbsp;: 08127905304</li>
-                                    </ul>
-                                </li>
-                            </ul>
+                            <table>
+                                <tr>
+                                    <td>Nama Kepala Sekolah</td>
+                                    <td>:</td>
+                                    <td>H. Eko Anzair, M.Si</td>
+                                </tr>
+                                <tr>
+                                    <td>NIP/NUPTK</td>
+                                    <td>:</td>
+                                    <td>4634750651200012</td>
+                                </tr>
+                                <tr>
+                                    <td>Pangkat/Golongan</td>
+                                    <td>:</td>
+                                    <td>Pembina Tk. I/ IV b</td>
+                                </tr>
+                                <tr>
+                                    <td>Pendidikan</td>
+                                    <td>:</td>
+                                    <td>S-2/ Fisika</td>
+                                </tr>
+                                <tr>
+                                    <td>Tempat/Tgl Lahir</td>
+                                    <td>:</td>
+                                    <td>Tangsi Lontar, 02 Maret 1972</td>
+                                </tr>
+                                <tr>
+                                    <td>Alamat Rumah</td>
+                                    <td>:</td>
+                                    <td>Perum Wismamas Kemiling Blok G1 No. 15</td>
+                                </tr>
+                            </table>
+                            <ol>
+                                <table>
+                                    <tr>
+                                        <td>- Jalan</td>
+                                        <td>:</td>
+                                        <td>Tengku Cik Ditiro</td>
+                                    </tr>
+                                    <tr>
+                                        <td>- Kelurahan</td>
+                                        <td>:</td>
+                                        <td>Beringin Raya</td>
+                                    </tr>
+                                    <tr>
+                                        <td>- Kecamatan</td>
+                                        <td>:</td>
+                                        <td>Kemiling</td>
+                                    </tr>
+                                    <tr>
+                                        <td>- Propinsi</td>
+                                        <td>:</td>
+                                        <td>Lampung</td>
+                                    </tr>
+                                    <tr>
+                                        <td>- Kode Pos</td>
+                                        <td>:</td>
+                                        <td>35158</td>
+                                    </tr>
+                                    <tr>
+                                        <td>- Handphone</td>
+                                        <td>:</td>
+                                        <td>08127905304</td>
+                                    </tr>
+                                </table>
+                            </ol>
 
                     </div>
-                </div>
 
+                </div>
             </div>
-        </div>
     </section>
 
 

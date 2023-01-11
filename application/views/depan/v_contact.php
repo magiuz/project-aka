@@ -57,7 +57,7 @@
 
         <div class="container">
             <div class="section-title">
-                <h2>Hubungi Kami</h2>
+                <h2>Tentang Kami</h2>
             </div>
         </div>
 

@@ -1,5 +1,5 @@
 <?php
-class saranaprasarana extends CI_Controller
+class prestasi extends CI_Controller
 {
     function __construct()
     {
@@ -14,7 +14,8 @@ class saranaprasarana extends CI_Controller
         $x['tot_siswa'] = $this->db->get('tbl_siswa')->num_rows();
         $x['tot_files'] = $this->db->get('tbl_files')->num_rows();
         $x['tot_agenda'] = $this->db->get('tbl_agenda')->num_rows();
-        $this->load->view('depan/v_saranaprasarana', $x);
+        $this->load->view('depan/v_prestasi', $x);
+        $this->load->view('templates/counter');
         $this->load->view('templates/footer');
     }
 }

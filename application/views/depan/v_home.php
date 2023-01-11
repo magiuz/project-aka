@@ -71,10 +71,76 @@
                                 </h2>
                                 <p class="animate__animated animate__fadeInUp">Bagi kami kreativitas merupakan gerbang
                                     masa depan. Kreativitas akan mendorong motivasi. Itulah yang kami lakukan.</p>
-                                <a href="blog" class="btn-get-started animate__animated animate__fadeInUp scrollto">Learn More</a>
+                                <button class="tombol">Learn More</button>
+                                <div class="video-container">
+                                    <span class="close"> &#10006; </span>
+                                    <video src="https://www.youtube.com/watch?v=VLeKRnAspbg&list=PL3Ju80apF_U0lf821UXF9lQJytwXrHJB7" controls></video>
+</div>
                             </div>
                         </div>
                     </div>
+                    <style>
+                        .a .tombol{
+                            text-decoration : none;
+                            padding: 15px 40px;
+                            background-color : rgb(255.122.0);
+                            color: #fff;
+                            border-radius: 48px;
+                            font-family: 'Century Gothic';
+                            font-weight: bolder;
+                            box-shadow: 810px 40px tgba(255,122,0,0.4);
+                        }
+
+                        .video-container{ 
+                            position: fixed;
+                            top :0; left : 0;
+                            width: 100%; height: 100%;
+                            z-index : 99999;
+                            background-color: rgba(255,122,0,0;1);
+                            display : flex;
+                            justify-content: center;
+                            align-items: center;
+                            opacity : 0;
+                            pointer-events: none;
+                            transition: all 0.3s;
+                        }
+
+                        .video-container .close{
+                            position: absolute;
+                            top: 10px; right: 25px; 
+                            font-size: 20px;
+                            cursor: pointer;
+                        }
+
+                        .video-container video{
+                            width: 90%;
+                            max-width: 800px;
+                            transform: scale(0);
+                            box-shadow: 0 20px 20px rgba(0,0,0,0.2);
+                            outline: none;
+                            transition: all 0.3s;
+                        }
+
+                        .video-container .show{
+                            pointer-events: all; opacity: 1;
+                        }
+
+                        .video-container .show video{
+                            transform: scale(1);
+                        }
+                        </style> 
+
+                        <!-- java script -->
+
+                        <script>
+                            const btn = document.querySelector('.tombol');
+                            const videoContainer - document.querySelector('.video-container');
+                            const close = document.querySelector('close');
+
+                            btn.addEventListener('click',()=>{
+                                videoContainer.classList.add('show');
+                            }
+                            </script>
 
                     <!-- Slide 2 -->
                     <div class="carousel-item" style="background-image: url(theme/images/slider-2.jpg);">
@@ -120,6 +186,7 @@
     <header id="header" class="d-flex align-items-center">
         <div class="container d-flex align-items-center justify-content-between">
 
+        
             <div class="logo">
                 <a href="home" class="navbar-brand nav-brand2"><img class="img img-responsive" width="160px;" src="theme/images/Logo Al-Kautsar.png"></a>
                 <!-- Uncomment below if you prefer to use an image logo -->

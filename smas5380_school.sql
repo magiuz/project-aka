@@ -3360,6 +3360,16 @@ CREATE TABLE `tbl_testimoni` (
   `testimoni_tanggal` timestamp NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+
+CREATE TABLE `tbl_prestasi` (
+  `prestasi_id` int(11) NOT NULL,
+  `prestasi_nama` varchar(30) DEFAULT NULL,
+  `prestasi_jenis` varchar(120) DEFAULT NULL,
+  `prestasi_hasil` varchar(35) DEFAULT NULL,
+  `prestasi_tingkat` varchar(35) DEFAULT NULL,
+  `prestasi_tanggal` timestamp NULL DEFAULT current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
 -- --------------------------------------------------------
 
 --
@@ -3422,6 +3432,11 @@ ALTER TABLE `tbl_jalur`
 --
 ALTER TABLE `tbl_alumni`
   ADD PRIMARY KEY (`alumni_id`);
+
+-- Indexes for table `tbl_prestasi`
+--
+ALTER TABLE `tbl_prestasi`
+  ADD PRIMARY KEY (`prestasi_id`);
 
 --
 -- Indexes for table `tbl_files`
@@ -3548,6 +3563,11 @@ ALTER TABLE `tbl_files`
 --
 ALTER TABLE `tbl_galeri`
   MODIFY `galeri_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
+
+-- AUTO_INCREMENT for table `tbl_prestasi`
+--
+ALTER TABLE `tbl_prestasi`
+  MODIFY `prestasi_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=80;
 
 --
 -- AUTO_INCREMENT for table `tbl_guru`

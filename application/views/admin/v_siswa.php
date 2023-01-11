@@ -640,6 +640,8 @@
               $jenkel=$i['siswa_jenkel'];
               $kelas_id=$i['siswa_kelas_id'];
               $photo=$i['siswa_photo'];
+
+              
             ?>
 	<!--Modal Hapus Pengguna-->
         <div class="modal fade" id="ModalHapus<?php echo $id;?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">

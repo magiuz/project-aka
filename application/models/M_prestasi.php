@@ -6,7 +6,7 @@ class M_prestasi extends CI_Model{
 		return $hsl;
 	}
 
-	function simpan_prestasi($nama,$jenis,$hasil,$tingkat){
+	function simpan_prestasi($nama,$jenis,$hasil,$tingkat,$photo,$tahun){
 		$hsl=$this->db->query("INSERT INTO tbl_prestasi (prestasi_nama,prestasi_jenis,prestasi_hasil,prestasi_tingkat) VALUES ('$nama,$jenis,$hasil,$tingkat')");
 		return $hsl;
 	}

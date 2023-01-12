@@ -3366,8 +3366,9 @@ CREATE TABLE `tbl_prestasi` (
   `prestasi_nama` varchar(30) DEFAULT NULL,
   `prestasi_jenis` varchar(120) DEFAULT NULL,
   `prestasi_hasil` varchar(35) DEFAULT NULL,
+  `prestasi_gambar` varchar(40) DEFAULT NULL,
   `prestasi_tingkat` varchar(35) DEFAULT NULL,
-  `prestasi_tanggal` timestamp NULL DEFAULT current_timestamp()
+  `prestasi_tahun` int(4) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------

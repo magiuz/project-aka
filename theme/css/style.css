@@ -953,7 +953,8 @@ Author:
      ============================================================== */
   .blog {
     background: #f2f2f2;
-    padding: 97px 0; }
+    padding: 97px 0; 
+    overflow-x: hidden;}
     .blog h2 {
       text-align: center;
       font-weight: 700;
@@ -1423,7 +1424,8 @@ Author:
      ABOUT WELCOME
      ============================================================== */
   .welcome_about {
-    padding: 98px 0; }
+    padding: 98px 0;
+    overflow: hidden; }
     .welcome_about h2 {
       font-weight: 600;
       color: #2d2d2d;
@@ -1445,7 +1447,8 @@ Author:
   
   @media (max-width: 992px) {
     .welcome_about {
-      padding: 58px 0; }
+      padding: 58px 0;
+      overflow-x: hidden; }
     .btn-about {
       margin: 0px 0 32px; } }
   
@@ -2205,7 +2208,8 @@ Author:
      BLOG
      ============================================================== */
   .blog-wrap {
-    padding: 98px 0; }
+    padding: 98px 0;
+    overflow-x: hidden; }
   
   .blog-img_block {
     position: relative; }

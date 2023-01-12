@@ -75,7 +75,7 @@
                                 <div class="video-container">
                                     <span class="close"> &#10006; </span>
                                     <video src="https://www.youtube.com/watch?v=VLeKRnAspbg&list=PL3Ju80apF_U0lf821UXF9lQJytwXrHJB7" controls></video>
-</div>
+    </div>
                             </div>
                         </div>
                     </div>
@@ -179,20 +179,40 @@
 
             </div>
         </div>
-    </section><!-- End Hero -->
+    </section>
+   
 
-    <!-- ======= Header ======= -->
+    <header id="header" class="d-flex align-items-center">    
+        <audio id="mysong" src="assets/aset/music/hymne.mp3"></audio>
+        <img src="theme/images/play.png" id="playbtn" onclick="playSong()" style="width: 30px; height: 30px; margin-left: 70px; margin-right: 15px; cursor: pointer;">
+        <img src="theme/images/stop.png" id="pausebtn" onclick="pauseSong()" style=" width: 30px; height: 30px; margin-left: 70px; margin-right: 15px; display: none; cursor: pointer;">
 
-    <header id="header" class="d-flex align-items-center">
-        <div class="container d-flex align-items-center justify-content-between">
+        <script>{
 
+            var mysong=document.getElementById("mysong");
+            var playbtn=document.getElementById("playbtn");
+            var pausebtn=document.getElementById("pausebtn");
+            
+            function playSong(){
+
+                mysong.play();
+                pausebtn.style.display="block";
+                playbtn.style.display="none";
+            }
+
+            function pauseSong(){
+
+                mysong.pause();
+                playbtn.style.display="block";
+                pausebtn.style.display="none";
+            }
+        }
+        </script>
         
-        
-            <div class="logo">
                 <a href="home" class="navbar-brand nav-brand2"><img class="img img-responsive" width="160px;" src="theme/images/Logo Al-Kautsar.png"></a>
-                <!-- Uncomment below if you prefer to use an image logo -->
-                <!-- <a href="index.html"><img src="aset/img/logo.png" alt="" class="img-fluid"></a>-->
             </div>
+
+        <div class="container d-flex align-items-center justify-content-between">
 
             <nav id="navbar" class="navbar">
                 <ul>
@@ -230,14 +250,12 @@
 
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
-            </nav><!-- .navbar -->
+            </nav>
 
         </div>
-    </header><!-- End Header -->
+    </header>
 
     <main id="main">
-
-        <!-- ======= About Us Section ======= -->
         <section id="about" class="about">
             <div class="container">
 
@@ -249,9 +267,8 @@
                 </div>
 
             </div>
-        </section><!-- End About Us Section -->
+        </section>
 
-        <!-- ======= Alumni ======= -->
         <section id="services" class="services">
             <div class="container">
 
@@ -299,9 +316,8 @@
                 </div>
 
             </div>
-        </section><!-- End Our Services Section -->
+        </section>
 
-        <!-- ======= Cta Section ======= -->
         <section class="cta">
             <div class="container">
 
@@ -313,9 +329,8 @@
                 </div>
 
             </div>
-        </section><!-- End Cta Section -->
+        </section>
 
-        <!-- ======= Counts Section ======= -->
         <section class="counts section-bg">
             <div class="container">
 
@@ -360,11 +375,9 @@
                 </div>
 
             </div>
-        </section><!-- End Counts Section -->
+        </section>
 
 
-
-        <!-- ======= Berita Section ======= -->
         <section class="more-services section-bg">
             <div class="container">
 
@@ -392,7 +405,7 @@
                             </div>
                         </div>
                     <?php } ?>
-                    <!-- <div class="col-lg-4 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0">
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="card">
               <img src="assets/aset/img/more-service-2.jpg" class="card-img-top" alt="...">
               <div class="card-body">
@@ -411,13 +424,13 @@
                 <a href="#" class="btn">Explore more</a>
               </div>
             </div>
-          </div> -->
+          </div> 
                 </div>
 
             </div>
-        </section><!-- End More Services Section -->
+        </section>
 
-        <!-- ======= Info Box Section ======= -->
+
         <section class="info-box py-0">
 
             <div class="container-fluid">
@@ -465,7 +478,7 @@
                                     <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed"><span style="color: #3C6AA6;">03</span> Dolor sit amet consectetur adipiscing elit? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                                     <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
                                         <p>
-x                                            Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci.
+                                            Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci.
                                             Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet
                                             nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis
                                             convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio
@@ -483,9 +496,9 @@ x                                            Eleifend mi in nulla posuere sollic
                 </div>
 
             </div>
-        </section><!-- End Info Box Section -->
+        </section>
 
-        <!-- ======= Galeri Section ======= -->
+
         <section id="portfolio" class="portfolio section-bg">
             <div class="container">
 
@@ -524,23 +537,16 @@ x                                            Eleifend mi in nulla posuere sollic
                         <?php } ?>
                     </div>
                 </div>
-        </section><!-- End Galeri Section -->
+        </section>
 
 
 
-        <!-- ======= Contact Us Section ======= -->
+
         <section id="contact" class="contact section-bg">
-
-
-
             <div class="container-fluid">
-
                 <div class="row">
-
                     <div class="col-lg-6 d-flex align-items-stretch infos">
-
                         <div class="row">
-
                             <div class="col-lg-6 info d-flex flex-column align-items-stretch">
                                 <i class="bx bx-map"></i>
                                 <h4>Alamat</h4>
@@ -578,14 +584,14 @@ x                                            Eleifend mi in nulla posuere sollic
             </div>
 
             </div>
-        </section><!-- End Contact Us Section -->
+        </section>
 
-    </main><!-- End #main -->
+    </main>
 
 
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-    <!-- Vendor JS Files -->
+   
     <script src="assets/aset/vendor/purecounter/purecounter_vanilla.js"></script>
     <script src="assets/aset/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/aset/vendor/glightbox/js/glightbox.min.js"></script>
@@ -594,7 +600,7 @@ x                                            Eleifend mi in nulla posuere sollic
     <script src="assets/aset/vendor/waypoints/noframework.waypoints.js"></script>
     <script src="assets/aset/vendor/php-email-form/validate.js"></script>
 
-    <!-- Template Main JS File -->
+  
     <script src="assets/aset/js/main.js"></script>
 
 </body>

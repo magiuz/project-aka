@@ -51,13 +51,6 @@
 
 <body>
     <style>
-        /* CSS JUMBOTRON */
-        .jumbotron {
-            background-color: #1bbca3;
-            color: #fff;
-
-        }
-
         /* CSS PRESTASI TOP 3 */
         .container1 {
             position: relative;
@@ -67,7 +60,7 @@
             align-items: center;
             flex-wrap: wrap;
             padding: 30px;
-            background-color: #1bbca3;
+            background-color: #f2f5f4;
         }
 
         .container1 .card {
@@ -84,7 +77,7 @@
         }
 
         .container1 .card:hover {
-            height: 500px;
+            height: 515px;
         }
 
         .container1 .card .imgBx {
@@ -95,12 +88,12 @@
             left: 5px;
             z-index: 1;
             box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
-
         }
 
         .container1 .card .imgBx img {
             max-width: 100%;
             border-radius: 5px;
+
         }
 
         .container1 .card .content {
@@ -117,12 +110,12 @@
         .container1 .card:hover .content {
             visibility: visible;
             opacity: 1;
-            margin-top: -40px;
+            margin-top: -30px;
             transition-delay: 0.3s;
         }
 
         .content h3 {
-            color: #1bbca3;
+            color: #3f3f3f;
             font-family: "poppins";
         }
 
@@ -181,6 +174,16 @@
             color: #1bbca3;
         }
 
+        .content-table tbody tr:nth-child(even):hover {
+            font-weight: bold;
+            color: #1bbca3;
+        }
+
+        .content-table tbody tr:nth-child(odd):hover {
+            font-weight: bold;
+            color: #1bbca3;
+        }
+
         /* .card {
             border: 1px solid #ccc;
             border-radius: 5px;
@@ -215,11 +218,11 @@
 
     <section class="blog-wrap">
         <div class="container">
-            <div class="jumbotron">
-                <h1 class="display-4"><b>PRESTASI SISWA</b></h1>
-                <hr class="my-4">
-                <p><i>SMA S Al Kautsar merupakan sekolah para juara, dan masuk pada jajaran sekolah terbaik di Indonesia yang dibuktikan dengan prestasi pada ajang Pusat Prestasi Nasional melalui OSN, FLS2N dan LDBI serta mampu berkompetisi pada lomba akademik maupun non akademik di level Nasional bahkan Internasional.</i></p>
-            </div>
+            <div class="section-title">
+                <h2>PRESTASI</h2>
+                <p>SMA S Al Kautsar merupakan sekolah para juara, dan masuk pada jajaran sekolah terbaik di Indonesia yang dibuktikan dengan prestasi pada ajang Pusat Prestasi Nasional melalui OSN, FLS2N dan LDBI serta mampu berkompetisi pada lomba akademik maupun non akademik di level Nasional bahkan Internasional.</p>
+
+            </div><br><br>
 
             <div class="container1">
                 <div class="card">
@@ -228,9 +231,10 @@
                     </div>
                     <div class="content">
                         <h3>M. NABHAN DZAKI AUFAR</h3>
+
                         <p>Medali Perunggu
                             <br>Bidang Kebumian
-                            <br>OLIMPIADE SAINS NASIONAL
+                            <br>Olimpiade Sains Nasional
                             <br>Tingkat Nasional
                         </p>
                     </div>
@@ -269,13 +273,13 @@
             <br>
 
             <!-- TABLE PRESTASI -->
-            <div class="row ">
+            <!-- <div class="row ">
                 <div class="col-md-12">
                     <div class="contact-title">
                         <h2 style="text-align:center;">PRESTASI</h2>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <div class="row">
                 <div class="col-md-12">
                     <div class="table-responsive">
@@ -284,6 +288,7 @@
                                 <tr>
                                     <th>No</th>
                                     <th>Jenis Perlombaan</th>
+                                    <th>Tahun</th>
                                     <th>Hasil</th>
                                     <th>Tingkat</th>
                                 </tr>
@@ -291,31 +296,36 @@
                             <tbody>
                                 <tr>
                                     <td>1</td>
-                                    <td>Olimpiade Sains Nasional (OSN) Bidang Kebumian</td>
+                                    <td>Olimpiade Astronomi (IAOC) di Colombia</td>
+                                    <td>2021</td>
                                     <td>Perunggu</td>
                                     <td>Nasional</td>
                                 </tr>
-                                <tr class="active-row">
+                                <tr>
                                     <td>2</td>
                                     <td>Olimpiade Sains Nasional (OSN) Bidang Geografi</td>
+                                    <td>2020</td>
                                     <td>Perunggu</td>
                                     <td>Nasional</td>
                                 </tr>
                                 <tr>
                                     <td>3</td>
                                     <td>Olimpiade Sains Nasional (OSN) Bidang Matematika</td>
+                                    <td>2020</td>
                                     <td>Perunggu</td>
                                     <td>Nasional</td>
                                 </tr>
                                 <tr>
                                     <td>4</td>
                                     <td>Olimpiade Sains Nasional (OSN) Bidang Astronomi</td>
+                                    <td>2021</td>
                                     <td>Perunggu</td>
                                     <td>Nasional</td>
                                 </tr>
                                 <tr>
                                     <td>5</td>
                                     <td>Olimpiade Sains Nasional (OSN) Bidang Matematika</td>
+                                    <td>2022</td>
                                     <td>Perunggu</td>
                                     <td>Nasional</td>
                                 </tr>

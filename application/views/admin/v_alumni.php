@@ -526,19 +526,19 @@
                                     </div>
 
                                     <div class="form-group">
-                                        <label for="inputUserName" class="col-sm-4 control-label">Jalur Masuk</label>
-                                        <div class="col-sm-7">
+                                      <label for="inputUserName" class="col-sm-4 control-label">Jalur Masuk</label>
+                                      <div class="col-sm-7">
                                           <select name="xjalur" class="form-control" required>
-                                            <option value="">-Pilih-</option>
-                                            <?php
-                                              foreach ($jalur->result_array() as $j){
-                                                $jalur_id=$j['jalur_id'];
-                                                $jalur_nama=$j['jalur_nama'];
-                                              ?>
+                                              <option value="">-Pilih-</option>
+                                              <?php
+                                                        foreach ($jaluran->result_array() as $j){
+                                                          $jalur_id=$j['jalur_id'];
+                                                          $jalur_nama=$j['jalur_nama'];
+                                                        ?>
                                               <option value="<?php echo $jalur_id;?>"><?php echo $jalur_nama;?></option>
                                               <?php } ?>
                                           </select>
-                                        </div>
+                                      </div>
                                     </div>
 
                                     <div class="form-group">
@@ -583,10 +583,9 @@
               $jalur=$i['jalur_masuk'];
               $kampus=$i['alumni_kampus'];
               $kesan=$i['alumni_kesan']; 
-              $kelas_nama=$i['kelas_nama'];
-              $jalur_nama=$i['jalur_nama'];
               $photo=$i['alumni_photo'];
             ?>
+            
 
         <div class="modal fade" id="ModalEdit<?php echo $id;?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
             <div class="modal-dialog" role="document">
@@ -662,15 +661,15 @@
                                     <div class="form-group">
                                         <label for="inputUserName" class="col-sm-4 control-label">Jalur Masuk</label>
                                         <div class="col-sm-7">
-                                          <select name="xkjalur" class="form-control" required>
+                                          <select name="xjalur" class="form-control" required>
                                             <option value="">-Pilih-</option>
                                             <?php
-                                                foreach ($jalur->result_array() as $j) {
+                                                foreach ($jaluran->result_array() as $j) {
                                                   $jalur_id=$j['jalur_id'];
-                                                  $jalur_nama=$k['jalur_nama'];
+                                                  $jalur_nama=$j['jalur_nama'];
 
                                             ?>
-                                            <?php if($jalur_id==$jalur_id):?>
+                                            <?php if($jalur_id==$jalur):?>
                                               <option value="<?php echo $jalur_id;?>" selected><?php echo $jalur_nama;?></option>
                                             <?php else:?>
                                               <option value="<?php echo $jalur_id;?>"><?php echo $jalur_nama;?></option>
@@ -734,7 +733,7 @@
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><span class="fa fa-close"></span></span></button>
                         <h4 class="modal-title" id="myModalLabel">Hapus Alumni</h4>
                     </div>
-                    <form class="form-horizontal" action="<?php echo base_url().'admin/siswa/hapus_siswa'?>" method="post" enctype="multipart/form-data">
+                    <form class="form-horizontal" action="<?php echo base_url().'admin/alumni/hapus_alumni'?>" method="post" enctype="multipart/form-data">
                     <div class="modal-body">
 							       <input type="hidden" name="kode" value="<?php echo $id;?>"/>
                      <input type="hidden" value="<?php echo $photo;?>" name="gambar">

@@ -16,7 +16,7 @@ class Alumni extends CI_Controller{
 
 	function index(){
 		$x['kelas']=$this->m_kelas->get_all_kelas();
-		$x['jalur']=$this->m_jalur->get_all_jalur();
+		$x['jaluran']=$this->m_jalur->get_all_jalur();
 		$x['data']=$this->m_alumni->get_all_alumni();
 		$this->load->view('admin/v_alumni',$x);
 	}

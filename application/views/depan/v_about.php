@@ -57,14 +57,14 @@
             <div class="row">
                 <div class="col-md-9">
                     <h2>Kata Sambutan</h2>
-                    <p>Puji syukur kami panjatkan ke hadirat Tuhan Yang Maha Esa atas karunia dan hidayah-Nya,
+                    <p align="justify">Puji syukur kami panjatkan ke hadirat Tuhan Yang Maha Esa atas karunia dan hidayah-Nya,
                         sehingga kita semua dapat membaktikan segala hal yang kita miliki untuk kemajuan dunia pendidikan.
                         Apapun bentuk dan sumbangsih yang kita berikan, jika dilandasi niat yang tulus tanpa memandang imbalan
                         apapun akan menghasilkan mahakarya yang agung untuk bekal kita dan generasi setelah kita.
                         Pendidikan adalah harga mati untuk menjadi pondasi bangsa dan negara dalam menghadapi perkembangan zaman.
                     </p>
                     
-                    <p>Hal ini seiring dengan penguasaan teknologi untuk dimanfaatkan sebaik mungkin,
+                    <p align="justify">Hal ini seiring dengan penguasaan teknologi untuk dimanfaatkan sebaik mungkin,
                         sehingga menciptakan iklim kondusif dalam ranah keilmuan. Dengan konsep yang kontekstual dan efektif,
                         kami mengejewantahkan nilai-nilai pendidikan yang tertuang dalam visi misi M-School,
                         sebagai panduan hukum dalam menjabarkan tujuan hakiki pendidikan.

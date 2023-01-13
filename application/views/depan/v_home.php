@@ -129,7 +129,7 @@
 
     <header id="header" class="d-flex align-items-center">    
         <audio id="mysong" src="assets/aset/music/lagu-ak.mp3"></audio>
-        <img src="theme/images/play.jpg" id="playbtn" onclick="playSong()" style="width: 40px; height: 40px; margin-left: 70px; margin-right: 15px; cursor: pointer;">
+        <img src="theme/images/play.png" id="playbtn" onclick="playSong()" style="width: 40px; height: 40px; margin-left: 70px; margin-right: 15px; cursor: pointer;">
         <img src="theme/images/pause.png" id="pausebtn" onclick="pauseSong()" style=" width: 40px; height: 40px; margin-left: 70px; margin-right: 15px; display: none; cursor: pointer;">
 
         <script>{

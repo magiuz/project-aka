@@ -61,7 +61,7 @@
 
                     
                     <h2 align="center">Misi SMA Al Kautsar</h2>   
-                    <ol>             
+                    <ol align="justify">             
                     <li>Menjadikan sekolah berprestasi di bidang akademik dan nonakademik di tingkat nasional</li>
                     <li>Meningkatkan kompetensi pendidik dan tenaga kependidikan</li>
                     <li>Mewujudkan sarana dan prasarana sekolah yang lengkap, modern dan berwawasan lingkungan</li>
@@ -78,11 +78,11 @@
                     <h2 align="center">Tujuan SMA AL Kautsar</b></h4>
                     
                     <b>Tujuan Pendidikan Nasional</b>
-                        <p>Tujuan pendidikan nasional tercantum dalam Undang-Undang Nomor 20 Tahun 2003 tentang Sistem Pendidikan Nasional, pasal 3, “ mengembangkan potensi peserta didik agar menjadi manusia yang beriman dan bertagwa kepada Tuhan Yang Maha Esa, berakhlak mulia, sehat, berilmu, cakap, kreatif, mandiri, dan menjadi warga negara yang demokratis serta bertanggung jawab”.</p><br>
+                        <p align="justify">Tujuan pendidikan nasional tercantum dalam Undang-Undang Nomor 20 Tahun 2003 tentang Sistem Pendidikan Nasional, pasal 3, “ mengembangkan potensi peserta didik agar menjadi manusia yang beriman dan bertagwa kepada Tuhan Yang Maha Esa, berakhlak mulia, sehat, berilmu, cakap, kreatif, mandiri, dan menjadi warga negara yang demokratis serta bertanggung jawab”.</p><br>
                     <b>Tujuan Pendidikan Sekolah Menengah Atas</b>
-                        <p>Tujuan pendidikan menengah adalah meningkatkan kecerdasan, pengetahuan, kepribadian, akhlak mulia, serta keterampilan untuk hidup mandiri dan mengikuti pendidikan lebih lanjut.</p><br>
+                        <p align="justify">Tujuan pendidikan menengah adalah meningkatkan kecerdasan, pengetahuan, kepribadian, akhlak mulia, serta keterampilan untuk hidup mandiri dan mengikuti pendidikan lebih lanjut.</p><br>
                     <b>Tujuan SMA S Al Kautsar adalah sebagai berikut:</b>
-                    <ol>
+                    <ol align="justify">
                     <li>Diraihnya juara olimpiade sains, FLS2N, LDBI, prestasi akademik dan nonakademik lainnya di tingkat kota, provinsi, nasional, dan internasional.</li>
                     <li>Memiliki tenaga pendidik berkualifikasi S2 sebanyak 60 % tahun 2025.</li>
                     <li>Memiliki tenaga kependidikan berkualifikasi S1, pustakawan dan laboran yang tersertifikasi.</li>

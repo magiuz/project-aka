@@ -51,13 +51,24 @@
 </head>
 
 <body>
+    <style>
+        input,
+        textarea {
+            background-color: #eee;
+            border: none;
+            padding: 12px 15px;
+            margin: 8px 0;
+            width: 100%;
+            font-size: 0.8rem;
+        }
+    </style>
 
     <!-- ======= Contact Us Section ======= -->
     <section id="contact" class="contact section-bg">
 
         <div class="container">
             <div class="section-title">
-                <h2>Tentang Kami</h2>
+                <h2>Hubungi Kami</h2>
             </div>
         </div>
 
@@ -94,7 +105,6 @@
 
                 </div>
 
-
                 <div class="col-lg-6 d-flex align-items-stretch contact-form-wrap">
                     <form action="forms/contact.php" method="post" role="form" class="php-email-form">
                         <div class="row">
@@ -125,8 +135,8 @@
                     </form>
                 </div>
 
-                <div class="col-lg-12 d-flex align-items-stretch contact-form-wrap">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3972.357597269861!2d105.23396317373543!3d-5.36229489461647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e40cff9c110dbff%3A0xb0bbb3e360027e10!2sSMA%20Al%20Kautsar!5e0!3m2!1sid!2sid!4v1672730154303!5m2!1sid!2sid" width="1300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="col-lg-20 d-flex align-items-stretch contact-form-wrap">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3972.357597269861!2d105.23396317373543!3d-5.36229489461647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e40cff9c110dbff%3A0xb0bbb3e360027e10!2sSMA%20Al%20Kautsar!5e0!3m2!1sid!2sid!4v1672730154303!5m2!1sid!2sid" width="100%" height="300px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
                 </div>
 

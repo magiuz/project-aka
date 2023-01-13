@@ -3364,11 +3364,11 @@ CREATE TABLE `tbl_testimoni` (
 CREATE TABLE `tbl_prestasi` (
   `prestasi_id` int(11) NOT NULL,
   `prestasi_nama` varchar(30) DEFAULT NULL,
-  `prestasi_jenis` varchar(120) DEFAULT NULL,
+  `prestasi_jenis` varchar(20) DEFAULT NULL,
   `prestasi_hasil` varchar(35) DEFAULT NULL,
-  `prestasi_gambar` varchar(40) DEFAULT NULL,
   `prestasi_tingkat` varchar(35) DEFAULT NULL,
-  `prestasi_tahun` int(4) NOT NULL
+  `prestasi_tahun` int(4) NOT NULL,
+  `prestasi_tanggal` timestamp NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------

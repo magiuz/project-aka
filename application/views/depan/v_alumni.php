@@ -54,10 +54,10 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>Alumni</h2>
+          <br><br><br><br><h2>Alumni</h2>
           <p>SMA S Al Kautsar melahirkan banyak siswa berprestasi membanggakan yang tersebar di seluruh Indonesia.</p>
           <p>Apa kata mereka tentang SMA S Al Kautsar?</p>
-        </div><br>
+        </div><br><br><br><br>
 
         <div class="row">
           <div class="col-lg-2 col-md-6">
@@ -72,77 +72,8 @@
             </p>
           </div>
         </div><br><br><br>
-        
-        <div class="row">
-          <div class="col-lg-2 col-md-6">
-            <img src="theme/images/alumni.jpg" class="img-fluid" alt="#">
-          </div>
-          <div class="col-lg-10 col-md-6 content">
-            <h3>Nabila Meutia Salma Dinanti</h3>
-            <p><strong>Universitas Indonesia</strong></p>
-            <p align="justify">
-            SMA S Al-Kautsar punya lingkungan belajar yang seru dan menarik baik dari guru, teman, maupun staf sekolah lainnya. Guru yang mengajar juga memiliki metode yang beragam agar kami mengerti materi yang sedang diajarkan. 
-            SMA S Al-Kautsar juga mampu melahirkan siswa yang cerdas dan berprestasi ditunjukkan dari banyaknya perlombaan yang telah dimenangkan dan banyaknya siswa yang diterima pada perguruan tinggi terbaik di Indonesia.
-            </p>
-          </div>
-        </div><br><br><br>
 
-        <div class="row">
-          <div class="col-lg-2 col-md-6">
-            <img src="theme/images/alumni-3.jpg" class="img-fluid" alt="#">
-          </div>
-          <div class="col-lg-10 col-md-6 content">
-            <h3>Salma Afiifah</h3>
-            <p><strong>Institut Teknologi Bandung</strong></p>
-            <p align="justify">
-            Masuk ke SMA S Al Kautsar adalah salah satu pilihan terbaik yang pernah aku buat selama hidup aku. Disini aku memiliki banyak pengalaman, bukan hanya akademik melainkan non akademik juga. Disini kita diberikan kebebasan untuk mengekspresikan diri dengan kegiatan kegiatan yang seru banget tiap tahunnya. 
-            SMA S Al Kautsar juga selalu mendukung siswanya untuk mengikuti lomba-lomba baik tingkat kota hingga tingkat internasional. Dan semua itu bisa aku dapetin secara gratis karena alhamdulillah bisa diberi kesempatan untuk mendapat beasiswa yang diberikan oleh yayasan.
-            </p>
-          </div>
-        </div><br><br><br>
-
-        <div class="row">
-          <div class="col-lg-2 col-md-6">
-            <img src="theme/images/alumni-4.jpg" class="img-fluid" alt="#">
-          </div>
-          <div class="col-lg-10 col-md-6 content">
-            <h3>Jerlina Wardani</h3>
-            <p><strong>Poltekbang Surabaya</strong></p>
-            <p align="justify">
-            Kualitas pendidikan dapat dilihat dari bagaimana guru mampu mengarahkan siswa dalam menggali potensi diri SMA S Al Kautsar membuktikannya. Lingkungan belajar yang mendukung membuat saya semangat dalam menggapai mimpi saya ditunjang dengan fasilitas juga program dari SMA S Al Kautsar mengenai motivasi, dengan nuansa islami, alkautsar mampu membuat saya ingin kembali.
-            Gak nyesel deh sekolah di SMA S Al Kautsar
-            </p>
-          </div>
-        </div><br><br><br>
-
-        <div class="row">
-          <div class="col-lg-2 col-md-6">
-            <img src="theme/images/alumni-5.jpg" class="img-fluid" alt="#">
-          </div>
-          <div class="col-lg-10 col-md-6 content">
-            <h3>Aisyah Syahrini</h3>
-            <p><strong>Universitas Negeri Jakarta</strong></p>
-            <p align="justify">
-            SMA S Al Kautsar mampu memberikan lingkungan sekolah dan belajar mengajar yang tertib berdasarkan ajaran Islam bersamaan dengan memberikan setiap pihak yang terlibat, dari guru, karyawan, hingga siswa siswinya kebebasan untuk eksplor dan mengekspresikan dirinya. 
-            Hal tersebut memberikan kesan baik untuk mengenali diri dari segi manusiawi tanpa meninggalkan kewajiban kita sebagai hamba Allah SWT. 
-            </p>
-          </div>
-        </div><br><br><br>
-
-        <div class="row">
-          <div class="col-lg-2 col-md-6">
-            <img src="theme/images/alumni-6.jpg" class="img-fluid" alt="#">
-          </div>
-          <div class="col-lg-10 col-md-6 content">
-            <h3>Imam Al Farizi Kautsar</h3>
-            <p><strong>Politeknik Statistika STIS</strong></p>
-            <p align="justify">
-            Bersekolah di SMA Al Kautsar adalah salah satu keputusan paling tepat yang pernah saya ambil. Dengan lingkungan, pengajar, dan juga fasilitas yang mendukung, sekolah ini mampu mengubah saya menjadi insan yang lebih baik.
-            Semoga SMA Al Kautsar semakin baik ke depannya dan bisa bersaing lebih banyak di kancah internasional
-            </p>
-          </div>
-        </div>
-        
+       
     </section>
 
     <!--//End Style 2 -->

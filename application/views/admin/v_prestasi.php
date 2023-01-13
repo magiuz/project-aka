@@ -224,10 +224,9 @@
                        $tingkat=$i['prestasi_tingkat'];
                        $tahun=$i['prestasi_tahun'];
                        $tanggal=$i['tanggal'];
-
                     ?>
                 <tr>
-                  <td><?php echo $no;?></td>
+                  <td><?php echo $no;?></td> 
                   <td><?php echo $nama;?></td>
                   <td><?php echo $jenis;?></td>
                   <td><?php echo $hasil;?></td>

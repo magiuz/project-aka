@@ -77,10 +77,12 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  position: fixed;
+  position: -webkit-sticky;
+  display: flex;
+  flex-direction: row;
   width: inherit;
   height: 70px;
-  z-index: 997;
+  z-index: 100;
   transition: all 0s;
   background: #fff;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -89,7 +91,7 @@ h6 {
 
 #header .logo h1 {
   font-size: 28px;
-  margin: 0;
+  margin: 10;
   padding: 10px 0;
   line-height: 1;
   font-weight: 400;

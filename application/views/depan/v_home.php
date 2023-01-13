@@ -184,8 +184,8 @@
 
     <header id="header" class="d-flex align-items-center">    
         <audio id="mysong" src="assets/aset/music/lagu-ak.mp3"></audio>
-        <img src="theme/images/play.png" id="playbtn" onclick="playSong()" style="width: 30px; height: 30px; margin-left: 70px; margin-right: 15px; cursor: pointer;">
-        <img src="theme/images/stop.png" id="pausebtn" onclick="pauseSong()" style=" width: 30px; height: 30px; margin-left: 70px; margin-right: 15px; display: none; cursor: pointer;">
+        <img src="theme/images/play.jpg" id="playbtn" onclick="playSong()" style="width: 40px; height: 40px; margin-left: 70px; margin-right: 15px; cursor: pointer;">
+        <img src="theme/images/pause.png" id="pausebtn" onclick="pauseSong()" style=" width: 40px; height: 40px; margin-left: 70px; margin-right: 15px; display: none; cursor: pointer;">
 
         <script>{
 
@@ -208,11 +208,11 @@
             }
         }
         </script>
-        
+            <div>
                 <a href="home" class="navbar-brand nav-brand2"><img class="img img-responsive" width="160px;" src="theme/images/Logo Al-Kautsar.png"></a>
             </div>
 
-        <div class="container d-flex align-items-center justify-content-between">
+        <div class="container d-flex align-items-center justify-content-start">
 
             <nav id="navbar" class="navbar">
                 <ul>

@@ -71,65 +71,10 @@
                                 </h2>
                                 <p class="animate__animated animate__fadeInUp">Bagi kami kreativitas merupakan gerbang
                                     masa depan. Kreativitas akan mendorong motivasi. Itulah yang kami lakukan.</p>
-                                <button class="tombol">Learn More</button>
-                                <div class="video-container">
-                                    <span class="close"> &#10006; </span>
-                                    <video src="https://www.youtube.com/watch?v=VLeKRnAspbg&list=PL3Ju80apF_U0lf821UXF9lQJytwXrHJB7" controls></video>
-    </div>
+                                <a href="guru" class="btn-get-started animate__animated animate__fadeInUp scrollto">Learn More</a>
                             </div>
                         </div>
                     </div>
-                    <style>
-                        .a .tombol{
-                            text-decoration : none;
-                            padding: 15px 40px;
-                            background-color : rgb(255.122.0);
-                            color: #fff;
-                            border-radius: 48px;
-                            font-family: 'Century Gothic';
-                            font-weight: bolder;
-                            box-shadow: 810px 40px tgba(255,122,0,0.4);
-                        }
-
-                        .video-container{ 
-                            position: fixed;
-                            top :0; left : 0;
-                            width: 100%; height: 100%;
-                            z-index : 99999;
-                            background-color: rgba(255,122,0,0;1);
-                            display : flex;
-                            justify-content: center;
-                            align-items: center;
-                            opacity : 0;
-                            pointer-events: none;
-                            transition: all 0.3s;
-                        }
-
-                        .video-container .close{
-                            position: absolute;
-                            top: 10px; right: 25px; 
-                            font-size: 20px;
-                            cursor: pointer;
-                        }
-
-                        .video-container video{
-                            width: 90%;
-                            max-width: 800px;
-                            transform: scale(0);
-                            box-shadow: 0 20px 20px rgba(0,0,0,0.2);
-                            outline: none;
-                            transition: all 0.3s;
-                        }
-
-                        .video-container .show{
-                            pointer-events: all; opacity: 1;
-                        }
-
-                        .video-container .show video{
-                            transform: scale(1);
-                        }
-                        </style> 
-
                         <!-- java script -->
 
                         <script>
@@ -405,28 +350,7 @@
                             </div>
                         </div>
                     <?php } ?>
-                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div class="card">
-              <img src="assets/aset/img/more-service-2.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title"><a href="">Nobis et tempore</a></h5>
-                <p class="card-text">Ut quas omnis est. Non et aut tempora dignissimos similique in dignissimos. Sit incidunt et odit iusto</p>
-                <a href="#" class="btn">Explore more</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div class="card">
-              <img src="assets/aset/img/more-service-3.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title"><a href="">Facere quia quae dolores</a></h5>
-                <p class="card-text">Modi ut et delectus. Modi nobis saepe voluptates nostrum. Sed quod consequatur quia provident dera</p>
-                <a href="#" class="btn">Explore more</a>
-              </div>
-            </div>
-          </div> 
                 </div>
-
             </div>
         </section>
 

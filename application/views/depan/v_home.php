@@ -159,7 +159,7 @@
 
         <div class="container d-flex align-items-center justify-content-start">
 
-            <nav id="navbar" class="navbar">
+            <nav id="navbar" class="navbar mr-5 ml-auto">
                 <ul>
                     <li><a class="nav-link scrollto " href="home">Beranda</a></li>
                     <li><a class="nav-link scrollto" target="blank" href="http://sis.smas-alkautsar.sch.id/">SIS</a>

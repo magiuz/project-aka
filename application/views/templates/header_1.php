@@ -9,7 +9,7 @@
             <!-- <a href="index.html"><img src="aset/img/logo.png" alt="" class="img-fluid"></a>-->
         </div>
 
-        <nav id="navbar" class="navbar" style="margin-right: auto;">
+        <nav id="navbar" class="navbar p-2 ml-auto">
             <ul>
                 <li><a class="nav-link scrollto " href="home">Beranda</a></li>
                 <li><a class="nav-link scrollto" target="blank" href="http://sis.smas-alkautsar.sch.id/">SIS</a>

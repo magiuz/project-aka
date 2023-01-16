@@ -23,7 +23,7 @@
 
           <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
             <div class="count-box">
-              <i class="bi bi-headset"></i>
+              <i class="fa-solid fa-arrow-down-to-bracket"></i>
               <span class="counter"><?php echo $tot_files; ?></span>
               <p><strong>Download</strong></p>
               <a href="download">Find out more &raquo;</a>

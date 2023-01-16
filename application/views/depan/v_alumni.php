@@ -54,7 +54,7 @@
       <div class="container">
 
         <div class="section-title">
-          <br><br><br><br><h2>Alumni</h2>
+          <h2>Alumni</h2>
           <p>SMA S Al Kautsar melahirkan banyak siswa berprestasi membanggakan yang tersebar di seluruh Indonesia.</p>
           <p>Apa kata mereka tentang SMA S Al Kautsar?</p>
         </div><br><br><br><br>

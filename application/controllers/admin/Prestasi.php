@@ -17,11 +17,11 @@ class Prestasi extends CI_Controller{
 	}
 
 	function simpan_prestasi(){
-		$nama=($this->input->post('xnama'));
-		$jenis=($this->input->post('xjenis'));
-		$hasil=($this->input->post('xhasil'));
-		$tingkat=($this->input->post('xtingkat'));
-		$tahun=($this->input->post('xtahun'));
+		$nama=strip_tags($this->input->post('xnama'));
+		$jenis=strip_tags($this->input->post('xjenis'));
+		$hasil=strip_tags($this->input->post('xhasil'));
+		$tingkat=strip_tags($this->input->post('xtingkat'));
+		$tahun=strip_tags($this->input->post('xtahun'));
 		$this->m_prestasi->simpan_prestasi($nama,$jenis,$hasil,$tingkat,$tahun);
 		echo $this->session->set_flashdata('msg','success');
 		redirect('admin/prestasi');

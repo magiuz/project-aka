@@ -1,6 +1,6 @@
 <!-- ======= Header ======= -->
 
-<header id="header" class="d-flex align-items-center">
+<header id="header" class="justify-content-flex-end">
     <div class="container d-flex align-items-center justify-content-start">
 
         <div class="logo">
@@ -9,7 +9,7 @@
             <!-- <a href="index.html"><img src="aset/img/logo.png" alt="" class="img-fluid"></a>-->
         </div>
 
-        <nav id="navbar" class="navbar">
+        <nav id="navbar" class="navbar p-2 ml-auto">
             <ul>
                 <li><a class="nav-link scrollto " href="home">Beranda</a></li>
                 <li><a class="nav-link scrollto" target="blank" href="http://sis.smas-alkautsar.sch.id/">SIS</a>

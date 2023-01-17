@@ -43,7 +43,6 @@
           <h4>Akademik</h4>
           <ul>
             <li><i class="bx bx-chevron-right"></i> <a href="guru">Guru</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="siswa">Siswa</a></li>
             <li><i class="bx bx-chevron-right"></i> <a href="alumni">Alumni</a></li>
             <li><i class="bx bx-chevron-right"></i> <a href="prestasi">Prestasi</a></li>
             <li><i class="bx bx-chevron-right"></i> <a href="pengumuman">Pengumuman</a></li>

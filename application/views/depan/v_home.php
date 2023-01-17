@@ -160,7 +160,7 @@
 
         <div class="container d-flex align-items-center justify-content-start">
 
-            <nav id="navbar" class="navbar">
+            <nav id="navbar" class="navbar mr-5 ml-auto">
                 <ul>
                     <li><a class="nav-link scrollto " href="home">Beranda</a></li>
                     <li><a class="nav-link scrollto" target="blank" href="http://sis.smas-alkautsar.sch.id/">SIS</a>
@@ -179,7 +179,6 @@
                     <li class="dropdown"><a href="#"><span>Akademik</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="guru">Guru</a></li>
-                            <li><a href="siswa">Siswa</a></li>
                             <li><a href="alumni">Alumni</a></li>
                             <li><a href="prestasi">Prestasi</a></li>
                             <li><a href="pengumuman">Pengumuman</a></li>

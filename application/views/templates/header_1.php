@@ -19,6 +19,7 @@
                     <ul>
                         <li><a href="about">Sambutan</a></li>
                         <li><a href="sejarah">Sejarah</a></li>
+                        <li><a href="lambang">Lambang</a></li>
                         <li><a href="visi_misi">Visi dan Misi</a></li>
                         <li><a href="struktur">Struktur</a></li>
                     </ul>
@@ -27,7 +28,6 @@
                 <li class="dropdown"><a href="#"><span>Akademik</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
                         <li><a href="guru">Guru</a></li>
-                        <li><a href="siswa">Siswa</a></li>
                         <li><a href="alumni">Alumni</a></li>
                         <li><a href="prestasi">Prestasi</a></li>
                         <li><a href="pengumuman">Pengumuman</a></li>

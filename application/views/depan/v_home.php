@@ -75,17 +75,17 @@
                             </div>
                         </div>
                     </div>
-                        <!-- java script -->
+                    <!-- java script -->
 
-                        <script>
-                            const btn = document.querySelector('.tombol');
-                            const videoContainer - document.querySelector('.video-container');
-                            const close = document.querySelector('close');
+                    <script>
+                        const btn = document.querySelector('.tombol');
+                        const videoContainer - document.querySelector('.video-container');
+                        const close = document.querySelector('close');
 
-                            btn.addEventListener('click',()=>{
-                                videoContainer.classList.add('show');
-                            }
-                            </script>
+                        btn.addEventListener('click', () => {
+                                    videoContainer.classList.add('show');
+                                }
+                    </script>
 
                     <!-- Slide 2 -->
                     <div class="carousel-item" style="background-image: url(theme/images/slider-2.jpg);">
@@ -125,37 +125,38 @@
             </div>
         </div>
     </section>
-   
 
-    <header id="header" class="d-flex align-items-center">    
+
+    <header id="header" class="d-flex align-items-center">
         <audio id="mysong" src="assets/aset/music/lagu-ak.mp3"></audio>
         <img src="theme/images/play.png" id="playbtn" onclick="playSong()" style="width: 40px; height: 40px; margin-left: 70px; margin-right: 15px; cursor: pointer;">
         <img src="theme/images/pause.png" id="pausebtn" onclick="pauseSong()" style=" width: 40px; height: 40px; margin-left: 70px; margin-right: 15px; display: none; cursor: pointer;">
 
-        <script>{
+        <script>
+            {
 
-            var mysong=document.getElementById("mysong");
-            var playbtn=document.getElementById("playbtn");
-            var pausebtn=document.getElementById("pausebtn");
-            
-            function playSong(){
+                var mysong = document.getElementById("mysong");
+                var playbtn = document.getElementById("playbtn");
+                var pausebtn = document.getElementById("pausebtn");
 
-                mysong.play();
-                pausebtn.style.display="block";
-                playbtn.style.display="none";
+                function playSong() {
+
+                    mysong.play();
+                    pausebtn.style.display = "block";
+                    playbtn.style.display = "none";
+                }
+
+                function pauseSong() {
+
+                    mysong.pause();
+                    playbtn.style.display = "block";
+                    pausebtn.style.display = "none";
+                }
             }
-
-            function pauseSong(){
-
-                mysong.pause();
-                playbtn.style.display="block";
-                pausebtn.style.display="none";
-            }
-        }
         </script>
-            <div>
-                <a href="home" class="navbar-brand nav-brand2"><img class="img img-responsive" width="160px;" src="theme/images/Logo Al-Kautsar.png"></a>
-            </div>
+        <div>
+            <a href="home" class="navbar-brand nav-brand2"><img class="img img-responsive" width="160px;" src="theme/images/Logo Al-Kautsar.png"></a>
+        </div>
 
         <div class="container d-flex align-items-center justify-content-start">
 
@@ -169,6 +170,7 @@
                         <ul>
                             <li><a href="about">Sambutan</a></li>
                             <li><a href="sejarah">Sejarah</a></li>
+                            <li><a href="lambang">Lambang</a></li>
                             <li><a href="visi_misi">Visi dan Misi</a></li>
                             <li><a href="struktur">Struktur</a></li>
                         </ul>
@@ -515,7 +517,7 @@
 
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-   
+
     <script src="assets/aset/vendor/purecounter/purecounter_vanilla.js"></script>
     <script src="assets/aset/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/aset/vendor/glightbox/js/glightbox.min.js"></script>
@@ -524,7 +526,7 @@
     <script src="assets/aset/vendor/waypoints/noframework.waypoints.js"></script>
     <script src="assets/aset/vendor/php-email-form/validate.js"></script>
 
-  
+
     <script src="assets/aset/js/main.js"></script>
 
 </body>

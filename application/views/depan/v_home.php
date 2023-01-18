@@ -284,7 +284,7 @@
 
                     <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
                         <div class="count-box">
-                            <i class="bi bi-emoji-smile"></i>
+                            <i class="bi bi-person"></i>
                             <span class="counter"><?php echo $tot_guru; ?></span>
                             <p><strong>Guru</strong></p>
                             <a href="#">Find out more &raquo;</a>
@@ -293,7 +293,7 @@
 
                     <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
                         <div class="count-box">
-                            <i class="bi bi-journal-richtext"></i>
+                            <i class="bi bi-people"></i>
                             <span class="counter"><?php echo $tot_siswa; ?></span>
                             <p><strong>Siswa</strong></p>
                             <a href="#">Find out more &raquo;</a>
@@ -302,7 +302,7 @@
 
                     <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
                         <div class="count-box">
-                            <i class="bi bi-headset"></i>
+                            <i class="bi bi-download"></i>
                             <span class="counter"><?php echo $tot_files; ?></span>
                             <p><strong>Download</strong></p>
                             <a href="#">Find out more &raquo;</a>
@@ -311,7 +311,7 @@
 
                     <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
                         <div class="count-box">
-                            <i class="bi bi-people"></i>
+                            <i class="bi bi-journal-richtext"></i>
                             <span class="counter"><?php echo $tot_agenda; ?></span>
                             <p><strong>Agenda</strong></p>
                             <a href="#">Find out more &raquo;</a>

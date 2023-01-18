@@ -200,14 +200,14 @@
               <table id="example1" class="table table-striped" style="font-size:13px;">
                 <thead>
                 <tr>
-          					<th>Photo</th>
-          					<th>Nama</th>
-          					<th>Jenis Kelamin</th>
-                    <th>Kelas</th>
-                    <th>Tahun Lulus</th>
-                    <th>Jalur Masuk</th>
-                    <th>Kampus Alumni</th>
-                    <th>Kesan Alumni</th>
+          					<th style="text-align:center;">Photo</th>
+          					<th style="text-align:center;">Nama</th>
+          					<th style="text-align:center;">Jenis Kelamin</th>
+                    <th style="text-align:center;">Kelas</th>
+                    <th style="text-align:center;">Tahun Lulus</th>
+                    <th style="text-align:center;">Jalur Masuk</th>
+                    <th style="text-align:center;">Kampus Alumni</th>
+                    <th style="text-align:center;">Kesan Alumni</th>
                     <th style="text-align:right;">Aksi</th>
                 </tr>
                 </thead>

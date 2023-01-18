@@ -175,13 +175,15 @@
         }
 
         .content-table tbody tr:nth-child(even):hover {
-            font-weight: bold;
-            color: #1bbca3;
+            background-color: #a3e4da;
+            /* font-weight: bold;
+            color: #1bbca3; */
         }
 
         .content-table tbody tr:nth-child(odd):hover {
-            font-weight: bold;
-            color: #1bbca3;
+            background-color: #a3e4da;
+            /* font-weight: bold;
+            color: #1bbca3; */
         }
 
         /* .card {

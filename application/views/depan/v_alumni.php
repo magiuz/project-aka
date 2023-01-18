@@ -57,21 +57,53 @@
           <h2>Alumni</h2>
           <p>SMA S Al Kautsar melahirkan banyak siswa berprestasi membanggakan yang tersebar di seluruh Indonesia.</p>
           <p>Apa kata mereka tentang SMA S Al Kautsar?</p>
-        </div><br><br><br><br>
+        </div><br>
 
-        <div class="row">
-          <div class="col-lg-2 col-md-6">
-            <img src="theme/images/alumni-1.jpg" class="img-fluid" alt="#">
+        
+        <div class="belong">
+          <?php $i = 0;
+          foreach ($data->result() as $row){
+            $i++;
+            if($i > 3){
+              break;
+            } ?>
           </div>
-          <div class="col-lg-10 col-md-6 content">
-            <h3>Kemas Rayhan Muhammad</h3>
-            <p><strong>Universitas Gadjah Mada</strong></p>
-            <p align="justify">
-            Salah satu diferensiasi utama yang dimiliki oleh SMA S Al Kautsar adalah budaya Islaminya yang benar-benar terasa di lingkungan sekolah, seperti budaya salam, seluruh siswa yang diwajibkan menutup aurat, dan muatan lokal yang  mendukung penerapan nilai-nilai Islami di sekolah. 
-            Budaya yang diterapkan oleh SMA S Al-Kautsar juga mendukung prestasi akademik siswa. Hal ini telah terbukti dengan banyaknya kejuaraan yang telah dimenangkan oleh siswa SMA S Al-Kautsar dibidang akademik maupun non akademik.
-            </p>
-          </div>
-        </div><br><br><br>
+          
+
+        <div>
+        <table  style="width: 110%; margin-left: 50px;">
+          <tr>
+            <td><div class="col-lg-3 col-md-6" style="margin: 20px;"></div>
+            <style>
+              .belong{
+              width: 10px;
+              height: 10px;
+              display: flex;
+              float: left;
+                            
+              }
+            </style>
+            <?php if (empty($row->alumni_photo)) : ?>
+                                  <img src="<?php echo 'assets/images/blank.png'; ?>" class="antam" style="max-width: 160px; height: auto;" alt="#">
+                              <?php else : ?>
+                                  <img src="<?php echo 'assets/images/' . $row->alumni_photo; ?>" class="antam" style="width: 160px; height: 23vh;" alt="#">
+                              <?php endif; ?>
+            </div></td>
+            
+            <td><div class="col-lg-9 col-md-6 content" style="margin-left: 20px; float: left;">
+            <h3><?= $row->alumni_nama;?></h3>
+            <p><strong><?= $row->alumni_kampus;?></strong></p>
+            <p align="justify"><?= $row->alumni_kesan;?></p></td>
+          </tr>
+          <?php } ?>
+      </div><br><br><br>
+        </table>
+      </div><br><br>
+      
+          
+          
+
+      </div>
 
        
     </section>

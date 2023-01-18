@@ -92,7 +92,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background-color: #000;
+            background-color: #fff;
             transition: 0.5s;
             z-index: 1;
 
@@ -151,16 +151,18 @@
             </div>
 
             <div class="container1">
+                
                 <div class="box">
-                    <div class="image">
-                        <img src="theme/images/lambangalif.png" width="85px" height="90px">
-                    </div>
-                    <div class="content">
-                        <h3>Bentuk Umum</h3>
+                <h3>Bentuk Umum</h3>
                         <p>Bentuk umum seperti huruf alif, hal ini
                             mengandung arti bahwa Al-Kautsar ingin menjadi
                             yang nomor satu.
                         </p>
+                    <div class="image">
+                        <img src="theme/images/lambangalif.png" width="85px" height="90px">
+                    </div>
+                    <div class="content">
+                       
                     </div>
 
                 </div>

@@ -54,21 +54,36 @@
         /* CSS LAMBANG  */
         .container1 {
             position: relative;
-            width: 1200px;
-            height: 300px;
-            margin: 240px auto;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 30px;
+            background-color: #f2f5f4;
         }
 
         .container1 .box {
             position: relative;
             width: calc(400px - 30px);
             height: calc(300px - 30px);
-            background: #000;
+            max-width: 300px;
+
+            background: #fff;
             float: left;
             margin: 15px;
             box-sizing: border-box;
             overflow: hidden;
             border-radius: 10px;
+
+
+
+            margin: 30px 20px 20px 30px;
+            padding: 20px 15px;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+
         }
 
         .container1 .box .image {
@@ -77,7 +92,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background-color: #f00;
+            background-color: #000;
             transition: 0.5s;
             z-index: 1;
 
@@ -96,12 +111,37 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-
+            font-size: 100px;
             transition: 0.5s;
-
         }
 
-        .container1 .box:hover .image .img {}
+        /* .container1 .box:hover .image .img {
+
+        } */
+
+        .container1 .box .content {
+            position: absolute;
+            top: 100px;
+            height: calc(100% - 100px);
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
+            transition: 0.5s;
+        }
+
+        .container1 .box .content h3 {
+            margin: 0 0 10px;
+            padding: 0;
+            color: #000;
+            font-size: 24px;
+        }
+
+        .container1 .box .content p {
+            margin: 0;
+            padding: 0;
+            color: #000;
+            font-size: 18px;
+        }
     </style>
 
     <section class="blog-wrap">
@@ -113,31 +153,72 @@
             <div class="container1">
                 <div class="box">
                     <div class="image">
-                        <img src="theme/images/lambangalif.png" width="20px" align="center">
+                        <img src="theme/images/lambangalif.png" width="85px" height="90px">
                     </div>
-                    <h3>Bentuk Umum</h3>
-                    <p>Bentuk umum seperti huruf alif, hal ini
-                        mengandung arti bahwa Al-Kautsar ingin menjadi
-                        yang nomor satu.
-                    </p>
+                    <div class="content">
+                        <h3>Bentuk Umum</h3>
+                        <p>Bentuk umum seperti huruf alif, hal ini
+                            mengandung arti bahwa Al-Kautsar ingin menjadi
+                            yang nomor satu.
+                        </p>
+                    </div>
+
                 </div>
 
                 <div class="box">
-                    <img src="logo2.png">
+                    <div class="image">
+                        <img src="theme/images/tulisanalkautsar.png" width="85px" height="90px">
+                    </div>
+                    <div class="content">
+                        <h3>Bentuk Umum</h3>
+                        <p>Bentuk umum seperti huruf alif, hal ini
+                            mengandung arti bahwa Al-Kautsar ingin menjadi
+                            yang nomor satu.
+                        </p>
+                    </div>
 
                 </div>
+
                 <div class="box">
-                    <img src="logo3.png" alt="Logo 3">
-                    <p>Keterangan Logo 3</p>
+                    <div class="image">
+                        <img src="theme/images/bintangbersudut.png" width="85px" height="90px">
+                    </div>
+                    <div class="content">
+                        <h3>Bentuk Umum</h3>
+                        <p>Bentuk umum seperti huruf alif, hal ini
+                            mengandung arti bahwa Al-Kautsar ingin menjadi
+                            yang nomor satu.
+                        </p>
+                    </div>
+
                 </div>
+
                 <div class="box">
-                    <img src="logo4.png" alt="Logo 4">
-                    <p>Keterangan Logo 4</p>
+                    <div class="image">
+                        <img src="theme/images/alquaranterbuka.png" width="85px" height="90px">
+                    </div>
+                    <div class="content">
+                        <h3>Bentuk Umum</h3>
+                        <p>Bentuk umum seperti huruf alif, hal ini
+                            mengandung arti bahwa Al-Kautsar ingin menjadi
+                            yang nomor satu.
+                        </p>
+                    </div>
+
                 </div>
+
                 <div class="box">
-                    <img src="logo5.png" alt="Logo 5">
-                    <p>Keterangan Logo 5</p>
+                    <div class="image">
+                        <img src="theme/images/warnadasar.png" width="85px" height="90px">
+                    </div>
+                    <div class="content">
+                        <h3>Bentuk Umum</h3>
+                        <p>Warna dasar Kuning melambangkan sifat transparan dan percaya diri. Warna tulisan Biru melambangkan kewibawaan dan derajat yang tinggi.
+                        </p>
+                    </div>
+
                 </div>
+
             </div>
         </div>
     </section>

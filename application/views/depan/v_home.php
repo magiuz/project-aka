@@ -224,41 +224,24 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-                        <div class="icon-box">
-                            <div class="icon"><i class="bx bx-user"></i></div>
-                            <h4 class="title"><a href="alumni">Kemas</a></h4>
-                            <p class="description">Salah satu diferensiasi utama yang dimiliki oleh SMA S Al Kautsar
-                                adalah budaya Islaminya yang benar-benar terasa di lingkungan sekolah</p>
-                        </div>
-                    </div>
 
-                    <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-                        <div class="icon-box">
-                            <div class="icon"><i class="bx bx-user"></i></div>
-                            <h4 class="title"><a href="alumni">Meutia</a></h4>
-                            <p class="description">SMA S Al-Kautsar punya lingkungan belajar yang seru dan menarik baik dari guru, teman,
-                                maupun staf sekolah lainnya</p>
-                        </div>
-                    </div>
+                    <div class="belong">
+                        <?php $i = 0;
+                        foreach ($data->result() as $row){
+                            $i++;
+                            if($i > 3){
+                            break;
+                            } ?>
 
-                    <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-                        <div class="icon-box">
-                            <div class="icon"><i class="bx bx-user"></i></div>
-                            <h4 class="title"><a href="alumni">Salma</a></h4>
-                            <p class="description">Masuk ke SMA S Al Kautsar adalah salah satu pilihan terbaik yang pernah aku buat
-                                selama hidup aku</p>
+                        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                            <div class="icon-box">
+                                <div class="icon"><i class="bx bx-user"></i></div>
+                                <h4 class="title"><a href="alumni"><?= $row->alumni_nama; ?></a></h4>
+                                <p class="description" ><?= $row->alumni_kesan; ?></p>
+                            </div>
                         </div>
+                        <?php } ?>
                     </div>
-
-                    <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-                        <div class="icon-box">
-                            <div class="icon"><i class="bx bx-user"></i></div>
-                            <h4 class="title"><a href="alumni">Jerlina</a></h4>
-                            <p class="description">Gak nyesel deh sekolah di SMA S Al Kautsar</p>
-                        </div>
-                    </div>
-
                 </div>
 
             </div>

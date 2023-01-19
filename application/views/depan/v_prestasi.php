@@ -227,7 +227,7 @@
             </div><br><br>
 
             <div class="container1">
-                <div class="card">
+                <!-- <div class="card">
                     <div class="imgBx">
                         <img src="theme/images/alumni-2.jpg">
                     </div>
@@ -240,21 +240,7 @@
                             <br>Tingkat Nasional
                         </p>
                     </div>
-                </div>
-
-                <div class="card">
-                    <div class="imgBx">
-                        <img src="theme/images/alumni-2.jpg">
-                    </div>
-                    <div class="content">
-                        <h3>M. NABHAN DZAKI AUFAR</h3>
-                        <p>Medali Perunggu
-                            <br>Bidang Kebumian
-                            <br>Olimpiade Sains Nasional
-                            <br>Tingkat Nasional
-                        </p>
-                    </div>
-                </div>
+                </div> -->
 
                 <div class="card">
                     <div class="imgBx">
@@ -269,7 +255,21 @@
                         </p>
                     </div>
                 </div>
-            </div>
+
+                <!-- <div class="card">
+                    <div class="imgBx">
+                        <img src="theme/images/alumni-2.jpg">
+                    </div>
+                    <div class="content">
+                        <h3>M. NABHAN DZAKI AUFAR</h3>
+                        <p>Medali Perunggu
+                            <br>Bidang Kebumian
+                            <br>Olimpiade Sains Nasional
+                            <br>Tingkat Nasional
+                        </p>
+                    </div>
+                </div>
+            </div> -->
 
             <br>
             <br>
@@ -300,34 +300,6 @@
                                     <td>1</td>
                                     <td>Olimpiade Astronomi (IAOC) di Colombia</td>
                                     <td>2021</td>
-                                    <td>Perunggu</td>
-                                    <td>Nasional</td>
-                                </tr>
-                                <tr>
-                                    <td>2</td>
-                                    <td>Olimpiade Sains Nasional (OSN) Bidang Geografi</td>
-                                    <td>2020</td>
-                                    <td>Perunggu</td>
-                                    <td>Nasional</td>
-                                </tr>
-                                <tr>
-                                    <td>3</td>
-                                    <td>Olimpiade Sains Nasional (OSN) Bidang Matematika</td>
-                                    <td>2020</td>
-                                    <td>Perunggu</td>
-                                    <td>Nasional</td>
-                                </tr>
-                                <tr>
-                                    <td>4</td>
-                                    <td>Olimpiade Sains Nasional (OSN) Bidang Astronomi</td>
-                                    <td>2021</td>
-                                    <td>Perunggu</td>
-                                    <td>Nasional</td>
-                                </tr>
-                                <tr>
-                                    <td>5</td>
-                                    <td>Olimpiade Sains Nasional (OSN) Bidang Matematika</td>
-                                    <td>2022</td>
                                     <td>Perunggu</td>
                                     <td>Nasional</td>
                                 </tr>

@@ -68,15 +68,13 @@
             width: calc(400px - 30px);
             height: calc(300px - 30px);
             max-width: 300px;
-
+            height: 350px;
             background: #fff;
             float: left;
             margin: 15px;
             box-sizing: border-box;
             overflow: hidden;
             border-radius: 10px;
-
-
 
             margin: 30px 20px 20px 30px;
             padding: 20px 15px;
@@ -88,8 +86,8 @@
 
         .container1 .box .image {
             position: absolute;
-            top: 0;
-            left: 0;
+            top: 135px;
+            left: calc(50% - 40px);
             width: 100%;
             height: 100%;
             background-color: #fff;
@@ -111,58 +109,68 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            font-size: 100px;
             transition: 0.5s;
         }
 
-        /* .container1 .box:hover .image .img {
-
-        } */
+        .container1 .box:hover .image .img {}
 
         .container1 .box .content {
             position: absolute;
-            top: 100px;
+            top: 100%;
             height: calc(100% - 100px);
             text-align: center;
             padding: 20px;
             box-sizing: border-box;
             transition: 0.5s;
+            opacity: 0;
+        }
+
+        .container1 .box:hover .content {
+            top: 100px;
+            opacity: 1;
         }
 
         .container1 .box .content h3 {
             margin: 0 0 10px;
             padding: 0;
             color: #000;
-            font-size: 24px;
+            font-size: 20px;
         }
 
         .container1 .box .content p {
             margin: 0;
             padding: 0;
             color: #000;
-            font-size: 18px;
+            font-size: 16px;
         }
+
+        /* .container1 .box:nth-child(1) .image {
+            background: #f2f5f4;
+        }
+
+        .container1 .box:nth-child(1) {
+            background: #fff;
+        } */
     </style>
 
     <section class="blog-wrap">
         <div class="container">
             <div class="section-title">
-                <h2>Lambang</h2>
+                <h2>Filosofi Lambang</h2>
             </div>
 
             <div class="container1">
-                
+
                 <div class="box">
-                <h3>Bentuk Umum</h3>
-                        <p>Bentuk umum seperti huruf alif, hal ini
-                            mengandung arti bahwa Al-Kautsar ingin menjadi
-                            yang nomor satu.
-                        </p>
                     <div class="image">
                         <img src="theme/images/lambangalif.png" width="85px" height="90px">
                     </div>
                     <div class="content">
-                       
+                        <h3>Huruf Alif</h3>
+                        <p>Bentuk umum seperti huruf alif, hal ini
+                            mengandung arti bahwa Al-Kautsar ingin menjadi
+                            yang nomor satu
+                        </p>
                     </div>
 
                 </div>
@@ -172,10 +180,11 @@
                         <img src="theme/images/tulisanalkautsar.png" width="85px" height="90px">
                     </div>
                     <div class="content">
-                        <h3>Bentuk Umum</h3>
-                        <p>Bentuk umum seperti huruf alif, hal ini
-                            mengandung arti bahwa Al-Kautsar ingin menjadi
-                            yang nomor satu.
+                        <h3>Huruf Arab Al-Kautsar</h3>
+                        <p>Tulisan Al-Kautsar dengan huruf Arab yang
+                            saling berhadapan seperti pintu gerbang
+                            melambangkan bahwa Al-Kautsar merupakan
+                            pintu gerbang untuk mendapatkan nikmat
                         </p>
                     </div>
 
@@ -186,13 +195,10 @@
                         <img src="theme/images/bintangbersudut.png" width="85px" height="90px">
                     </div>
                     <div class="content">
-                        <h3>Bentuk Umum</h3>
-                        <p>Bentuk umum seperti huruf alif, hal ini
-                            mengandung arti bahwa Al-Kautsar ingin menjadi
-                            yang nomor satu.
+                        <h3>Bintang Bersudut Lima</h3>
+                        <p>Bintang bersudut lima melambangkan keislaman (rukun islam) dan nasionalisme (Pancasila)
                         </p>
                     </div>
-
                 </div>
 
                 <div class="box">
@@ -200,10 +206,9 @@
                         <img src="theme/images/alquaranterbuka.png" width="85px" height="90px">
                     </div>
                     <div class="content">
-                        <h3>Bentuk Umum</h3>
-                        <p>Bentuk umum seperti huruf alif, hal ini
-                            mengandung arti bahwa Al-Kautsar ingin menjadi
-                            yang nomor satu.
+                        <h3>Al-Qur'an</h3>
+                        <p>Al-quran yang terbuka melambangkan sumber
+                            ilmu pengetahuan, salah satu kegiatan Yayasan.
                         </p>
                     </div>
 
@@ -214,8 +219,10 @@
                         <img src="theme/images/warnadasar.png" width="85px" height="90px">
                     </div>
                     <div class="content">
-                        <h3>Bentuk Umum</h3>
-                        <p>Warna dasar Kuning melambangkan sifat transparan dan percaya diri. Warna tulisan Biru melambangkan kewibawaan dan derajat yang tinggi.
+                        <h3>Warna Kuning</h3>
+                        <p>Warna dasar Kuning melambangkan sifat transparan dan
+                            percaya diri.
+                            Warna tulisan Biru melambangkan kewibawaan dan derajat yang tinggi.
                         </p>
                     </div>
 

@@ -233,7 +233,7 @@
                             break;
                             } ?>
 
-                        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                        <div class="col-md-6 col-lg-3 d-flex mr-auto mb-5 mb-lg-6">
                             <div class="icon-box">
                                 <div class="icon"><i class="bx bx-user"></i></div>
                                 <h4 class="title"><a href="alumni"><?= $row->alumni_nama; ?></a></h4>
@@ -243,7 +243,7 @@
                         <?php } ?>
                     </div>
                 </div>
-
+                            
             </div>
         </section>
 

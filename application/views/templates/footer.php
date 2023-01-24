@@ -23,7 +23,7 @@
           <h4>Menu Utama</h4>
           <ul>
             <li><i class="bx bx-chevron-right"></i> <a href="home">Beranda</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="http://sis.smas-alkautsar.sch.id/">SIS</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a target="blank" href="http://sis.smas-alkautsar.sch.id/">SIS</a></li>
             <li><i class="bx bx-chevron-right"></i> <a href="blog">Blog</a></li>
           </ul>
         </div>
@@ -33,6 +33,7 @@
           <ul>
             <li><i class="bx bx-chevron-right"></i> <a href="about">Sambutan</a></li>
             <li><i class="bx bx-chevron-right"></i> <a href="sejarah">Sejarah</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="lambang">Lambang</a></li>
             <li><i class="bx bx-chevron-right"></i> <a href="visi_misi">Visi dan Misi</a></li>
             <li><i class="bx bx-chevron-right"></i> <a href="struktur">Struktur</a></li>
           </ul>
@@ -73,7 +74,7 @@
       <!-- You can delete the links only if you purchased the pro version. -->
       <!-- Licensing information: https://bootstrapmade.com/license/ -->
       <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/bootstrap-3-one-page-template-free-shuffle/ -->
-      Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      Designed by <a target="blank" href="https://bootstrapmade.com/">BootstrapMade</a>
     </div>
   </div>
 </footer><!-- End Footer -->

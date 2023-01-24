@@ -74,14 +74,14 @@
         <div>
         <table  style="width: 110%; margin-left: 50px;">
           <tr>
-            <td><div class="col-lg-3 col-md-6" style="margin: 20px;"></div>
+            <td><div class="col-lg-3 col-md-6 align-self-md-stretch" style="margin: 20px; margin-right: 20px;"></div>
             <style>
               .belong{
               width: 10px;
               height: 10px;
               display: flex;
               float: left;
-                            
+              flex-direction: row;                            
               }
             </style>
             <?php if (empty($row->alumni_photo)) : ?>
@@ -108,6 +108,8 @@
 
        
     </section>
+
+    
 
     <!--//End Style 2 -->
     

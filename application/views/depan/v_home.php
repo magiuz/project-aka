@@ -229,11 +229,11 @@
                         <?php $i = 0;
                         foreach ($data->result() as $row){
                             $i++;
-                            if($i > 3){
+                            if($i > 4){
                             break;
                             } ?>
 
-                        <div class="col-md-6 col-lg-3 d-flex mr-auto mb-5 mb-lg-6">
+                        <div class="col-md-6 col-lg-3 d-flex mr-auto mb-5 mb-lg-6 float-left">
                             <div class="icon-box">
                                 <div class="icon"><i class="bx bx-user"></i></div>
                                 <h4 class="title"><a href="alumni"><?= $row->alumni_nama; ?></a></h4>
@@ -252,7 +252,7 @@
 
                 <div class="text-center">
                     <h3>Penerimaan Murid Baru</h3>
-                    <p>Al Kautsar akan membuka pendaftaran penerimaan murid baru (PMB) tahun ajaran 2023-2024 pada
+                    <p>SMA S Al Kautsar akan membuka pendaftaran penerimaan murid baru (PMB) tahun ajaran 2023-2024 pada
                         Januari 2023.</p>
                     <a class="cta-btn" target="blank" href="http://pmb.alkautsarlampung.sch.id/">Daftar Sekarang</a>
                 </div>

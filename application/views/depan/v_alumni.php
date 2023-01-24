@@ -65,7 +65,7 @@
           <?php $i = 0;
           foreach ($data->result() as $row){
             $i++;
-            if($i > 3){
+            if($i > 4){
               break;
             } ?>
           </div>

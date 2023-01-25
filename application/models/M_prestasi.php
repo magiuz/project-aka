@@ -5,8 +5,8 @@ class M_prestasi extends CI_Model{
 		$hsl=$this->db->query("SELECT prestasi_id,prestasi_nama,prestasi_jenis,prestasi_hasil,prestasi_tingkat,prestasi_tahun,DATE_FORMAT(prestasi_tanggal,'%d/%m/%Y') AS tanggal FROM tbl_prestasi ORDER BY prestasi_id DESC");
 		return $hsl;
 	}
-	function simpan_prestasi($nama,$jenis,$hasil,$tingkat,$tahun){
-		$hsl=$this->db->query("INSERT INTO tbl_prestasi(prestasi_nama,prestasi_jenis,prestasi_hasil,prestasi_tingkat,prestasi_tahun) VALUES ('$nama,$jenis,$hasil,$tingkat,$tahun')");
+	function simpan_prestasi($prestasi_id, $nama,$jenis,$hasil,$tingkat,$tahun){
+		$hsl=$this->db->query("INSERT INTO tbl_prestasi(prestasi_id,prestasi_nama,prestasi_jenis,prestasi_hasil,prestasi_tingkat,prestasi_tahun) VALUES ('$nama,$jenis,$hasil,$tingkat,$tahun')");
 		return $hsl;
 	}
 	function update_prestasi($kode,$nama,$jenis,$hasil,$tingkat,$tahun){

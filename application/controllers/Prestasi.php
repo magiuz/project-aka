@@ -6,6 +6,7 @@ class prestasi extends CI_Controller
         parent::__construct();
         $this->load->view('templates/header_1');
         $this->load->model('m_pengunjung');
+        $this->load->model('m_prestasi');
         $this->m_pengunjung->count_visitor();
     }
     function index()

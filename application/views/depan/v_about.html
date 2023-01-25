@@ -96,3 +96,190 @@
 </body>
 
 </html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hubungi Kami</title>
+</head>
+<body>
+
+<style>
+    @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+    *
+    {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+    body
+    {
+        background: linear-gradient(90deg, #0e3959 0%, #0e3959 30%, #03a9f5 30%, #03a9f5 100%);
+    }
+    .contactUs
+    {
+        position: relative;
+        width: 100%;
+        padding: 40px 100px;
+    }
+    .contactUs .title
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2em;
+    }
+    .contactUs .title h2
+    {
+        color: #fff;
+        font-weight: 500;
+    }
+    .box
+    {
+        position: relative;
+    }
+    .form
+    {
+        grid-area: form;
+    }
+    .info
+    {
+        grid-area: info;
+    }
+    .map
+    {
+        grid-area: map;
+    }
+    .contact
+    {
+        padding: 40px;
+        background: #fff;
+        box-shadow: 0 5px 35px rgba(0,0,0,0.15);
+    }
+    .box
+    {
+        position: relative;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 5fr 4fr;
+        grid-template-areas: 
+        "form info"
+        "form map";
+        grid-gap: 20px;
+    }
+    .contact h3
+    {
+        color:  #0e3959;
+        font-weight: 500;
+        font-size: 1.4em;
+        margin-bottom: 10px;
+    }
+    .formBox
+    {
+        position: relative;
+        width: 100%;
+    }
+    .formBox .row50
+    {
+        display: flex;
+        gap: 20px;
+    }
+    .inputBox
+    {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+        width: 50%;
+    }
+    .formBox .row100 .inputBox
+    {
+        width: 100%;
+    }
+    .inputBox span
+    {
+        color: #03a9f5;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        font-weight: 500;
+    }
+    .inputBox input
+    {
+        padding: 10px;
+        font-size: 1.1em;
+        outline: none;
+        border: 1px solid #333;
+    }
+    .inputBox textarea
+    {
+        padding: 10px;
+        font-size: 1.1em;
+        outline: none;
+        border: 1px solid #333;
+        resize: none;
+        min-height: 220px;
+        margin-bottom: 10px;
+    }
+    .inputBox input[type="submit"]
+    {
+        background: #ff578b;
+        color: #fff;
+        border: none;
+        font-size: 1.1em;
+        max-width: 120px;
+        font-weight: 500;
+        cursor: pointer;
+        padding: 14px 15px;
+    }
+    .inputBox ::placeholder{
+        
+    }
+
+</style>
+    <div class="contactUs">
+        <div class="title">
+            <h2>Hubungi Kami</h2>
+            </div>
+            <div class="box"></div>
+            <div class="contact form">
+                <h3>Kirim Pesan</h3>
+                <form>
+
+                    <div class="formBox">
+                        <div class="row50">
+                            <div class="inputBox">
+                                <span>First Name</span>
+                                <input type="text" placeholder="John">
+                            </div>
+                            <div class="InputBox">
+                                <span>Last Name</span>
+                                <input type="text" placeholder="Doe">
+                            </div>
+                        </div>
+
+                        <div class="row50">
+                            <div class="inputBox">
+                                <span>Email</span>
+                                <input type="email" placeholder="John@email.com">
+                            </div>
+                            <div class="InputBox">
+                                <span>Telp</span>
+                                <input type="number" placeholder="081123442356">
+                            </div>
+                        </div>
+
+                        <div class="row100">
+                            <div class="inputBox">
+                                <input type="Submit" value="send">
+                            </div>
+
+                    </div>
+                </form>
+            </div>
+            <div class="contact info"></div>
+            <div class="contact map"></div>
+</body>
+</html>

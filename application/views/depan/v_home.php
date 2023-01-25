@@ -223,8 +223,7 @@
                     <p>Apa kata mereka tentang SMA S Al-Kautsar?</p>
                 </div>
 
-                <div class="row">
-                    <div class="belong" >
+                <div class="row">                    
                         <?php $i = 0;
                         foreach ($data->result() as $row){
                             $i++;
@@ -239,10 +238,8 @@
                                 <p class="description" ><?= $row->alumni_kesan; ?></p>
                             </div>
                         </div>
-                        <?php } ?>
-                    </div>
-                </div>
-                            
+                        <?php } ?>                    
+                </div>                            
             </div>
         </section>
 

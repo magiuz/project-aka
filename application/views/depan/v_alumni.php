@@ -60,30 +60,18 @@
           <p>Apa kata mereka tentang SMA S Al Kautsar?</p>
         </div><br>
 
-        
-        <div class="belong">
+              
           <?php $i = 0;
           foreach ($data->result() as $row){
             $i++;
             if($i > 4){
               break;
-            } ?>
-          </div>
-          
+            } ?>          
 
         <div>
-        <table  style="width: 110%; margin-left: 50px;">
+        <table  style="margin-left: 70px;">
           <tr>
-            <td><div class="col-lg-3 col-md-6 align-self-md-stretch" style="margin: 20px; margin-right: 20px;"></div>
-            <style>
-              .belong{
-              width: 10px;
-              height: 10px;
-              display: flex;
-              float: left;
-              flex-direction: row;                            
-              }
-            </style>
+            <td>
             <?php if (empty($row->alumni_photo)) : ?>
                                   <img src="<?php echo 'assets/images/blank.png'; ?>" class="antam" style="max-width: 160px; height: auto;" alt="#">
                               <?php else : ?>

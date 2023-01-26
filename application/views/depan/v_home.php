@@ -64,7 +64,7 @@
                 <div class="carousel-inner" role="listbox">
 
                     <!-- Slide 1 -->
-                    <div class="carousel-item active" style="background-image: url(theme/images/slider.jpg);">
+                    <div class="carousel-item active" style="background-image: url(theme/images/OSK.jpg);">
                         <div class="carousel-container">
                             <div class="carousel-content">
                                 <h2 class="animate__animated animate__fadeInDown">Berpikir Kreatif & Inovatif</span>
@@ -88,7 +88,7 @@
                     </script>
 
                     <!-- Slide 2 -->
-                    <div class="carousel-item" style="background-image: url(theme/images/slider-2.jpg);">
+                    <div class="carousel-item" style="background-image: url(theme/images/guru.jpg);">
                         <div class="carousel-container">
                             <div class="carousel-content">
                                 <h2 class="animate__animated animate__fadeInDown">Guru Berkualitas Tinggi</h2>
@@ -101,7 +101,7 @@
                     </div>
 
                     <!-- Slide 3 -->
-                    <div class="carousel-item" style="background-image: url(theme/images/slider-3.jpg);">
+                    <div class="carousel-item" style="background-image: url(theme/images/mengajar.jpg);">
                         <div class="carousel-container">
                             <div class="carousel-content">
                                 <h2 class="animate__animated animate__fadeInDown">Proses Belajar Interaktif</h2>

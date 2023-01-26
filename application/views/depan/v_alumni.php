@@ -69,7 +69,7 @@
             } ?>          
 
         <div>
-        <table  style="margin-left: 70px;">
+        <table  style="width: 110%; margin-left: 70px; margin-bottom: 70px;">
           <tr>
             <td>
             <?php if (empty($row->alumni_photo)) : ?>
@@ -85,7 +85,7 @@
             <p align="justify"><?= $row->alumni_kesan;?></p></td>
           </tr>
           <?php } ?>
-      </div><br><br><br>
+      </div>
         </table>
       </div><br><br>
       

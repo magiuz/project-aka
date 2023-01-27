@@ -101,7 +101,7 @@
                     </div>
 
                     <!-- Slide 3 -->
-                    <div class="carousel-item" style="background-image: url(theme/images/mengajar.jpg);">
+                    <div class="carousel-item" style="background-image: url(theme/images/kelas.jpg);">
                         <div class="carousel-container">
                             <div class="carousel-content">
                                 <h2 class="animate__animated animate__fadeInDown">Proses Belajar Interaktif</h2>

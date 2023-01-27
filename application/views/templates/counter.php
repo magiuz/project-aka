@@ -8,7 +8,7 @@
                             <i class="bi bi-person"></i>
                             <span class="counter"><?php echo $tot_guru; ?></span>
                             <p><strong>Guru</strong></p>
-                            <a href="#">Find out more &raquo;</a>
+                            <a href="guru">Find out more &raquo;</a>
                         </div>
                     </div>
 
@@ -37,7 +37,7 @@
                             <i class="bi bi-download"></i>
                             <span class="counter"><?php echo $tot_files; ?></span>
                             <p><strong>Download</strong></p>
-                            <a href="#">Find out more &raquo;</a>
+                            <a href="download">Find out more &raquo;</a>
                         </div>
                     </div>
 
@@ -46,7 +46,7 @@
                             <i class="bi bi-journal-richtext"></i>
                             <span class="counter"><?php echo $tot_agenda; ?></span>
                             <p><strong>Agenda</strong></p>
-                            <a href="#">Find out more &raquo;</a>
+                            <a href="agenda">Find out more &raquo;</a>
                         </div>
                     </div>
 

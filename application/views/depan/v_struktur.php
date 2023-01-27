@@ -58,7 +58,7 @@
                 <div class="col-md-12">
                     <h2 align="center">Struktur Organisasi SMA Al Kautsar</h2>
                     <div>
-                        <img src="theme/images/struktur.png" alt="#">
+                        <img src="theme/images/struktur.png" align="center" style="display:block; margin: 0 auto; width: 1200px; height: 1200px;">
                     </div>
                 </div>
                 

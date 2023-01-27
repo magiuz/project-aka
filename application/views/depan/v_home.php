@@ -64,20 +64,31 @@
                 <div class="carousel-inner" role="listbox">
 
                     <!-- Slide 1 -->
-                    <div class="carousel-item active" style="background-image: url(theme/images/slider.jpg);">
+                    <div class="carousel-item active" style="background-image: url(theme/images/OSK.jpg);">
                         <div class="carousel-container">
                             <div class="carousel-content">
                                 <h2 class="animate__animated animate__fadeInDown">Berpikir Kreatif & Inovatif</span>
                                 </h2>
                                 <p class="animate__animated animate__fadeInUp">Bagi kami kreativitas merupakan gerbang
                                     masa depan. Kreativitas akan mendorong motivasi. Itulah yang kami lakukan.</p>
-                                <a href="blog" class="btn-get-started animate__animated animate__fadeInUp scrollto">Learn More</a>
+                                <a href="guru" class="btn-get-started animate__animated animate__fadeInUp scrollto">Learn More</a>
                             </div>
                         </div>
                     </div>
+                    <!-- java script -->
+
+                    <script>
+                        const btn = document.querySelector('.tombol');
+                        const videoContainer - document.querySelector('.video-container');
+                        const close = document.querySelector('close');
+
+                        btn.addEventListener('click', () => {
+                                    videoContainer.classList.add('show');
+                                }
+                    </script>
 
                     <!-- Slide 2 -->
-                    <div class="carousel-item" style="background-image: url(theme/images/slider-2.jpg);">
+                    <div class="carousel-item" style="background-image: url(theme/images/guru.jpg);">
                         <div class="carousel-container">
                             <div class="carousel-content">
                                 <h2 class="animate__animated animate__fadeInDown">Guru Berkualitas Tinggi</h2>
@@ -90,7 +101,7 @@
                     </div>
 
                     <!-- Slide 3 -->
-                    <div class="carousel-item" style="background-image: url(theme/images/slider-3.jpg);">
+                    <div class="carousel-item" style="background-image: url(theme/images/mengajar.jpg);">
                         <div class="carousel-container">
                             <div class="carousel-content">
                                 <h2 class="animate__animated animate__fadeInDown">Proses Belajar Interaktif</h2>
@@ -113,20 +124,43 @@
 
             </div>
         </div>
-    </section><!-- End Hero -->
+    </section>
 
-    <!-- ======= Header ======= -->
 
     <header id="header" class="d-flex align-items-center">
-        <div class="container d-flex align-items-center justify-content-between">
+        <audio id="mysong" src="assets/aset/music/lagu-ak.mp3"></audio>
+        <img src="theme/images/play.png" id="playbtn" onclick="playSong()" style="width: 40px; height: 40px; margin-left: 70px; margin-right: 15px; cursor: pointer;">
+        <img src="theme/images/pause.png" id="pausebtn" onclick="pauseSong()" style=" width: 40px; height: 40px; margin-left: 70px; margin-right: 15px; display: none; cursor: pointer;">
 
-            <div class="logo">
-                <a href="home" class="navbar-brand nav-brand2"><img class="img img-responsive" width="160px;" src="theme/images/Logo Al-Kautsar.png"></a>
-                <!-- Uncomment below if you prefer to use an image logo -->
-                <!-- <a href="index.html"><img src="aset/img/logo.png" alt="" class="img-fluid"></a>-->
-            </div>
+        <script>
+            {
 
-            <nav id="navbar" class="navbar">
+                var mysong = document.getElementById("mysong");
+                var playbtn = document.getElementById("playbtn");
+                var pausebtn = document.getElementById("pausebtn");
+
+                function playSong() {
+
+                    mysong.play();
+                    pausebtn.style.display = "block";
+                    playbtn.style.display = "none";
+                }
+
+                function pauseSong() {
+
+                    mysong.pause();
+                    playbtn.style.display = "block";
+                    pausebtn.style.display = "none";
+                }
+            }
+        </script>
+        <div>
+            <a href="home" class="navbar-brand nav-brand2"><img class="img img-responsive" width="160px;" src="theme/images/Logo Al-Kautsar.png"></a>
+        </div>
+
+        <div class="container d-flex align-items-center justify-content-start">
+
+            <nav id="navbar" class="navbar mr-5 ml-auto">
                 <ul>
                     <li><a class="nav-link scrollto " href="home">Beranda</a></li>
                     <li><a class="nav-link scrollto" target="blank" href="http://sis.smas-alkautsar.sch.id/">SIS</a>
@@ -136,6 +170,7 @@
                         <ul>
                             <li><a href="about">Sambutan</a></li>
                             <li><a href="sejarah">Sejarah</a></li>
+                            <li><a href="lambang">Lambang</a></li>
                             <li><a href="visi_misi">Visi dan Misi</a></li>
                             <li><a href="struktur">Struktur</a></li>
                         </ul>
@@ -144,7 +179,6 @@
                     <li class="dropdown"><a href="#"><span>Akademik</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="guru">Guru</a></li>
-                            <li><a href="siswa">Siswa</a></li>
                             <li><a href="alumni">Alumni</a></li>
                             <li><a href="prestasi">Prestasi</a></li>
                             <li><a href="pengumuman">Pengumuman</a></li>
@@ -162,14 +196,12 @@
 
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
-            </nav><!-- .navbar -->
+            </nav>
 
         </div>
-    </header><!-- End Header -->
+    </header>
 
     <main id="main">
-
-        <!-- ======= About Us Section ======= -->
         <section id="about" class="about">
             <div class="container">
 
@@ -181,9 +213,8 @@
                 </div>
 
             </div>
-        </section><!-- End About Us Section -->
+        </section>
 
-        <!-- ======= Alumni ======= -->
         <section id="services" class="services">
             <div class="container">
 
@@ -192,62 +223,39 @@
                     <p>Apa kata mereka tentang SMA S Al-Kautsar?</p>
                 </div>
 
-                <div class="row">
-                    <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-                        <div class="icon-box">
-                            <div class="icon"><i class="bx bx-user"></i></div>
-                            <h4 class="title"><a href="alumni">Kemas</a></h4>
-                            <p class="description">Salah satu diferensiasi utama yang dimiliki oleh SMA S Al Kautsar
-                                adalah budaya Islaminya yang benar-benar terasa di lingkungan sekolah</p>
+                <div class="row">                    
+                        <?php $i = 0;
+                        foreach ($data->result() as $row){
+                            $i++;
+                            if($i > 4){
+                            break;
+                            } ?>
+
+                        <div class="col-s-6 col-lg-3 d-flex align-items-stretch float-left">
+                            <div class="icon-box">
+                                <div class="icon"><i class="bx bx-user"></i></div>
+                                <h4 class="title"><a href="alumni"><?= $row->alumni_nama; ?></a></h4>
+                                <p class="description" ><?= $row->alumni_kesan; ?></p>
+                            </div>
                         </div>
-                    </div>
-
-                    <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-                        <div class="icon-box">
-                            <div class="icon"><i class="bx bx-user"></i></div>
-                            <h4 class="title"><a href="alumni">Meutia</a></h4>
-                            <p class="description">SMA S Al-Kautsar punya lingkungan belajar yang seru dan menarik baik dari guru, teman,
-                                maupun staf sekolah lainnya</p>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-                        <div class="icon-box">
-                            <div class="icon"><i class="bx bx-user"></i></div>
-                            <h4 class="title"><a href="alumni">Salma</a></h4>
-                            <p class="description">Masuk ke SMA S Al Kautsar adalah salah satu pilihan terbaik yang pernah aku buat
-                                selama hidup aku</p>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-                        <div class="icon-box">
-                            <div class="icon"><i class="bx bx-user"></i></div>
-                            <h4 class="title"><a href="alumni">Jerlina</a></h4>
-                            <p class="description">Gak nyesel deh sekolah di SMA S Al Kautsar</p>
-                        </div>
-                    </div>
-
-                </div>
-
+                        <?php } ?>                    
+                </div>                            
             </div>
-        </section><!-- End Our Services Section -->
+        </section>
 
-        <!-- ======= Cta Section ======= -->
         <section class="cta">
             <div class="container">
 
                 <div class="text-center">
                     <h3>Penerimaan Murid Baru</h3>
-                    <p>Al Kautsar akan membuka pendaftaran penerimaan murid baru (PMB) tahun ajaran 2023-2024 pada
+                    <p>SMA S Al Kautsar akan membuka pendaftaran penerimaan murid baru (PMB) tahun ajaran 2023-2024 pada
                         Januari 2023.</p>
                     <a class="cta-btn" target="blank" href="http://pmb.alkautsarlampung.sch.id/">Daftar Sekarang</a>
                 </div>
 
             </div>
-        </section><!-- End Cta Section -->
+        </section>
 
-        <!-- ======= Counts Section ======= -->
         <section class="counts section-bg">
             <div class="container">
 
@@ -255,7 +263,7 @@
 
                     <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
                         <div class="count-box">
-                            <i class="bi bi-emoji-smile"></i>
+                            <i class="bi bi-person"></i>
                             <span class="counter"><?php echo $tot_guru; ?></span>
                             <p><strong>Guru</strong></p>
                             <a href="#">Find out more &raquo;</a>
@@ -264,7 +272,7 @@
 
                     <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
                         <div class="count-box">
-                            <i class="bi bi-journal-richtext"></i>
+                            <i class="bi bi-people"></i>
                             <span class="counter"><?php echo $tot_siswa; ?></span>
                             <p><strong>Siswa</strong></p>
                             <a href="#">Find out more &raquo;</a>
@@ -273,7 +281,7 @@
 
                     <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
                         <div class="count-box">
-                            <i class="bi bi-headset"></i>
+                            <i class="bi bi-download"></i>
                             <span class="counter"><?php echo $tot_files; ?></span>
                             <p><strong>Download</strong></p>
                             <a href="#">Find out more &raquo;</a>
@@ -282,7 +290,7 @@
 
                     <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
                         <div class="count-box">
-                            <i class="bi bi-people"></i>
+                            <i class="bi bi-journal-richtext"></i>
                             <span class="counter"><?php echo $tot_agenda; ?></span>
                             <p><strong>Agenda</strong></p>
                             <a href="#">Find out more &raquo;</a>
@@ -292,11 +300,9 @@
                 </div>
 
             </div>
-        </section><!-- End Counts Section -->
+        </section>
 
 
-
-        <!-- ======= Berita Section ======= -->
         <section class="more-services section-bg">
             <div class="container">
 
@@ -324,32 +330,11 @@
                             </div>
                         </div>
                     <?php } ?>
-                    <!-- <div class="col-lg-4 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div class="card">
-              <img src="assets/aset/img/more-service-2.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title"><a href="">Nobis et tempore</a></h5>
-                <p class="card-text">Ut quas omnis est. Non et aut tempora dignissimos similique in dignissimos. Sit incidunt et odit iusto</p>
-                <a href="#" class="btn">Explore more</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div class="card">
-              <img src="assets/aset/img/more-service-3.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title"><a href="">Facere quia quae dolores</a></h5>
-                <p class="card-text">Modi ut et delectus. Modi nobis saepe voluptates nostrum. Sed quod consequatur quia provident dera</p>
-                <a href="#" class="btn">Explore more</a>
-              </div>
-            </div>
-          </div> -->
                 </div>
-
             </div>
-        </section><!-- End More Services Section -->
+        </section>
 
-        <!-- ======= Info Box Section ======= -->
+
         <section class="info-box py-0">
 
             <div class="container-fluid">
@@ -415,9 +400,9 @@
                 </div>
 
             </div>
-        </section><!-- End Info Box Section -->
+        </section>
 
-        <!-- ======= Galeri Section ======= -->
+
         <section id="portfolio" class="portfolio section-bg">
             <div class="container">
 
@@ -456,23 +441,16 @@
                         <?php } ?>
                     </div>
                 </div>
-        </section><!-- End Galeri Section -->
+        </section>
 
 
 
-        <!-- ======= Contact Us Section ======= -->
+
         <section id="contact" class="contact section-bg">
-
-
-
             <div class="container-fluid">
-
                 <div class="row">
-
                     <div class="col-lg-6 d-flex align-items-stretch infos">
-
                         <div class="row">
-
                             <div class="col-lg-6 info d-flex flex-column align-items-stretch">
                                 <i class="bx bx-map"></i>
                                 <h4>Alamat</h4>
@@ -510,14 +488,14 @@
             </div>
 
             </div>
-        </section><!-- End Contact Us Section -->
+        </section>
 
-    </main><!-- End #main -->
+    </main>
 
 
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-    <!-- Vendor JS Files -->
+
     <script src="assets/aset/vendor/purecounter/purecounter_vanilla.js"></script>
     <script src="assets/aset/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/aset/vendor/glightbox/js/glightbox.min.js"></script>
@@ -526,7 +504,7 @@
     <script src="assets/aset/vendor/waypoints/noframework.waypoints.js"></script>
     <script src="assets/aset/vendor/php-email-form/validate.js"></script>
 
-    <!-- Template Main JS File -->
+
     <script src="assets/aset/js/main.js"></script>
 
 </body>

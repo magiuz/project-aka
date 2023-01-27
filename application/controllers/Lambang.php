@@ -1,12 +1,11 @@
 <?php
-class prestasi extends CI_Controller
+class lambang extends CI_Controller
 {
     function __construct()
     {
         parent::__construct();
         $this->load->view('templates/header_1');
         $this->load->model('m_pengunjung');
-        $this->load->model('m_prestasi');
         $this->m_pengunjung->count_visitor();
     }
     function index()
@@ -15,7 +14,7 @@ class prestasi extends CI_Controller
         $x['tot_siswa'] = $this->db->get('tbl_siswa')->num_rows();
         $x['tot_files'] = $this->db->get('tbl_files')->num_rows();
         $x['tot_agenda'] = $this->db->get('tbl_agenda')->num_rows();
-        $this->load->view('depan/v_prestasi', $x);
+        $this->load->view('depan/v_lambang', $x);
         $this->load->view('templates/counter');
         $this->load->view('templates/footer');
     }

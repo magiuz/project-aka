@@ -20,8 +20,10 @@ class Home extends CI_Controller{
 			$x['tot_files']=$this->db->get('tbl_files')->num_rows();
 			$x['tot_agenda']=$this->db->get('tbl_agenda')->num_rows();
 			$x['isi_tulisan']=$this->db->get('tbl_tulisan')->num_rows();
+			
 			//$x['isi_gambar']=$this->db->get('tbl_galeri');
 			 //$x['isi_berita']=$this->db->get('tbl_tulisan');
+			 $x['data'] = $this->db->query('SELECT * FROM tbl_alumni ORDER BY tahun_lulus DESC');
 			 $x['isi_berita'] = $this->db->query('SELECT * FROM tbl_tulisan ORDER BY tulisan_tanggal DESC'); 
 			 $x['isi_gambar'] = $this->db->query('SELECT * FROM tbl_galeri ORDER BY galeri_tanggal DESC'); 
 			//$query_gambar = $this->db->get_where('tbl_tulisan', array('tulisan_gambar' => $gambar));

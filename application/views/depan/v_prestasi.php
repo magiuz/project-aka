@@ -51,28 +51,24 @@
 
 <body>
     <style>
-        .jumbotron {
-            background-color: #1bbca3;
-            color: #fff;
-
-        }
-
+        /* CSS PRESTASI TOP 3 */
         .container1 {
             position: relative;
-            width: 1100px;
+            width: 100%;
             display: flex;
             justify-content: center;
             align-items: center;
             flex-wrap: wrap;
             padding: 30px;
+            background-color: #f2f5f4;
         }
 
         .container1 .card {
             position: relative;
             max-width: 300px;
-            height: 215px;
+            height: 350px;
             background: #fff;
-            margin: 30px 10px;
+            margin: 30px 20px 20px 30px;
             padding: 20px 15px;
             display: flex;
             flex-direction: column;
@@ -81,7 +77,7 @@
         }
 
         .container1 .card:hover {
-            height: 420px;
+            height: 515px;
         }
 
         .container1 .card .imgBx {
@@ -92,18 +88,18 @@
             left: 5px;
             z-index: 1;
             box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
-
         }
 
         .container1 .card .imgBx img {
             max-width: 100%;
-            border-radius: 4px;
+            border-radius: 5px;
+
         }
 
         .container1 .card .content {
             position: relative;
             margin-top: -140px;
-            padding: 10px 15px;
+            padding: 75px 15px;
             text-align: center;
             color: #111;
             visibility: hidden;
@@ -114,12 +110,12 @@
         .container1 .card:hover .content {
             visibility: visible;
             opacity: 1;
-            margin-top: -40px;
+            margin-top: -30px;
             transition-delay: 0.3s;
         }
 
         .content h3 {
-            color: #1bbca3;
+            color: #3f3f3f;
             font-family: "poppins";
         }
 
@@ -127,6 +123,67 @@
             font-size: 16px;
             color: #666;
             font-family: "poppins";
+        }
+
+        h1 {
+            font-family: "poppins";
+        }
+
+        p {
+            font-family: "poppins";
+        }
+
+        /* CSS TABLE */
+        .content-table {
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: 0.9em;
+            min-width: 100%;
+            border-radius: 5px 5px 0 0;
+            overflow: hidden;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .content-table thead tr {
+            background-color: #1bbca3;
+            color: #fff;
+            text-align: left;
+            font-weight: bold;
+        }
+
+        .content-table th,
+        .content-table td {
+            padding: 12px 15px;
+        }
+
+        .content-table tbody tr {
+            border-bottom: 1px solid #ddd;
+        }
+
+        .content-table tbody tr:nth-of-type(even) {
+            background-color: #f3f3f3;
+
+        }
+
+        .content-table tbody tr:last-of-type {
+            border-bottom: 2px solid #1bbca3;
+        }
+
+        .content-table tbody tr.active-row {
+            font-weight: bold;
+            color: #1bbca3;
+        }
+
+        .content-table tbody tr:nth-child(even):hover {
+            /* background-color: #a3e4da; */
+            /* font-weight: bold; */
+            color: #1bbca3;
+        }
+
+        .content-table tbody tr:nth-child(odd):hover {
+            /* background-color: #a3e4da; */
+            /* font-weight: bold; */
+            color: #1bbca3;
         }
 
         /* .card {
@@ -163,96 +220,96 @@
 
     <section class="blog-wrap">
         <div class="container">
-            <div class="jumbotron">
-                <h1 class="display-4"><b>PRESTASI SISWA</b></h1>
-                <hr class="my-4">
-                <p><i>SMA S Al Kautsar merupakan sekolah para juara, dan masuk pada jajaran sekolah terbaik di Indonesia yang dibuktikan dengan prestasi pada ajang Pusat Prestasi Nasional melalui OSN, FLS2N dan LDBI serta mampu berkompetisi pada lomba akademik maupun non akademik di level Nasional bahkan Internasional.</i></p>
-            </div>
+            <div class="section-title">
+                <h2>PRESTASI</h2>
+                <p>SMA S Al Kautsar merupakan sekolah para juara, dan masuk pada jajaran sekolah terbaik di Indonesia yang dibuktikan dengan prestasi pada ajang Pusat Prestasi Nasional melalui OSN, FLS2N dan LDBI serta mampu berkompetisi pada lomba akademik maupun non akademik di level Nasional bahkan Internasional.</p>
 
-            <section class="more-services section-bg">
-                <div class="container1">
-                    <div class="card">
-                        <div class="imgBx">
-                            <img src="theme/images/alumni-1.jpg">
-                        </div>
-                        <div class="content">
-                            <h3>M. NABHAN DZAKI AUFAR</h3>
-                            <p>MEDALI PERUNGGU
-                                <br>BIDANG KEBUMIAN
-                                <br>OLIMPIADE SAINS NASIONAL
-                                <br>TINGKAT NASIONAL 2022
-                            </p>
-                        </div>
+            </div><br><br>
+
+            <div class="container1">
+                <!-- <div class="card">
+                    <div class="imgBx">
+                        <img src="theme/images/alumni-2.jpg">
                     </div>
+                    <div class="content">
+                        <h3>M. NABHAN DZAKI AUFAR</h3>
 
-                    <div class="card">
-                        <div class="imgBx">
-                            <img src="theme/images/alumni-1.jpg">
-                        </div>
-                        <div class="content">
-                            <h3>M. NABHAN DZAKI AUFAR</h3>
-                            <p>MEDALI PERUNGGU
-                                <br>BIDANG KEBUMIAN
-                                <br>OLIMPIADE SAINS NASIONAL
-                                <br>TINGKAT NASIONAL 2022
-                            </p>
-                        </div>
+                        <p>Medali Perunggu
+                            <br>Bidang Kebumian
+                            <br>Olimpiade Sains Nasional
+                            <br>Tingkat Nasional
+                        </p>
                     </div>
+                </div> -->
 
-                    <div class="card">
-                        <div class="imgBx">
-                            <img src="theme/images/alumni-1.jpg">
-                        </div>
-                        <div class="content">
-                            <h3>M. NABHAN DZAKI AUFAR</h3>
-                            <p>MEDALI PERUNGGU
-                                <br>BIDANG KEBUMIAN
-                                <br>OLIMPIADE SAINS NASIONAL
-                                <br>TINGKAT NASIONAL 2022
-                            </p>
-                        </div>
+                <div class="card">
+                    <div class="imgBx">
+                        <img src="theme/images/alumni-2.jpg">
+                    </div>
+                    <div class="content">
+                        <h3>M. NABHAN DZAKI AUFAR</h3>
+                        <p>Medali Perunggu
+                            <br>Bidang Kebumian
+                            <br>Olimpiade Sains Nasional
+                            <br>Tingkat Nasional
+                        </p>
                     </div>
                 </div>
-            </section>
+
+                <!-- <div class="card">
+                    <div class="imgBx">
+                        <img src="theme/images/alumni-2.jpg">
+                    </div>
+                    <div class="content">
+                        <h3>M. NABHAN DZAKI AUFAR</h3>
+                        <p>Medali Perunggu
+                            <br>Bidang Kebumian
+                            <br>Olimpiade Sains Nasional
+                            <br>Tingkat Nasional
+                        </p>
+                    </div>
+                </div>
+            </div> -->
+
             <br>
             <br>
 
             <!-- TABLE PRESTASI -->
-            <div class="row ">
+            <!-- <div class="row ">
                 <div class="col-md-12">
                     <div class="contact-title">
                         <h2 style="text-align:center;">PRESTASI</h2>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <div class="row">
                 <div class="col-md-12">
                     <div class="table-responsive">
-                        <table class="table table-striped" id="display">
+                        <table class="content-table">
                             <thead>
                                 <tr>
                                     <th>No</th>
                                     <th>Jenis Perlombaan</th>
+                                    <th>Tahun</th>
                                     <th>Hasil</th>
                                     <th>Tingkat</th>
                                 </tr>
                             </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Olimpiade Astronomi (IAOC) di Colombia</td>
+                                    <td>2021</td>
+                                    <td>Perunggu</td>
+                                    <td>Nasional</td>
+                                </tr>
+                            </tbody>
 
                         </table>
                     </div>
                 </div>
             </div>
     </section>
-
-    <!-- <div class=" jumbotron">
-                <img src="image.jpg" alt="image">
-                <h1>PRESTASI SISWA</h1>
-                <p>SMA S Al Kautsar merupakan sekolah para juara, dan masuk pada jajaran sekolah terbaik di Indonesia byang dibuktikan dengan prestasi pada ajang Pusat Prestasi Nasional melalui OSN, FLS2N dan LDBI serta mampu berkompetisi pada lomba akademik maupun non akademik di level Nasional bahkan Internasional.</p>
-                </p>
-            </div> -->
-
-
-
 
     <!-- jQuery, Bootstrap JS. -->
     <script src="theme/js/jquery.min.js"></script>

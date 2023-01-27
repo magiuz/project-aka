@@ -8,13 +8,15 @@ class Alumni extends CI_Controller{
         };
 		$this->load->model('m_alumni');
 		$this->load->model('m_pengguna');
-		$this->load->model('m_kelas');
+		$this->load->model('m_jalur');
 		$this->load->library('upload');
+		$this->load->model('m_kelas');
 	}
 
 
 	function index(){
 		$x['kelas']=$this->m_kelas->get_all_kelas();
+		$x['jaluran']=$this->m_jalur->get_all_jalur();
 		$x['data']=$this->m_alumni->get_all_alumni();
 		$this->load->view('admin/v_alumni',$x);
 	}
@@ -44,6 +46,7 @@ class Alumni extends CI_Controller{
 
 	                        $photo=$gbr['file_name'];							
 							$nama=strip_tags($this->input->post('xnama'));
+							$jenkel=strip_tags($this->input->post('xjenkel'));
 							$kelas_id=strip_tags($this->input->post('xkelas'));
 							$lulus=strip_tags($this->input->post('xlulus'));
 							$jalur=strip_tags($this->input->post('xjalur'));
@@ -103,7 +106,8 @@ class Alumni extends CI_Controller{
 
 	                        $photo=$gbr['file_name'];
 	                        $kode=$this->input->post('kode');							
-							$nama=strip_tags($this->input->post('xnama'));							
+							$nama=strip_tags($this->input->post('xnama'));
+							$jenkel=strip_tags($this->input->post('xjenkel'));
 							$kelas_id=strip_tags($this->input->post('xkelas'));
 							$lulus=strip_tags($this->input->post('xlulus'));
 							$jalur=strip_tags($this->input->post('xjalur'));
@@ -121,12 +125,13 @@ class Alumni extends CI_Controller{
 	                
 	            }else{
 							$kode=$this->input->post('kode');							
-							$nama=strip_tags($this->input->post('xnama'));							
+							$nama=strip_tags($this->input->post('xnama'));
+							$jenkel=strip_tags($this->input->post('xjenkel'));
 							$kelas_id=strip_tags($this->input->post('xkelas'));
 							$lulus=strip_tags($this->input->post('xlulus'));
 							$jalur=strip_tags($this->input->post('xjalur'));
 							$kampus=strip_tags($this->input->post('xkampus'));
-							$kesan=strip_tags($this->input->post('xkesan'));	
+							$kesan=strip_tags($this->input->post('xkesan'));
 
 							$this->m_alumni->update_alumni_tanpa_img($kode,$nama,$jenkel,$kelas_id,$lulus,$jalur,$kampus,$kesan);
 							echo $this->session->set_flashdata('msg','info');

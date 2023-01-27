@@ -12,6 +12,7 @@ class Galeri extends CI_Controller{
 	function index(){
 		$x['alb']=$this->m_album->get_all_album();
 		$x['all_galeri']=$this->m_galeri->get_all_galeri();
+		$x['isi_gambar'] = $this->db->query('SELECT * FROM tbl_galeri ORDER BY galeri_tanggal DESC'); 
 		$this->load->view('depan/v_galeri',$x);
 		$this->load->view('templates/footer');
 	}

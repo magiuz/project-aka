@@ -4,6 +4,7 @@ class Alumni extends CI_Controller{
 		parent::__construct();
 		$this->load->view('templates/header_1');
 		$this->load->model('m_pengunjung');
+		$this->load->model('m_alumni');
 		$this->m_pengunjung->count_visitor();
 
 	}
@@ -13,6 +14,7 @@ class Alumni extends CI_Controller{
 		$x['tot_siswa']=$this->db->get('tbl_siswa')->num_rows();
 		$x['tot_files']=$this->db->get('tbl_files')->num_rows();
 		$x['tot_agenda']=$this->db->get('tbl_agenda')->num_rows();
+		$x['data'] = $this->m_alumni->get_all_alumni();
 		$this->load->view('depan/v_alumni',$x);
 		$this->load->view('templates/chart');
 		$this->load->view('templates/footer');

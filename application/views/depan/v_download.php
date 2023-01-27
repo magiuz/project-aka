@@ -42,6 +42,11 @@
 </head>
 
 <body>
+    <style>
+        .container{
+            font-family:"poppins";
+        }
+    </style>
     
     <section class="contact" style="margin-bottom:50px;">
         <div class="container">

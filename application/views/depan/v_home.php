@@ -9,7 +9,6 @@
 
     <link href="assets/aset/img/icon.png" rel="icon">
     <link href="assets/aset/img/apple-touch-icon.png" rel="apple-touch-icon">
-
     <link rel="shorcut icon" href="theme/images/icon.png">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="theme/css/bootstrap.min.css">
@@ -273,9 +272,20 @@
                     <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
                         <div class="count-box">
                             <i class="bi bi-people"></i>
-                            <span class="counter"><?php echo $tot_siswa; ?></span>
-                            <p><strong>Siswa</strong></p>
-                            <a href="#">Find out more &raquo;</a>
+                            <div class="chart-text">
+                            <?php
+                            $filetext = "webcounter.txt"; //mendefinisikan nama file untuk menyimpan counter
+                            $counter = file($filetext);
+                            $visitor = $counter[0];
+                            $visitor++;
+                            $file = fopen($filetext, "w");
+                            fwrite($file, $visitor);
+                            fclose($file);
+                            ?>
+                        <span class="counter"><?php echo $visitor; ?></span>
+                        <p><strong>Pengunjung</strong></p>
+                        <a href="#">Find out more &raquo;</a>
+                            </div>
                         </div>
                     </div>
 

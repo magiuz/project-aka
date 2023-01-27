@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Struktur Organisasi</title>
+    <title>Sambutan</title>
     <link href="assets/aset/img/icon.png" rel="icon">
     <link href="assets/aset/img/apple-touch-icon.png" rel="apple-touch-icon">
 
@@ -58,17 +58,29 @@
     <section class="welcome_about">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                    <h2 align="center">Struktur Organisasi SMA Al Kautsar</h2>
-                    <div>
-                        <img src="theme/images/struktur.png" align="center" style="display:block; margin: 0 auto; width: 1200px; height: 1200px;">
-                    </div>
+                <div class="col-md-9">
+                    <h2>Kata Sambutan</h2>
+                    <p align="justify">Puji syukur kami panjatkan ke hadirat Tuhan Yang Maha Esa atas karunia dan hidayah-Nya,
+                        sehingga kita semua dapat membaktikan segala hal yang kita miliki untuk kemajuan dunia pendidikan.
+                        Apapun bentuk dan sumbangsih yang kita berikan, jika dilandasi niat yang tulus tanpa memandang imbalan
+                        apapun akan menghasilkan mahakarya yang agung untuk bekal kita dan generasi setelah kita.
+                        Pendidikan adalah harga mati untuk menjadi pondasi bangsa dan negara dalam menghadapi perkembangan zaman.
+                    </p>
+                    
+                    <p align="justify">Hal ini seiring dengan penguasaan teknologi untuk dimanfaatkan sebaik mungkin,
+                        sehingga menciptakan iklim kondusif dalam ranah keilmuan. Dengan konsep yang kontekstual dan efektif,
+                        kami mengejewantahkan nilai-nilai pendidikan yang tertuang dalam visi misi,
+                        sebagai panduan hukum dalam menjabarkan tujuan hakiki pendidikan.
+                    </p>
                 </div>
-                
+                <div class="col-md-3">
+                    <img src="theme/images/welcome-img.jpg" class="img-fluid" alt="#">
+                </div>
             </div>
         </div>
     </section>
     <!--//END WELCOME TITLE -->
+
     <!-- jQuery, Bootstrap JS. -->
     <script src="theme/js/jquery.min.js"></script>
     <script src="theme/js/tether.min.js"></script>

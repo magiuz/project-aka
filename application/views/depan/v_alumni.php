@@ -23,21 +23,19 @@
     <link rel="stylesheet" href="theme/css/slick-theme.css">
     <link rel="stylesheet" href="theme/css/owl.carousel.min.css">
 
-     <!-- Google Fonts -->
- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-<!-- Vendor CSS Files -->
-<link href="assets/aset/vendor/animate.css/animate.min.css" rel="stylesheet">
-<link href="assets/aset/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<link href="assets/aset/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-<link href="assets/aset/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-<link href="assets/aset/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-<link href="assets/aset/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link href="assets/aset/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="assets/aset/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/aset/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/aset/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/aset/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/aset/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-<!-- Template Main CSS File -->
-<link href="assets/aset/css/style.css" rel="stylesheet">
-    <!-- Main CSS -->
-    <link href="theme/css/style.css" rel="stylesheet">
+    <!-- Template Main CSS File -->
+    <link href="assets/aset/css/style.css" rel="stylesheet">
     <?php
     function limit_words($string, $word_limit)
     {
@@ -50,6 +48,11 @@
 </head>
 
 <body>
+    <style>
+        .container{
+            font-family:"poppins";
+        }
+    </style>
 <!-- ======= Our Services Section ======= -->
     <section id="services" class="services">
       <div class="container">

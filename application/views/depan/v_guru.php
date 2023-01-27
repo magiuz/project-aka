@@ -50,6 +50,11 @@
 </head>
 
 <body>
+<style>
+        .container{
+            font-family:"poppins";
+        }
+    </style>
     <section class="our-teachers">
         <div class="container">
             <div class="row">

@@ -49,6 +49,11 @@
 </head>
 
 <body>
+    <style>
+        .container{
+            font-family:"poppins";
+        }
+    </style>
     <!--============================= EVENTS =============================-->
     <section class="events">
         <div class="container">

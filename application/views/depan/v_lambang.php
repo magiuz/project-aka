@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Lambang</title>
-    <link href="assets/aset/img/favicon.png" rel="icon">
+    <link href="assets/aset/img/icon.png" rel="icon">
     <link href="assets/aset/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <link rel="shorcut icon" href="theme/images/icon.png">
@@ -36,8 +36,6 @@
 
     <!-- Template Main CSS File -->
     <link href="assets/aset/css/style.css" rel="stylesheet">
-    <!-- Main CSS -->
-    <link href="theme/css/style.css" rel="stylesheet">
     <?php
     function limit_words($string, $word_limit)
     {
@@ -61,6 +59,7 @@
             flex-wrap: wrap;
             padding: 30px;
             background-color: #f2f5f4;
+            font-family:"poppins";
         }
 
         .container1 .box {
@@ -81,7 +80,7 @@
             display: flex;
             flex-direction: column;
             box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
-
+            font-family:"poppins";
         }
 
         .container1 .box .image {

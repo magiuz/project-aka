@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Sejarah</title>
-    
+
     <link href="assets/aset/img/favicon.png" rel="icon">
     <link href="assets/aset/img/apple-touch-icon.png" rel="apple-touch-icon">
     <link rel="shorcut icon" href="theme/images/icon.png">
@@ -50,8 +50,8 @@
 
 <body>
     <style>
-        .container{
-            font-family:"poppins";
+        .container {
+            font-family: "poppins";
         }
     </style>
     <!--//END ABOUT IMAGE -->
@@ -85,7 +85,7 @@
                                 Rencana kerja disusun sebagai langkah persiapan. Langkah pertama yang dilakukan adalah membahas pembukaan sekolah SMP dan SMA yang direncanakan mulai menerima siswa baru pada tahun pelajaran 1991/1992.
                             </p>
                             <p align="justify" class="lh-base">
-                                Kemudian pada tahun pelajaran 1991/1992 telah menerima 26 siswa SMA yang dititipkan pada SMAN II Tanjungkarang, dengan nama sekolah <i> <b>Perguruan Nurul Ulum (cahaya utama) </b> </i>. Nama ini dicetuskan oleh Bapak Syamsuddin Tohir (Kakanwil Agama Propinsi Lampung), orang yang paling bersemangat dalam perintisan pembangunan sekolah umum (plus).
+                                Kemudian pada tahun pelajaran 1991/1992 telah menerima 26 siswa SMA yang dititipkan pada SMAN II Tanjungkarang, dengan nama sekolah <i> <b>Perguruan Nurul Ulum (cahaya utama)</b>.</i> Nama ini dicetuskan oleh Bapak Syamsuddin Tohir (Kakanwil Agama Propinsi Lampung), orang yang paling bersemangat dalam perintisan pembangunan sekolah umum (plus).
                             </p>
                             <p align="justify" class="lh-base">
                                 Pada bulan Agustus 1991, ketika Bapak Syamsuddin Tohir dan Bapak Harris Hasyim berkonsultasi dengan Ibu Sri Mulyati Poedjono di kediaman Gubernur, Ibu Sri Mulyati Poedjono meminta disebutkan beberapa alternatif nama, yang akhirnya dipilih nama <b>Al Kautsar</b>. Alasannya karena mencerminkan visi perjuangan ummat dan populer serta layak jual (<i>marketable</i>). Akhirnya nama Nurul Ulum diganti dengan Al Kautsar.
@@ -97,9 +97,9 @@
                                 Atas inisiatif Gubernur Poedjono Pranyoto, dalam suatu pengajian rutin, pembangunan Kampus Al Kautsar perlu segera dimulai. Kesepakatan yang ditetapkan adalah:
                             </p>
                             <ul type="disc">
-                                <li>Kelompok pengajian Al Amal membuat mandat kepada Ibu Sri Mulyati Poedjono Pranyoto, untuk membentuk dan memimpin Yayasan AL Kautsar</li>
+                                <li>Kelompok pengajian Al Amal membuat mandat kepada Ibu Sri Mulyati Poedjono Pranyoto, untuk membentuk dan memimpin Yayasan AL Kautsar.</li>
                                 <li>Meminta kesediaan seluruh unsur dan tokoh agama Islam untuk mulai mempromosikan berdirinya Perguruan Al Kautsar dalam berbagai kegiatan dakwah dan mimbar Jumat.</li>
-                                <li>Meminta dukungan seluruh aparatur pemerintah yang beragama Islam unrtuk bergortong royong mendukung pembangunannya.</li>
+                                <li>Meminta dukungan seluruh aparatur pemerintah yang beragama Islam unrtuk bergotong royong mendukung pembangunannya.</li>
                                 <li>Meminta dukungan Pemda Kabupaten dan Kotamadya untuk membantu mempercepat pendidirian kampus.</li>
                                 <li>Mengusulkan kepada Pemerintah Daerah Tingkat I Lampung untuk mendukung pembangunan kampus secara bertahap melalui dukungan APBD.</li>
                                 <li>Menugaskan kepada Ibu Sri Mulyati Poedjono untuk menghimpun dana masyarakat dan swasta bagi pembangunan kampus.</li>
@@ -111,7 +111,7 @@
                             <p align="justify" class="lh-base">Pada tanggal 16 November 1991, berdasarkan keputusan pengajian Al Amal di rumah Bapak A. Mukti, Kajati Propinsi Lampung pada waktu itu, ditetapkan pendirian Yayasan Al Kautsar dengan surat <b>Pernyataan Kesepakatan/Mandat Nomor: Khusus/Al Amal/I/1991 tanggal 16 Nopember 1991 </b> susunan sebagai berikut :
                             <ul type="disc">
                                 <li>Poedjono Pranyoto, Gubernur Prop. Lampung sebagai Pelindung;</li>
-                                <li>Ibu Sri Mulyati Poedjono Pranyoto, Isteri Gubernur sebagai Ketua;</li>
+                                <li>Ibu Sri Mulyati Poedjono Pranyoto, Istri Gubernur sebagai Ketua;</li>
                                 <li>Man Hasan, Wakil Gubernur Prop. Lampung sebagai Anggota;</li>
                                 <li>Fauzi Saleh, Sekwilda Prop. Lampung sebagai Anggota;</li>
                                 <li>Alhusniduki Hamim, SE., M.Sc., Rektor UNILA sebagai Anggota;</li>
@@ -125,8 +125,8 @@
 
                             <h4><b>Pembangunan Kampus Al Kautsar</b></h4>
                             <ul type="disc">
-                                <li>Peletakan batu pertama pembangunan Kampus Perguruan Al Kautsar dilakukan oleh Gubernur Propinsi Lampung, Poedjono Pranyoto dengan suatu upacara sederhana yang hidmat pada tanggal 20 Agustus 1992. Ibu Sri Mulyati Poedjono dibawah siraman hujan menanam beringin putih (depan gedung SMP)</li>
-                                <li>Program pembangunan fisik yang pertama ditetapkan dengan dana Pemda dengan dukungan DPRD Propinsi Tingkat I Lampung yang dipimpin oleh Bp. Sundoro Brotoatmodjo dan dilanjutkan kemudian dengan dukungan penuh dari DPRD Propinsi Tk.I Lampung yang dipimpin oleh Bp. Kariyotomo.</li>
+                                <li>Peletakan batu pertama pembangunan Kampus Perguruan Al Kautsar dilakukan oleh Gubernur Propinsi Lampung, Poedjono Pranyoto dengan suatu upacara sederhana yang khidmat pada tanggal 20 Agustus 1992. Ibu Sri Mulyati Poedjono dibawah siraman hujan menanam beringin putih (depan gedung SMP)</li>
+                                <li>Program pembangunan fisik yang pertama ditetapkan dengan dana Pemda dengan dukungan DPRD Propinsi Tingkat I Lampung yang dipimpin oleh Bapak Sundoro Brotoatmodjo dan dilanjutkan kemudian dengan dukungan penuh dari DPRD Propinsi Tk.I Lampung yang dipimpin oleh Bapak Kariyotomo.</li>
                                 <li>Proses pembangunan lantai II dan III dan selanjutnya sangat unik dan heroik. Pada suatu pengajian Al Amal bulan Januari dan Februari 1993, Bapak. Drs. Syamsuddin Tohir menghimbau agar semua unsur pengajian memberikan perhatian dan menyumbangkan pemikiran tenaga dan dana untuk membangun kampus ini. Beliau sendiri mengusulkan agar 3 bulan tunjangan struktural seluruh pegawai Kanwil Agama menginfakkannya untuk pembangunan Kampus Al Kautsar.</li>
                                 <li>Hampir seluruh Kepala Dinas dan Instansi Propinsi menyumbang rata-rata Rp.15-25 juta dan para Bupati menyumbangkan dananya melalui APBD sebesar Rp.25-30 juta.</li>
                                 <li>Walikota Kotamadya Bandar Lampung, Bapak Drs. Suharto (pada periode waktu itu, Drs. Muswardi Thaher duduk sebagai anggota DPRD Kotamadya Bandar Lampung periode 1988-1999), menyumbangkan pembangunan jembatan penyeberangan dari Kampus Al Kautsar ke kompleks Islamic Centre senilai Rp.295 juta melalui APBD Kotamadya.</li>
@@ -134,7 +134,7 @@
                             <br>
 
                             <h4><b>Dukungan Swasta dan Masyarakat</b></h4>
-                            <p align="justify" class="lh-base">Berkat promosi yang dilakukan oleh Gubernur Bapak Poedjono Pranyoto kepada kalangan swasta di Lampung dan Jakarta, sumbangan yang cukup besar diterima oleh Yayasan Al Kautsar dari PT. Salim Grup Jakarta, PT. Dipasena Citra Darmaja (DCD), PT. Great Giant Pine Apple (GGPC) , PT. Citra Pertiwi Bratasena (CPB), dan oleh Ibu Sri Mulyati Poedjono sendiri yang membangun TK Al Kautsar atas nama pribadinya, serta PT.Tiga Satu (31) yang dipimpin oleh Bp. Faisol Djausal menyumbangkan dana pembangunan melengkapi pembangunan gedung SD.</p>
+                            <p align="justify" class="lh-base">Berkat promosi yang dilakukan oleh Gubernur Bapak Poedjono Pranyoto kepada kalangan swasta di Lampung dan Jakarta, sumbangan yang cukup besar diterima oleh Yayasan Al Kautsar dari PT. Salim Grup Jakarta, PT. Dipasena Citra Darmaja (DCD), PT. Great Giant Pine Apple (GGPC) , PT. Citra Pertiwi Bratasena (CPB), dan oleh Ibu Sri Mulyati Poedjono sendiri yang membangun TK Al Kautsar atas nama pribadinya, serta PT.Tiga Satu (31) yang dipimpin oleh Bapak Faisol Djausal menyumbangkan dana pembangunan melengkapi pembangunan gedung SD.</p>
                             </p>
                             <br>
 
@@ -142,14 +142,14 @@
                             <p align="justify" class="lh-base">
                                 SMA S Al Kautsar sebagai salah satu sekolah di bawah Naungan Yayasan Al Kautsar sejak didirikannya bercita-cita menjadi salah satu sekolah terbaik di Lampung bahkan di Indonesia. Semangat itu terus menyala sejak dibangun dan diresmikan oleh Menteri Pendidikan dan Kebudayaan RI Bapak Prof. Dr. Ing. Wardiman Djojonegoro. Akhirnya dalam kurun waktu 5 tahun SMA Al Kautsar telah menjadi sekolah dambaan dan idaman masyarakat, hal itu terbukti dengan besarnya animo masyarakat untuk menyekolahkan anak-anaknya di SMA S Al Kautsar. Secara mutu juga SMA S Al Kautsar pernah menduduki peringkat 5 jurusan IPS dan peringkat 6 untuk IPA di Propinsi Lampung.
                             </p>
-                            <p align="justify" class="lh-base"> SMA S Al Kautsar pertama kali menerima murid pada tahun 1993/1994. Sebagai sekolah yang baru berdiri dan belum dikenal oleh masyarakat menyebabkan adanya kekhawatiran dari pengurus Yayasan tentang ada tidaknya minat masyarakat menyekolahkan anaknya di SMA Al kautsar, sehingga pada tahun itu kebijakannya adalah 10 calon murid pendaftar pertama langsung diterima. Berkat penyebaran informasi secara langsung ke sekolah-sekolah seperti Kalianda, Metro/lampung Tengah, Kotabumi dan Pringsewu maka pada tahun pertama mendapatkan siswa sebanyak kurang lebih 210 orang, yang pada waktu itu masih menyatu dengan SMP Al Kautsar baik gedung maupun guru dan karyawannya, yang unik pada tahun itu adalah hingga penataran P4 selesai sekolah belum memiliki Kepala Sekolah
+                            <p align="justify" class="lh-base"> SMA S Al Kautsar pertama kali menerima murid pada tahun 1993/1994. Sebagai sekolah yang baru berdiri dan belum dikenal oleh masyarakat menyebabkan adanya kekhawatiran dari pengurus Yayasan tentang ada tidaknya minat masyarakat menyekolahkan anaknya di SMA Al Kautsar, sehingga pada tahun itu kebijakannya adalah 10 calon murid pendaftar pertama langsung diterima. Berkat penyebaran informasi secara langsung ke sekolah-sekolah seperti Kalianda, Metro/Lampung Tengah, Kotabumi dan Pringsewu maka pada tahun pertama mendapatkan siswa sebanyak kurang lebih 210 orang, yang pada waktu itu masih menyatu dengan SMP Al Kautsar baik gedung maupun guru dan karyawannya, yang unik pada tahun itu adalah hingga penataran P4 selesai sekolah belum memiliki Kepala Sekolah.
                             </p>
                             <p align="justify" class="lh-base">Tahun 1994-1996 sekolah sering mendapat kunjungan para menteri seperti Menteri Pendidikan dan Kebudayaan RI, Menteri Riset dan Teknologi RI, Menteri Agama RI dan pejabat-pejabat pusat lainnya. Prestasi demi prestasi diraih oleh SMA S Al Kautsar baik pada bidang akademis maupun non akademis di Bandar Lampung maupun Lampung bahkan pada event nasional.
                             </p>
                             <p align="justify" class="lh-base">
-                                Memasuki tahun 2002/2003 SMA S Al Kautsar memasuki babak baru dengan dibukanya kelas unggul akademis. Dari kelas unggul inilah akhirnya perkembangan sekolah mengalami kemajuan yang cukup pesat, bahkan bisa dikatakan sejajar dengan sekolah-sekolah vafourit di Lampung seperti SMAN 2 dan SMA Xaverius pada beberapa bidang. Dilihat dari prosentase kelulusan dan siswa yang diterima di PTN atau PTS vafouritpun dari tahun ke tahun mengalami perkembangan yang sangat tajam. Sukses dalam pengelolaan kelas unggul, maka pada tahun pelajaran 2004/2005 SMA Al-Kautsar membuka kelas Plus.
+                                Memasuki tahun 2002/2003 SMA S Al Kautsar memasuki babak baru dengan dibukanya kelas unggul akademis. Dari kelas unggul inilah akhirnya perkembangan sekolah mengalami kemajuan yang cukup pesat, bahkan bisa dikatakan sejajar dengan sekolah-sekolah favorit di Lampung seperti SMAN 2 dan SMA Xaverius pada beberapa bidang. Dilihat dari persentase kelulusan dan siswa yang diterima di PTN atau PTS favorit pun dari tahun ke tahun mengalami perkembangan yang sangat tajam. Sukses dalam pengelolaan kelas unggul, maka pada tahun pelajaran 2004/2005 SMA Al-Kautsar membuka kelas Plus.
                                 <br>
-                                Saat ini SMA S Al Kautsar telah meluluskan siswa kurang lebih 8000 siswa dam kepala SMA S Al Kautsar dari periode ke periode sebagai berikut:
+                                Saat ini SMA S Al Kautsar telah meluluskan siswa kurang lebih 8000 siswa dan Kepala SMA S Al Kautsar dari periode ke periode sebagai berikut:
                             <ul type="disc">
                                 <li>Drs. Zainal (periode 1993 - 1995)</li>
                                 <li>Drs. Abdul Sani Djuned (periode 1995 -1996)</li>
@@ -157,7 +157,7 @@
                                 <li>Drs. H. Sunardi (periode 2005 - 2012)</li>
                                 <li>Drs. H. Joko Santoso (periode 2012 -2015)</li>
                                 <li>Drs. H. Sukijo, M.Pd. (periode 2015 - 2015) </li>
-                                <li>H. Eko Anzair, M.Si. (periode 2015 s.d Sekarang)</li>
+                                <li>H. Eko Anzair, M.Si. (periode 2015 s.d sekarang)</li>
                             </ul>
                             </p>
                             <p align="justify" class="lh-base">

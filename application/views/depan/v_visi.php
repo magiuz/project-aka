@@ -63,8 +63,10 @@
                 <div class="col-md-12">
                     <h2 align="center">Visi SMA Al Kautsar</h2>
                     <p align="center">Al-Kautsar Unggul, Islami, dan Global</p><br><br>
+                </div>
 
-
+                <div class="row pt-8">
+                <div class="col-md-12">
                     <h2 align="center">Misi SMA Al Kautsar</h2>
                     <ol align="justify">
                         <li>Menjadikan sekolah berprestasi di bidang akademik dan nonakademik di tingkat nasional</li>
@@ -78,8 +80,11 @@
                         <li>Menjalin kerja sama dengan orang tua, masyarakat, pemerintah dan stakeholder untuk peningkatan mutu pendidikan.</li><br>
                     </ol>
                     <br>
+                </div>
+            </div>
 
-
+            <div class="row">
+                <div class="col-md-12">
                     <h2 align="center">Tujuan SMA AL Kautsar</b></h4>
 
                         <b>Tujuan Pendidikan Nasional</b>
@@ -109,6 +114,8 @@
                             <li>Terjalinnya kerjasama antara sekolah dengan Organisasi Ikatan Alumni SMA Al Kautsar dalam berbagai bentuk kegiatan.</li>
                             <li>Terselenggaranya kegiatan parenting secara rutin setiap akhir tahun pelajaran.</li>
                         </ol>
+                    </div>
+                </div>
 
 
 

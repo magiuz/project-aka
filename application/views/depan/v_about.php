@@ -50,7 +50,10 @@
 <body>
 <style>
         .container{
+            width: 100%;
+            height: auto;
             font-family:"poppins";
+            
         }
     </style>
     <!--//END ABOUT IMAGE -->
@@ -60,6 +63,9 @@
             <div class="row">
                 <div class="col-md-9">
                     <h2>Kata Sambutan</h2>
+                </div>
+                <div class="row pt-8">
+                <div class="col-md-9">
                     <p align="justify">Puji syukur kami panjatkan ke hadirat Tuhan Yang Maha Esa atas karunia dan hidayah-Nya,
                         sehingga kita semua dapat membaktikan segala hal yang kita miliki untuk kemajuan dunia pendidikan.
                         Apapun bentuk dan sumbangsih yang kita berikan, jika dilandasi niat yang tulus tanpa memandang imbalan
@@ -75,6 +81,7 @@
                 </div>
                 <div class="col-md-3">
                     <img src="theme/images/welcome-img.jpg" class="img-fluid" alt="#">
+                    </div>
                 </div>
             </div>
         </div>

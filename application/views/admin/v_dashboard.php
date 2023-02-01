@@ -220,7 +220,7 @@
                 <div class="progress-bar" style="width: 100%"></div>
               </div>
                   <span class="progress-description">
-                    Penggunjung
+                    Pengunjung
                   </span>
             </div>
             <!-- /.info-box-content -->

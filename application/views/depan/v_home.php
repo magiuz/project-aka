@@ -228,9 +228,9 @@
 
                 <div class="section-title">
                     <h2>Selamat Datang</h2>
-                    <p>Kami menyambut baik terbitnya website SMAS AL KAUTSAR yang baru, dengan harapan dipublikasinya
-                        website ini sekolah berharap : Peningkatan layanan pendidikan kepada siswa, orangtua, dan
-                        masyrakat umum semakin meningkat.</p>
+                    <p>Kami menyambut baik terbitnya website SMAS AL KAUTSAR yang baru, dengan harapan dipublikasikannya
+                        website ini dapat meningkatkan layanan pendidikan kepada siswa, orangtua, dan
+                        masyrakat umum.</p>
                 </div>
 
             </div>

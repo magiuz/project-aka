@@ -166,7 +166,7 @@
                     </div>
                     <div class="content">
                         <h3>Huruf Alif</h3>
-                        <p>Bentuk umum seperti huruf alif, hal ini
+                        <p>Bentuk umum seperti huruf Alif, hal ini
                             mengandung arti bahwa Al-Kautsar ingin menjadi
                             yang nomor satu
                         </p>
@@ -195,7 +195,7 @@
                     </div>
                     <div class="content">
                         <h3>Bintang Bersudut Lima</h3>
-                        <p>Bintang bersudut lima melambangkan keislaman (rukun islam) dan nasionalisme (Pancasila)
+                        <p>Bintang Bersudut Lima melambangkan keislaman (rukun islam) dan nasionalisme (Pancasila)
                         </p>
                     </div>
                 </div>
@@ -207,7 +207,7 @@
                     <div class="content">
                         <h3>Al-Qur'an</h3>
                         <p>Al-quran yang terbuka melambangkan sumber
-                            ilmu pengetahuan, salah satu kegiatan Yayasan.
+                            ilmu pengetahuan, salah satu kegiatan Yayasan
                         </p>
                     </div>
 
@@ -220,8 +220,8 @@
                     <div class="content">
                         <h3>Warna Kuning</h3>
                         <p>Warna dasar Kuning melambangkan sifat transparan dan
-                            percaya diri.
-                            Warna tulisan Biru melambangkan kewibawaan dan derajat yang tinggi.
+                            percaya diri,
+                            Warna tulisan Biru melambangkan kewibawaan dan derajat yang tinggi
                         </p>
                     </div>
 

@@ -83,7 +83,22 @@
                 <div class="col-md-12">
                     <h2 align="center">Struktur Organisasi SMA Al Kautsar</h2>
                     <div>
-                        <img src="theme/images/struktur.png" align="center" style="display:block; margin: 0 auto; width: 1200px; height: 1200px;">
+                        <style>
+                            img {
+                                width: 90%;
+                                display: block;
+                                margin: 0 auto;
+                            }
+
+                            @media all and(max-width: 480px){
+                                img{
+                                    width: 100%;
+                                }
+                            }
+                        </style>
+
+
+                        <img src="theme/images/struktur.png" align="center">
                     </div>
                 </div>
                 

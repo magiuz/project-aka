@@ -134,9 +134,9 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="<?php echo base_url().'admin/siswa'?>"><i class="fa fa-users"></i> Data Siswa</a></li>
+            <li><a href="<?php echo base_url().'admin/siswa'?>"><i class="fa fa-users"></i> Data Siswa</a></li>            
+            <li class="active"><a href="<?php echo base_url().'admin/prestasi'?>"><i class="fa fa-star-o"></i> Prestasi Siswa</a></li>
             <li><a href="<?php echo base_url().'admin/alumni'?>"><i class="fa fa-users"></i> Data Alumni</a></li>
-            <li><a href="<?php echo base_url().'admin/prestasi'?>"><i class="fa fa-star-o"></i> Prestasi Siswa</a></li>
 
           </ul>
         </li>
@@ -179,7 +179,7 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Pengumuman
+        Prestasi Siswa
         <small></small>
       </h1>
       <ol class="breadcrumb">

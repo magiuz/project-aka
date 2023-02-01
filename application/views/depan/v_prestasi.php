@@ -324,6 +324,17 @@
     <script src="theme/js/subscribe.js"></script>
     <!-- Script JS -->
     <script src="theme/js/script.js"></script>
+
+    <script src="assets/aset/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/aset/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/aset/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/aset/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/aset/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/aset/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/aset/vendor/php-email-form/validate.js"></script>
+
+
+    <script src="assets/aset/js/main.js"></script>
 </body>
 
 </html>

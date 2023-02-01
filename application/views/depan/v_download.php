@@ -36,8 +36,7 @@
 
     <!-- Template Main CSS File -->
     <link href="assets/aset/css/style.css" rel="stylesheet">
-    <!-- Main CSS -->
-    <link href="theme/css/style.css" rel="stylesheet">
+    
 
 </head>
 

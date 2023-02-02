@@ -74,7 +74,7 @@
             } ?>          
 
         <div>
-        <table  style="width: 110%; margin-left: 70px; margin-bottom: 70px;">
+        <table  style="margin-left: 70px; margin-bottom: 70px;">
           <tr>
             <td>
             <?php if (empty($row->alumni_photo)) : ?>

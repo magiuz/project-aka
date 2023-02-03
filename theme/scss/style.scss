@@ -287,7 +287,8 @@ header {
     }
 }
 
-.courses_box:hover {
+.courses_box:
+ {
     .courses_box-img {
         opacity: 1;
     }
@@ -1026,7 +1027,7 @@ footer {
 
 .btn-warning:hover {
     border: none;
-    background: #bfa97f;
+    background: #1bbca3;
 }
 
 .foot-logo {

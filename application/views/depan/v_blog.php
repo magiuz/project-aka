@@ -51,6 +51,28 @@
 </head>
 
 <body>
+
+<style>
+    .btn-warning {
+        color: white;
+        background-color: #1fdbbe;
+    }
+
+    .btn-warning:hover {
+        color: white;
+        background-color: #1bbca3;
+    }
+
+    .btn-warning:hover::before {
+        color: white;
+        background-color: #1bbca3;
+    }
+
+    .btn-warning:hover::after {
+        color: white;
+        background-color: #149c87;
+    }
+</style>
     <!--============================= BLOG =============================-->
     <section class="blog-wrap">
         <div class="container">

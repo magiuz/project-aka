@@ -74,6 +74,11 @@ function filter($i){
 </head>
 
 <body>
+    <style>
+        .container{
+            font-family: poppins;
+        }
+    </style>
 
     <!-- ======= Our Portfolio Section ======= -->
     <section id="portfolio" class="portfolio section-bg">
@@ -102,9 +107,9 @@ function filter($i){
                 <?php $i = 0;
                         foreach ($isi_gambar->result() as $row) {
                             $i++;
-                            if ($i > 3) {
-                                break;
-                            } ?>
+                            // if ($i > 12) {
+                            //     break;
+                            // } ?>
 
                 <div class="col-lg-4 col-md-4 portfolio-item <?= filter($row->galeri_album_id) ?>">
                     <div class="portfolio-wrap">
@@ -124,39 +129,59 @@ function filter($i){
                         </div>
 
                     </div>
+
+    <style>
+        .center{
+        text-align: center;
+        font-family: poppins;
+        }
+
+        .pagination {
+        display: inline-block;
+        font-size: 17px;
+        margin-top: 30px;
+        }
+
+        .pagination a {
+        color: #425552;
+        float: left;
+        padding: 8px 16px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        text-decoration: none;
+        }
+
+        .pagination a.active {
+        background-color: #1bbca3;
+        color: white;
+        border-radius: 5px;
+        }
+
+        .pagination a:hover:not(.active) {
+        background-color: #ddd;
+        border-radius: 5px;
+        }
+    </style>
+
+<div class="center">
+    <div class="pagination">
+        <a href="#">&laquo;</a>
+        <a href="#" class="active">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#">6</a>
+        <a href="#">&raquo;</a>
+    </div>
+</div>
+
     </section><!-- End Our Portfolio Section -->
-
-
-
-    <script>
-    // Script to open and close sidebar
-    function w3_open() {
-        document.getElementById("mySidebar").style.display = "block";
-        document.getElementById("myOverlay").style.display = "block";
-    }
-
-    function w3_close() {
-        document.getElementById("mySidebar").style.display = "none";
-        document.getElementById("myOverlay").style.display = "none";
-    }
-
-    // Modal Image Gallery
-    function onClick(element) {
-        document.getElementById("img01").src = element.src;
-        document.getElementById("modal01").style.display = "block";
-        var captionText = document.getElementById("caption");
-        captionText.innerHTML = element.alt;
-    }
-    </script>
 
 
 </body>
 
 </html>
-
-
-
-<a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
 <div id="preloader">
     <div class="line"></div>

@@ -74,9 +74,9 @@
             } ?>          
 
         <div>
-        <table  style="margin-left: 70px; margin-bottom: 70px;">
+        <table  style="width: 120%; margin-left: 40px; margin-bottom: 70px;">
           <tr>
-            <td>
+            <td width="100px">
             <?php if (empty($row->alumni_photo)) : ?>
                                   <img src="<?php echo 'assets/images/blank.png'; ?>" class="antam" style="max-width: 160px; height: auto;" alt="#">
                               <?php else : ?>
@@ -84,10 +84,10 @@
                               <?php endif; ?>
             </div></td>
             
-            <td><div class="col-lg-9 col-md-6 content" style="margin-left: 20px; float: left;">
+            <td width="1000%"><div class="col-lg-9 col-md-6 content" style="margin-left: 20px; float: left;">
             <h3><?= $row->alumni_nama;?></h3>
-            <p><strong><?= $row->alumni_kampus;?></strong></p>
-            <p align="justify"><?= $row->alumni_kesan;?></p></td>
+            <p width="1000%"><strong><?= $row->alumni_kampus;?></strong></p>
+            <p align="justify" width="1000%"><?= $row->alumni_kesan;?></p></td>
           </tr>
           <?php } ?>
       </div>

@@ -54,7 +54,7 @@
             font-family: "poppins";
         }
     </style>
-    <!--//END ABOUT IMAGE -->
+    
     <!--============================= WELCOME TITLE =============================-->
     <section class="welcome_about">
         <div class="container">

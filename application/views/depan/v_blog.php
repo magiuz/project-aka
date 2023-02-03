@@ -52,27 +52,35 @@
 
 <body>
 
-<style>
-    .btn-warning {
-        color: white;
-        background-color: #1fdbbe;
-    }
+    <style>
+        .blog-date {
+            background-color: #1bbca3;
+        }
 
-    .btn-warning:hover {
-        color: white;
-        background-color: #1bbca3;
-    }
+        .container {
+            font-family: "poppins";
+        }
 
-    .btn-warning:hover::before {
-        color: white;
-        background-color: #1bbca3;
-    }
+        .btn-warning {
+            color: white;
+            background-color: #1fdbbe;
+        }
 
-    .btn-warning:hover::after {
-        color: white;
-        background-color: #149c87;
-    }
-</style>
+        .btn-warning:hover {
+            color: white;
+            background-color: #1bbca3;
+        }
+
+        .btn-warning:hover::before {
+            color: white;
+            background-color: #1bbca3;
+        }
+
+        .btn-warning:hover::after {
+            color: white;
+            background-color: #149c87;
+        }
+    </style>
     <!--============================= BLOG =============================-->
     <section class="blog-wrap">
         <div class="container">
@@ -127,10 +135,10 @@
                             </div>
                             <hr>
                         <?php endforeach; ?> -->
-                    </div>
-
                 </div>
+
             </div>
+        </div>
         </div>
     </section>
     <!--//END BLOG -->

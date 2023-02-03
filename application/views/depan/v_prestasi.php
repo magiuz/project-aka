@@ -160,7 +160,6 @@
 
         .content-table tbody tr:nth-of-type(even) {
             background-color: #f3f3f3;
-
         }
 
         .content-table tbody tr:last-of-type {
@@ -173,47 +172,12 @@
         }
 
         .content-table tbody tr:nth-child(even):hover {
-            /* background-color: #a3e4da; */
-            /* font-weight: bold; */
             color: #1bbca3;
         }
 
         .content-table tbody tr:nth-child(odd):hover {
-            /* background-color: #a3e4da; */
-            /* font-weight: bold; */
             color: #1bbca3;
         }
-
-        /* .card {
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            overflow: hidden;
-
-        }
-
-        .card img {
-            width: 100%;
-        }
-
-        .card-body {
-            padding: 15px;
-
-        }
-
-        .card-title {
-            font-weight: bold;
-            margin-bottom: 5px;
-        }
-
-        .card-text {
-            font-size: 14px;
-            color: #666;
-        }
-
-        .card-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-        } */
     </style>
 
     <section class="blog-wrap">
@@ -225,7 +189,7 @@
             </div><br><br>
 
             <div class="container1">
-                <!-- <div class="card">
+                <div class="card">
                     <div class="imgBx">
                         <img src="theme/images/alumni-2.jpg">
                     </div>
@@ -238,7 +202,7 @@
                             <br>Tingkat Nasional
                         </p>
                     </div>
-                </div> -->
+                </div>
 
                 <div class="card">
                     <div class="imgBx">
@@ -254,7 +218,7 @@
                     </div>
                 </div>
 
-                <!-- <div class="card">
+                <div class="card">
                     <div class="imgBx">
                         <img src="theme/images/alumni-2.jpg">
                     </div>
@@ -267,7 +231,7 @@
                         </p>
                     </div>
                 </div>
-            </div> -->
+            </div>
 
             <br>
             <br>
